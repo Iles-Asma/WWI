@@ -1,4 +1,7 @@
-noStroke();
+$(document).ready(function () {
+
+
+
 var leftX = 120;
 var rightX = 300;
 var sunRadius = 100; // coordonnee des nuage sur l'axe X
@@ -24,4 +27,6 @@ draw = function () {
     rightX += 1; // animation nuage direction la droite
     leftX -= 1; // aniamtion nuage direction la gauche
 
-};
+    consol.log(x);
+
+}});
