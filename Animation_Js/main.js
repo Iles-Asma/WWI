@@ -27,6 +27,6 @@ draw = function () {
     rightX += 1; // animation nuage direction la droite
     leftX -= 1; // aniamtion nuage direction la gauche
 
-    consol.log(x);
+    console.log(x);
 
 }});
