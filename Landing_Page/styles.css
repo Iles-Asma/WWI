@@ -11,3 +11,51 @@ h1{
     margin-right: 0px;
  
 }
+
+
+.nuage-1{
+    background: white;
+    width: 100px;
+    height:90px;
+    border-radius: 100%;
+    position: relative; 
+    top:100px;
+    
+}
+
+.nuage-2{
+    position: relative;
+    background-color: white;
+    width: 160px;
+    height: 120px;
+    border-radius: 100%;
+    top:-5px;
+    left: 50px;
+
+ 
+}
+
+.nuage-3{
+    
+    background: white;
+    width: 100px;
+    height:90px;
+    border-radius: 100%;
+    position: relative;
+ left: 165px;
+ top:-108px;
+       
+}
+
+
+.grand-nuage{
+   width : 300px;
+   position: absolute;
+   
+    left : 550px;
+   height:300px;
+    border: solid 3px red;
+
+    
+}
+
