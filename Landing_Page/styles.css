@@ -12,8 +12,28 @@ h1{
  
 }
 
+.grand-nuage{
+  padding-left: 40px;
+
+   width : 300px;
+   position: absolute;
+   border-radius: 20px;
+   background-color: rgb(0, 138, 156);
+   
+   
+    left : 550px;
+   height:300px;
+    /* border: solid 3px red; */
+    -webkit-box-shadow: 18px 49px 59px 0px rgba(0,0,0,0.67);
+-moz-box-shadow: 18px 49px 59px 0px rgba(0,0,0,0.67);
+box-shadow: 18px 49px 59px 0px rgba(0,0,0,0.67);
+    
+}
+
+
 
 .nuage-1{
+    
     background: white;
     width: 100px;
     height:90px;
@@ -47,19 +67,4 @@ h1{
        
 }
 
-
-.grand-nuage{
-   width : 300px;
-   position: absolute;
-   border-radius: 20px;
-   background-color: rgb(0, 138, 156);
-   
-    left : 550px;
-   height:300px;
-    /* border: solid 3px red; */
-    -webkit-box-shadow: 18px 49px 59px 0px rgba(0,0,0,0.67);
--moz-box-shadow: 18px 49px 59px 0px rgba(0,0,0,0.67);
-box-shadow: 18px 49px 59px 0px rgba(0,0,0,0.67);
-    
-}
 
