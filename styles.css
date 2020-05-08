@@ -1,0 +1,132 @@
+body {
+    background-color: #9ad8e8;
+    margin: 0;
+}
+
+h1 {
+
+    font-size: 50px;
+    margin-left: 3%;
+    margin-top: 3%;
+    margin-bottom: 0;
+    margin-right: 0px;
+
+}
+
+.main-div {
+    border: solid 3px blue;
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+
+
+.div1 {
+
+
+    border: solid 3px red;
+    height: 690px;
+    width: 750px;
+}
+
+
+
+.div2 {
+
+    border: solid 3px red;
+    height: 690px;
+    width: 750px;
+
+}
+.nuage{
+    position: relative;
+}
+
+.nuage1{
+    width: 200px;
+    position: relative;
+
+}
+.nuage2{
+    width: 200px;
+    position: relative;
+
+}
+.nuage3{
+    width: 200px;
+    position: relative;
+
+}
+.nuage4{
+    width: 200px;
+    position: relative;
+
+}
+.nuage5{
+    position: relative;
+    width: 400px;
+
+    top:550px;
+
+}
+.nuage6{
+    width: 200px;
+    position: relative;
+
+}
+.nuage7{
+    width: 200px;
+    position: relative;
+
+}
+.nuage8{
+    width: 200px;
+    position: relative;
+
+}
+.nuage9{
+    width: 200px;
+    position: relative;
+
+}
+.nuage10{
+    width: 200px;
+    position: relative;
+
+}
+.nuage11{
+    width: 200px;
+    position: relative;
+}
+.nuage12{
+    width: 200px;
+    position: relative;
+
+}
+.nuage13{
+    width: 200px;
+    position: relative;
+
+}.nuage14{
+    width: 400px;
+
+    position: relative;
+    top: 450px;
+    left:50px;
+
+}
+.nuage15{
+    width: 200px;
+    position: static;
+
+}
+
+
+
+
+
+
+
