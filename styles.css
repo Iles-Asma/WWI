@@ -1,6 +1,7 @@
 body {
     background-color: #9ad8e8;
     margin: 0;
+    
 }
 
 h1 {
@@ -14,14 +15,15 @@ h1 {
 }
 
 .main-div {
-    position: absolute;
     
-    border: solid 3px blue;
+
+    
     height: 720px;
     display: flex;
     justify-content: space-around;
-    
-    
+  overflow: hidden;
+
+
 }
 
 
@@ -29,7 +31,7 @@ h1 {
 .div1 {
     position: relative;
 
-    border: solid 3px red;
+   
     height: 710px;
     width: 750px;
 }
@@ -37,117 +39,177 @@ h1 {
 
 
 .div2 {
- position: relative;
-    border: solid 3px red;
+    position: relative;
+ 
     height: 710px;
     width: 750px;
 
 }
 
-
-.nuage1{
-    width: 1300px;
-    position: absolute;
-    top:430px;
-    left:-100px;
-
-}
-.nuage2{
-    width: 200px;
-    position: absolute;
-
-}
-.nuage3{
-    width: 200px;
-    position: absolute;
-
-}
-.nuage4{
-    width: 200px;
-    position: absolute;
-
-}
-.nuage5{
-    position: absolute;
-    width: 800px;
-    top:360px;
-    right:-60px;
-    z-index:-3;
-
-   
-
-}
-.nuage6{
-    width: 500px;
-    position: abosolute;
-    background-color: turquoise;
-    bottom:100px;
-}
-
-.nuage7{
-    width: 880px;
-    position: absolute ;
-    top:500px;
-    z-index:-1;
-    left: -80px;
-    
-
-
-}
-.nuage8{
-    width: 900px;
-    position: absolute; 
-    top: 370px;
-    right: 300px;
-    z-index:-2;
-   
-
-}
-.nuage9{
-    width: 200px;
-    position: absolute;
-
-}
-.nuage10{
-    width: 200px;
-    position: absolute ;
-
-}
-.nuage11{
-    width: 900px;
-    position: absolute ;
-    left:-70px;
-    top: 330px;
-    z-index:-3;
-}
-.nuage12{
-    width: 200px;
-    position: absolute;
-
-}
-.nuage13{
-    width: 200px;
-    position: absolute;
-
-}.nuage14{
+/*div gauche*/
+.nuage1 {
     width: 1000px;
     position: absolute;
-    top:600px;
-    left:-300px;
-    
- 
-
-}
-.nuage15{
-    width: 200px;
-    position:absolute;
-  
+    top: 500px;
+    left: -100px;
 
 }
 
+/*div gauche*/
+.nuage2 {
+    width: 800px;
+    top: 100px;
+    position: absolute;
+    z-index: -5;
+    left: 200px;
+
+
+
+}
+
+/*div droite*/
+.nuage3 {
+    width: 900px;
+    position: absolute;
+    top: 290px;
+    z-index: -3;
+    right: -30px;
+
+}
+
+/*div gauche*/
+.nuage4 {
+    width: 900px;
+    position: absolute;
+    top: 230px;
+
+    z-index: -3;
+    left: -40px;
+
+}
+
+/*div droite*/
+.nuage5 {
+    position: absolute;
+    width: 800px;
+    top: 360px;
+    right: -60px;
+    z-index: -3;
 
 
 
 
+}
+
+/*div droite*/
+.nuage6 {
+    width: 800px;
+    position: absolute;
+    top: 90px;
+    left: -10px;
+    z-index: -4;
+
+}
+
+/*div droite*/
+.nuage7 {
+    width: 880px;
+    position: absolute;
+    top: 500px;
+    z-index: -1;
+    left: -80px;
+
+}
+
+/* div droite*/
+.nuage8 {
+    width: 900px;
+    position: absolute;
+    top: 360px;
+    right: 300px;
+    z-index: -2;
 
 
+
+
+}
+
+/*div droite*/
+
+.nuage9 {
+    width: 1000px;
+    position: absolute;
+    top: -60px;
+
+    right: -75px;
+    z-index: -4;
+
+
+}
+
+
+/*div gauche*/
+.nuage10 {
+    width: 800px;
+    position: absolute;
+    top: 150px;
+    left: -40px;
+    z-index: -4;
+
+
+
+}
+
+/*div gauche*/
+.nuage11 {
+    width: 1000px;
+    position: absolute;
+    left: -70px;
+    top: 370px;
+    z-index: -3;
+
+}
+
+.nuage12 {
+    width: 800px;
+    position: absolute;
+    top: 80px;
+    left: -70px;
+    z-index: -5;
+
+}
+
+/*div droite*/
+.nuage13 {
+    width: 800px;
+    position: absolute;
+    top: 200px;
+    right: -35px;
+    z-index: -4;
+
+
+}
+
+/*div droite*/
+.nuage14 {
+    width: 1000px;
+    position: absolute;
+    top: 600px;
+    left: -200px;
+
+
+
+
+}
+
+/*div gauche bleu*/
+.nuage15 {
+    width: 900px;
+    top: -60px;
+    left: -50px;
+    position: absolute;
+    z-index: -6;
+
+
+
+}
