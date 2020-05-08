@@ -14,8 +14,10 @@ h1 {
 }
 
 .main-div {
+    position: absolute;
+    
     border: solid 3px blue;
-    height: 700px;
+    height: 720px;
     display: flex;
     justify-content: space-around;
     
@@ -25,102 +27,121 @@ h1 {
 
 
 .div1 {
-
+    position: relative;
 
     border: solid 3px red;
-    height: 690px;
+    height: 710px;
     width: 750px;
 }
 
 
 
 .div2 {
-
+ position: relative;
     border: solid 3px red;
-    height: 690px;
+    height: 710px;
     width: 750px;
 
 }
-.nuage{
-    position: relative;
-}
+
 
 .nuage1{
-    width: 200px;
-    position: relative;
+    width: 1300px;
+    position: absolute;
+    top:430px;
+    left:-100px;
 
 }
 .nuage2{
     width: 200px;
-    position: relative;
+    position: absolute;
 
 }
 .nuage3{
     width: 200px;
-    position: relative;
+    position: absolute;
 
 }
 .nuage4{
     width: 200px;
-    position: relative;
+    position: absolute;
 
 }
 .nuage5{
-    position: relative;
-    width: 400px;
+    position: absolute;
+    width: 800px;
+    top:360px;
+    right:-60px;
+    z-index:-3;
 
-    top:550px;
+   
 
 }
 .nuage6{
-    width: 200px;
-    position: relative;
-
+    width: 500px;
+    position: abosolute;
+    background-color: turquoise;
+    bottom:100px;
 }
+
 .nuage7{
-    width: 200px;
-    position: relative;
+    width: 880px;
+    position: absolute ;
+    top:500px;
+    z-index:-1;
+    left: -80px;
+    
+
 
 }
 .nuage8{
-    width: 200px;
-    position: relative;
+    width: 900px;
+    position: absolute; 
+    top: 370px;
+    right: 300px;
+    z-index:-2;
+   
 
 }
 .nuage9{
     width: 200px;
-    position: relative;
+    position: absolute;
 
 }
 .nuage10{
     width: 200px;
-    position: relative;
+    position: absolute ;
 
 }
 .nuage11{
-    width: 200px;
-    position: relative;
+    width: 900px;
+    position: absolute ;
+    left:-70px;
+    top: 330px;
+    z-index:-3;
 }
 .nuage12{
     width: 200px;
-    position: relative;
+    position: absolute;
 
 }
 .nuage13{
     width: 200px;
-    position: relative;
+    position: absolute;
 
 }.nuage14{
-    width: 400px;
-
-    position: relative;
-    top: 450px;
-    left:50px;
+    width: 1000px;
+    position: absolute;
+    top:600px;
+    left:-300px;
+    
+ 
 
 }
 .nuage15{
     width: 200px;
-    position: static;
+    position:absolute;
+  
 
 }
 
