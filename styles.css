@@ -1,7 +1,6 @@
 body {
     background-color: #9ad8e8;
     margin: 0;
-    
 }
 
 h1 {
@@ -15,23 +14,17 @@ h1 {
 }
 
 .main-div {
-    
 
-    
     height: 720px;
     display: flex;
     justify-content: space-around;
   overflow: hidden;
-
-
 }
 
 
 
 .div-gauche {
     position: relative;
-
-   
     height: 710px;
     width: 750px;
 }
@@ -40,7 +33,6 @@ h1 {
 
 .div-droite {
     position: relative;
- 
     height: 710px;
     width: 750px;
 
@@ -62,9 +54,6 @@ h1 {
     position: absolute;
     z-index: -5;
     left: 200px;
-
-
-
 }
 
 /*div droite*/
@@ -96,9 +85,6 @@ h1 {
     right: -60px;
     z-index: -3;
 
-
-
-
 }
 
 /*div droite*/
@@ -128,10 +114,6 @@ h1 {
     top: 360px;
     right: 300px;
     z-index: -2;
-
-
-
-
 }
 
 /*div droite*/
@@ -140,10 +122,8 @@ h1 {
     width: 1000px;
     position: absolute;
     top: -60px;
-
     right: -75px;
     z-index: -4;
-
 
 }
 
@@ -194,10 +174,6 @@ h1 {
     position: absolute;
     top: 600px;
     left: -200px;
-
-
-
-
 }
 
 /*div gauche bleu*/
@@ -207,7 +183,5 @@ h1 {
     left: -50px;
     position: absolute;
     z-index: -6;
-
-
 
 }
