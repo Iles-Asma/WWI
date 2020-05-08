@@ -28,7 +28,7 @@ h1 {
 
 
 
-.div1 {
+.div-gauche {
     position: relative;
 
    
@@ -38,7 +38,7 @@ h1 {
 
 
 
-.div2 {
+.div-droite {
     position: relative;
  
     height: 710px;
@@ -155,9 +155,6 @@ h1 {
     top: 150px;
     left: -40px;
     z-index: -4;
-
-
-
 }
 
 /*div gauche*/
@@ -169,8 +166,9 @@ h1 {
     z-index: -3;
 
 }
-
+/* div gauche */
 .nuage12 {
+    
     width: 800px;
     position: absolute;
     top: 80px;
