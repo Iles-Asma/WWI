@@ -203,3 +203,44 @@ h1 {
     z-index: -6;
 
 }
+
+
+.mouvRight{
+    animation : mouvRightAnim 4s ease forwards;
+}
+
+.mouvLeft{
+    animation : mouvLeftAnim 4s ease forwards;
+} 
+
+@keyframes mouvRightAnim {
+    From {
+
+        opacity: 100%;
+        transform: translateX(0px);
+
+    }
+
+    To {
+
+        opacity: 0%;
+        transform: translateX(1000px);
+
+    }
+}
+
+@keyframes mouvLeftAnim {
+    From {
+
+        opacity: 100%;
+        transform: translateX(0px);
+
+    }
+
+    To {
+
+        opacity: 0%;
+        transform: translateX(-1000px);
+
+    }
+} 
