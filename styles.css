@@ -2,8 +2,6 @@ body {
     background-color: #9ad8e8;
     margin: 0;
 }
-
-
 h1 {
 
     font-size: 50px;
@@ -31,14 +29,15 @@ h1 {
 
 }
 
-
 .main-div {
 
-    height: 720px;
+    height: 100vh;
     display: flex;
     justify-content: space-around;
     overflow: hidden;
 }
+
+
 
 
 
