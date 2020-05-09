@@ -1,12 +1,14 @@
+/* font converted using font-converter.net. thank you! */
+/* font converted using font-converter.net. thank you! */
 @font-face {
-    font-family: "D-DIN";
-    src: /* IE6-IE8 */
-      url("./fonts/D-DIN.woff") format("woff"), /* Modern Browsers */
-      url("./fonts/D-DIN.woff2") format("woff2"); /* Modern Browsers */
+    font-family: "DIN-Regular";
+  
+    src: 
+      url("./fonts/DINRegular.woff") format("woff"), /* Modern Browsers */
+      url("./fonts/DINRegulart.woff2") format("woff2"); /* Modern Browsers */
     font-weight: normal;
     font-style: normal;
   }
-
 
 
 
@@ -28,7 +30,7 @@ h1 {
 }
 
 .button-visit {
-    font-family:"D-DIN" ;
+    font-family:"DIN-Regular" ;
 
     top:81%;
     display: flex;
