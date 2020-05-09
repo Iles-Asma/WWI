@@ -58,7 +58,6 @@ h1 {
 
 /*div gauche*/
 .nuage1 {
-    border: 3px solid red;
     width: 1300px;
     position: absolute;
     top: 550px;
@@ -233,7 +232,7 @@ h1 {
 @keyframes mouvLeftAnim {
     From {
 
-        
+
         opacity: 100%;
         transform: translateX(0px);
 

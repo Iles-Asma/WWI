@@ -2,7 +2,11 @@
 
 $(function(){
         $(".button-visit").on("click",function(){  
-            $(".div-gauche").addClass("mouvLeft");
-            $(".div-droite").addClass("mouvRight");
+            buttonVisit();
         });
 });
+
+function buttonVisit () {
+    $(".div-gauche").addClass("mouvLeft");
+    $(".div-droite").addClass("mouvRight");
+};
