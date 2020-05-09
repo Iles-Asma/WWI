@@ -3,22 +3,13 @@ body {
     margin: 0;
 }
 
-h1 {
-
-    font-size: 50px;
-    margin-left: 3%;
-    margin-top: 3%;
-    margin-bottom: 0;
-    margin-right: 0px;
-
-}
 
 .main-div {
 
     height: 720px;
     display: flex;
     justify-content: space-around;
-  overflow: hidden;
+    overflow: hidden;
 }
 
 
@@ -176,7 +167,7 @@ h1 {
     left: -200px;
 }
 
-/*div gauche bleu*/
+/*div gauche bleu*/ /* tout en haut a gauce */
 .nuage15 {
     width: 900px;
     top: -60px;
