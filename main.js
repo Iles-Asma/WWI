@@ -9,8 +9,10 @@ $(function(){
 function buttonVisit () {
     $(".div-gauche").addClass("mouvLeft");
     $(".div-droite").addClass("mouvRight");
+    $(".main-div").addClass("accueilEnd")
     setTimeout(function(){
         $(".main-div").remove();
-    }, 3250);
+        $("title").text("Bienvenue sur WWI !");
+    }, 4000);
     console.log("test");
 };

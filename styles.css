@@ -229,19 +229,20 @@ h1 {
 
 .mouvLeft{
     animation : mouvLeftAnim 4s ease forwards;
-} 
+}
+.accueilEnd{
+    animation: accueilAnim 4s ease forwards;
+}
 
 @keyframes mouvRightAnim {
     From {
 
-        opacity: 100%;
         transform: translateX(0px);
 
     }
 
     To {
 
-        opacity: 0%;
         transform: translateX(1000px);
 
     }
@@ -251,15 +252,22 @@ h1 {
     From {
 
 
-        opacity: 100%;
         transform: translateX(0px);
 
     }
 
     To {
 
-        opacity: 0%;
         transform: translateX(-1000px);
 
     }
-} 
+}
+
+@keyframes accueilAnim {
+    From {
+        opacity: 100%;
+    }
+    To {
+        opacity: 0%;
+    }
+}
