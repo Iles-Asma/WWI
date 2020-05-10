@@ -62,7 +62,7 @@ a:hover{
     top:45%;
     font-size: 25px;
     position: absolute;
-    width:800px;
+    width:50%;
     text-align: center;
 }
 
@@ -71,7 +71,7 @@ a:hover{
 .div-gauche {
     position: relative;
     height: 710px;
-    width: 750px;
+    width: 50%;
 }
 
 
@@ -79,7 +79,7 @@ a:hover{
 .div-droite {
     position: relative;
     height: 710px;
-    width: 750px;
+    width: 50%;
 
 }
 
