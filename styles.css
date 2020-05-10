@@ -40,6 +40,13 @@ body {
 
 }
 
+a:hover{
+    color:rgb(255, 238, 0);
+    border: 4.2px solid rgb(255, 238, 0) ;
+    
+
+}
+
 
 .intro-div {
     color :  #515151;
@@ -50,6 +57,7 @@ body {
 }
 
 .intro-text {
+
     z-index:1;
     top:45%;
     font-size: 25px;
