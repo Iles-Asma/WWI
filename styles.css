@@ -16,20 +16,19 @@
 
 
 body {
+    font-family:"DIN-Regular" ;
     background-color: #9ad8e8;
     margin: 0;
 }
 
 
 .button-visit {
-    font-family:"DIN-Regular" ;
-
     top:81%;
     display: flex;
     position: absolute;
     width: 350px;
     height: 105px;
-    color :  #515151;
+
     font-size: 60px;
     cursor: pointer;
     background-color: unset;
@@ -41,8 +40,9 @@ body {
 
 }
 
-.main-div {
 
+.intro-div {
+    color :  #515151;
     height: 100vh;
     display: flex;
     justify-content: space-around;
