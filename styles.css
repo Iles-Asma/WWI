@@ -50,8 +50,12 @@ body {
 }
 
 .intro-text {
-    
-    z-index:-6;
+    z-index:1;
+    top:40%;
+    font-size: 25px;
+    position: absolute;
+    width:800px;
+    text-align: center;
 }
 
 
