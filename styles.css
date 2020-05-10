@@ -50,7 +50,8 @@ body {
 }
 
 .intro-text {
-    margin: auto;
+    
+    z-index:-6;
 }
 
 
