@@ -49,7 +49,9 @@ body {
     overflow: hidden;
 }
 
-
+.intro-text {
+    margin: auto;
+}
 
 
 

@@ -1,12 +1,12 @@
 "use strict";
 
-$(function(){
+$(function(){  // Fonction principale de la page
         $(".button-visit").on("click",function(){  
-            buttonVisit();
+            buttonVisit(); //appelle de la fonction buttonVisit au click
         });
 });
 
-function buttonVisit () {
+function buttonVisit () { // fonction buttonVisit qui active l'animation des nuages et qui supprime la div qui contient la page d'introduction
     $(".div-gauche").addClass("mouvLeft");
     $(".div-droite").addClass("mouvRight");
     $(".intro-div").addClass("accueilEnd");
@@ -14,5 +14,5 @@ function buttonVisit () {
     setTimeout(function(){
         $(".intro-div").remove();
     }, 4000);
-    console.log("test");
+
 };
