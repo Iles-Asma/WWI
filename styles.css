@@ -311,51 +311,14 @@ a:hover {
     max-height: 821.6px;
 }
 
-.route-gauche {
-    border: solid 1px yellow;
+.route {
     z-index: -7;
     position: absolute;
-    left: 38.51625%;
-    top: 15.0260416%;
-    width: 3.02vw;
-    height: 18.90625vw;
+    left: 28.8281%;
+    top: 26.7130%;
+    width: 37.3438vw;
+    height: 26.9271vw;
 
-}
-
-
-.route-haut {
-    border: solid 1px green;
-    z-index: -7;
-    position: absolute;
-    left: 41.5364583%;
-    top: 18.671875%;
-    height: 7.03125vw‬;
-    width : 15.9375vw;
-
-
-}
-
-.route-droite {
-    border: solid 1px red;
-
-    
-    z-index: -7;
-    position: absolute;
-    left: 52.734375%;
-    top: 19.453125% ;
-    height:14.7916vw ;
-    width: 13.4375vw‬;
-
-}
-
-.route-bas {
-    border:1px solid blue;
-    z-index: -7;
-
-    position: absolute;
-    left: 28.828125%‬;
-    top: 33.932291%;
-    width: 31.5625vw;
-    height:8.02083vw;
-    
+    max-width: 717px;
+    max-height: 517px;
 }
