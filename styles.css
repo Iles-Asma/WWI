@@ -18,6 +18,7 @@
 
 
 body {
+    overflow: hidden;
     font-family: "DIN-Regular";
     background-color: #9ad8e8;
     margin: 0;
@@ -57,7 +58,7 @@ a:hover {
     height: 100vh;
     display: flex;
     justify-content: space-around;
-    overflow: hidden;
+
     width: 100%;
 
 }
@@ -248,15 +249,15 @@ a:hover {
 
 
 .mouvRight {
-    animation: mouvRightAnim 4s ease forwards;
+    animation: mouvRightAnim 5s ease forwards;
 }
 
 .mouvLeft {
-    animation: mouvLeftAnim 4s ease forwards;
+    animation: mouvLeftAnim 5s ease forwards;
 }
 
 .accueilEnd {
-    animation: accueilAnim 4s ease forwards;
+    animation: accueilAnim 5s ease forwards;
 }
 
 @keyframes mouvRightAnim {
@@ -314,10 +315,10 @@ a:hover {
 .route {
     z-index: -7;
     position: absolute;
-    left: 28.8281%;
-    top: 26.7130%;
-    width: 37.3438vw;
-    height: 26.9271vw;
+    left: 28.828125%;
+    top: 26.71296%;
+    width: 37.34375vw;
+    height: 26.9270833vw;
 
     max-width: 717px;
     max-height: 517px;

@@ -13,6 +13,6 @@ function buttonVisit () { // fonction buttonVisit qui active l'animation des nua
     $("title").text("Bienvenue sur WWI !");
     setTimeout(function(){
         $(".intro-div").remove();
-    }, 4000);
+    }, 5000);
 
 };
