@@ -55,9 +55,11 @@ a:hover{
     display: flex;
     justify-content: space-around;
     overflow: hidden;
+    width: 100%;
 }
 
 .intro-text {
+
 
     z-index:1;
     top:45%;
@@ -65,7 +67,6 @@ a:hover{
     position: absolute;
     width:60%;
     text-align: center;
-
 
 }
 
@@ -76,6 +77,8 @@ a:hover{
     position: relative;
     height: 710px;
     width: 50%;
+    height: 100%;
+    
 }
 
 
@@ -84,6 +87,7 @@ a:hover{
     position: relative;
     height: 710px;
     width: 50%;
+    height: 100%;
 
 }
 
