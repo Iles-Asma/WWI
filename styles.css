@@ -57,7 +57,7 @@ a:hover{
     justify-content: space-around;
     overflow: hidden;
     width: 100%;
-    border: solid 3px red;
+   
 }
 
 .intro-text {
@@ -290,4 +290,47 @@ a:hover{
     To {
         opacity: 0%;
     }
+}
+
+
+.acceuil{
+    display: flex;
+    align-items: center;
+
+    position: absolute;
+    
+}
+.socle{
+
+ position: relative;
+ 
+ 
+
+    
+}
+
+.route-gauche{
+    position: relative;
+    left: 50px;
+
+}
+
+.route-droite{
+    position: relative;
+    left: 50px;
+
+}
+
+.route-haut{
+    position: relative;
+    left: 50px;
+
+
+}
+
+.route-droite{
+    position: relative;
+    left: 50px;
+
+
 }
