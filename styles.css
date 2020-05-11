@@ -50,13 +50,14 @@ a:hover{
 
 
 .intro-div {
-    ;
+
     color :  #515151;
     height: 100vh;
     display: flex;
     justify-content: space-around;
     overflow: hidden;
     width: 100%;
+    border: solid 3px red;
 }
 
 .intro-text {
