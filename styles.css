@@ -2,13 +2,15 @@
 /* font converted using font-converter.net. thank you! */
 @font-face {
     font-family: "DIN-Regular";
-  
-    src: 
-      url("./fonts/DINRegular.woff") format("woff"), /* Modern Browsers */
-      url("./fonts/DINRegulart.woff2") format("woff2"); /* Modern Browsers */
+
+    src:
+        url("./fonts/DINRegular.woff") format("woff"),
+        /* Modern Browsers */
+        url("./fonts/DINRegulart.woff2") format("woff2");
+    /* Modern Browsers */
     font-weight: normal;
     font-style: normal;
-  }
+}
 
 
 
@@ -16,7 +18,7 @@
 
 
 body {
-    font-family:"DIN-Regular" ;
+    font-family: "DIN-Regular";
     background-color: #9ad8e8;
     margin: 0;
 
@@ -24,7 +26,7 @@ body {
 
 
 .button-visit {
-    top:75%;
+    top: 75%;
     display: flex;
     position: absolute;
     width: 350px;
@@ -33,41 +35,41 @@ body {
     font-size: 60px;
     cursor: pointer;
     background-color: unset;
-    border: 4.2px solid #515151 ;
+    border: 4.2px solid #515151;
     border-radius: 50px;
     align-items: center;
     justify-content: center;
     z-index: 1;
-    
+
 }
 
-a:hover{
-    color:rgb(255, 238, 0);
-    border: 4.2px solid rgb(255, 238, 0) ;
-    
+a:hover {
+    color: rgb(255, 238, 0);
+    border: 4.2px solid rgb(255, 238, 0);
+
 
 }
 
 
 .intro-div {
 
-    color :  #515151;
+    color: #515151;
     height: 100vh;
     display: flex;
     justify-content: space-around;
     overflow: hidden;
     width: 100%;
-   
+
 }
 
 .intro-text {
 
 
-    z-index:1;
-    top:45%;
+    z-index: 1;
+    top: 45%;
     font-size: 25px;
     position: absolute;
-    width:60%;
+    width: 60%;
     text-align: center;
 
 }
@@ -80,8 +82,8 @@ a:hover{
     height: 710px;
     width: 50%;
     height: 100%;
-    
-    
+
+
 }
 
 
@@ -195,16 +197,17 @@ a:hover{
 
 /*div gauche*/
 .nuage11 {
-    width:140%;
+    width: 140%;
     position: absolute;
     left: -70px;
     top: 370px;
     z-index: -3;
 
 }
+
 /* div gauche */
 .nuage12 {
-    
+
     width: 140%;
     position: absolute;
     top: 80px;
@@ -232,7 +235,8 @@ a:hover{
     left: -200px;
 }
 
-/*div gauche bleu*/ /* tout en haut a gauce */
+/*div gauche bleu*/
+/* tout en haut a gauce */
 .nuage15 {
     width: 140%;
     top: -60px;
@@ -243,14 +247,15 @@ a:hover{
 }
 
 
-.mouvRight{
-    animation : mouvRightAnim 4s ease forwards;
+.mouvRight {
+    animation: mouvRightAnim 4s ease forwards;
 }
 
-.mouvLeft{
-    animation : mouvLeftAnim 4s ease forwards;
+.mouvLeft {
+    animation: mouvLeftAnim 4s ease forwards;
 }
-.accueilEnd{
+
+.accueilEnd {
     animation: accueilAnim 4s ease forwards;
 }
 
@@ -287,6 +292,7 @@ a:hover{
     From {
         opacity: 100%;
     }
+
     To {
         opacity: 0%;
     }
@@ -305,38 +311,51 @@ a:hover{
     max-height: 821.6px;
 }
 
-.route-gauche{
+.route-gauche {
+    border: solid 1px yellow;
     z-index: -7;
     position: absolute;
-    left:38.51625vw;
-    top:15.0260416vw;
+    left: 38.51625%;
+    top: 15.0260416%;
+    width: 3.02vw;
+    height: 18.90625vw;
 
 }
 
 
-.route-haut{
+.route-haut {
+    border: solid 1px green;
     z-index: -7;
     position: absolute;
-    left: 797.5px;
-    top: 358.5px;
+    left: 41.5364583%;
+    top: 18.671875%;
+    height: 7.03125vw‬;
+    width : 15.9375vw;
 
 
 }
 
-.route-droite{
+.route-droite {
+    border: solid 1px red;
+
+    
     z-index: -7;
     position: absolute;
-    left:1012.5px;
-    top:373.5px;
-
-
+    left: 52.734375%;
+    top: 19.453125% ;
+    height:14.7916vw ;
+    width: 13.4375vw‬;
 
 }
 
-.route-bas{
+.route-bas {
+    border:1px solid blue;
     z-index: -7;
 
     position: absolute;
-    left: 553.5px;
-    top:651.5px;
+    left: 28.828125%‬;
+    top: 33.932291%;
+    width: 31.5625vw;
+    height:8.02083vw;
+    
 }
