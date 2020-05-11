@@ -293,20 +293,6 @@ a:hover{
 }
 
 
-<<<<<<< HEAD
-
-.socle{
-    z-index: -8;
-
- position: absolute;
- width: 50.76vw;
- left  : 21.3421875vw;
- top:5.55885416vw;
- height:42.79167vh;
- 
- 
-
-=======
 .socle{
 z-index: -8;
 position: absolute;
@@ -314,7 +300,6 @@ width: 50.76vw;
 left  : 30%;
 top:25%;
 border: red solid;
->>>>>>> 3d11fda3baa804743dcc851e11654f59b3af0a3d
 }
 
 .route-gauche{
