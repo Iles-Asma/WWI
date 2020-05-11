@@ -295,35 +295,35 @@ a:hover{
 
 .acceuil{
     display: flex;
-    align-items: center;
-
     position: absolute;
     
 }
 .socle{
-
+ 
  position: relative;
- 
+ width: 50%;
  
 
-    
 }
 
 .route-gauche{
     position: relative;
     left: 50px;
+    width: 5%;
 
 }
 
 .route-droite{
     position: relative;
     left: 50px;
+    width: 20%;;
 
 }
 
 .route-haut{
     position: relative;
     left: 50px;
+    width: 35%;
 
 
 }
@@ -333,4 +333,11 @@ a:hover{
     left: 50px;
 
 
+}
+
+.route-bas{
+
+    position: relative;
+    width: 50%;
+    left: 50px;
 }
