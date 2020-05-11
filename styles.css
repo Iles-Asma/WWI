@@ -50,6 +50,7 @@ a:hover{
 
 
 .intro-div {
+    ;
     color :  #515151;
     height: 100vh;
     display: flex;
@@ -79,6 +80,7 @@ a:hover{
     width: 50%;
     height: 100%;
     
+    
 }
 
 
@@ -93,16 +95,16 @@ a:hover{
 
 /*div gauche*/
 .nuage1 {
-    width: 120%;
+    width: 140%;
     position: absolute;
-    top: 550px;
+    top: 560px;
     left: -170px;
 
 }
 
 /*div gauche*/
 .nuage2 {
-    width: 120%;
+    width: 140%;
     top: 100px;
     position: absolute;
     z-index: -5;
@@ -111,7 +113,7 @@ a:hover{
 
 /*div droite*/
 .nuage3 {
-    width: 120%;
+    width: 140%;
     position: absolute;
     top: 290px;
     z-index: -3;
@@ -121,7 +123,7 @@ a:hover{
 
 /*div gauche*/
 .nuage4 {
-    width: 120%;
+    width: 140%;
     position: absolute;
     top: 230px;
 
@@ -133,7 +135,7 @@ a:hover{
 /*div droite*/
 .nuage5 {
     position: absolute;
-    width: 120%;
+    width: 140%;
     top: 360px;
     right: -60px;
     z-index: -3;
@@ -142,7 +144,7 @@ a:hover{
 
 /*div droite*/
 .nuage6 {
-    width: 120%;
+    width: 140%;
     position: absolute;
     top: 90px;
     left: -10px;
@@ -152,7 +154,7 @@ a:hover{
 
 /*div droite*/
 .nuage7 {
-    width: 120%;
+    width: 140%;
     position: absolute;
     top: 500px;
     z-index: -1;
@@ -162,7 +164,7 @@ a:hover{
 
 /* div droite*/
 .nuage8 {
-    width: 120%;
+    width: 140%;
     position: absolute;
     top: 360px;
     right: 300px;
@@ -172,7 +174,7 @@ a:hover{
 /*div droite*/
 
 .nuage9 {
-    width: 120%;
+    width: 140%;
     position: absolute;
     top: -60px;
     right: -75px;
@@ -183,7 +185,7 @@ a:hover{
 
 /*div gauche*/
 .nuage10 {
-    width: 120%;
+    width: 140%;
     position: absolute;
     top: 150px;
     left: -40px;
@@ -192,7 +194,7 @@ a:hover{
 
 /*div gauche*/
 .nuage11 {
-    width:120%;
+    width:140%;
     position: absolute;
     left: -70px;
     top: 370px;
@@ -202,7 +204,7 @@ a:hover{
 /* div gauche */
 .nuage12 {
     
-    width: 120%;
+    width: 140%;
     position: absolute;
     top: 80px;
     left: -70px;
@@ -212,7 +214,7 @@ a:hover{
 
 /*div droite*/
 .nuage13 {
-    width: 120%;
+    width: 140%;
     position: absolute;
     top: 200px;
     right: -35px;
@@ -223,7 +225,7 @@ a:hover{
 
 /*div droite*/
 .nuage14 {
-    width: 120%;
+    width: 140%;
     position: absolute;
     top: 600px;
     left: -200px;
@@ -231,7 +233,7 @@ a:hover{
 
 /*div gauche bleu*/ /* tout en haut a gauce */
 .nuage15 {
-    width: 120%;
+    width: 140%;
     top: -60px;
     left: -50px;
     position: absolute;
