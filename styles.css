@@ -293,21 +293,13 @@ a:hover{
 }
 
 
-.acceuil{
-    
-    position: absolute;
-    
-}
 .socle{
-    z-index: -8;
- 
- position: absolute;
- width: 50.76vw;
- left  : 409.77px;
- top:106.73px;
- 
- 
-
+z-index: -8;
+position: absolute;
+width: 50.76vw;
+left  : 30%;
+top:25%;
+border: red solid;
 }
 
 .route-gauche{
