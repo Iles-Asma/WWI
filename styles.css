@@ -307,33 +307,16 @@ a:hover {
     height: 76.0741vw;
     left: 21.3422%;
     top: 6.0796%;
-    border: 1px yellow solid;
 
     max-width: 974.72px;
     max-height: 821.6px;
 }
 
-.route {
-    z-index: -7;
-    position: absolute;
-    left: 28.828125%;
-    top: 26.71296%;
-    width: 37.34375vw;
-    height: 26.9270833vw;
-
-    max-width: 717px;
-    max-height: 517px;
-}
-.com {
-    z-index: -7;
-    position: absolute;
-    width: 16.2547vw;
-    top: 38.1546%;
-    left: 54.3974%;
-    max-width: 312.09px;
-    border: 1px red solid;
-}
-.com:hover {
-    transform: scale(1.15);
+.communication,.audiovisuel,.mmi,.design,.dev,.propos{
     cursor: pointer;
+}
+.quartierNom {
+    font-size: 32px;
+    color: #515151;
+    justify-content: center;
 }
