@@ -41,15 +41,23 @@ a{
     align-items: flex-end;
     z-index: 1;
 }
+.arbres{
+    background-color: aqua;
+
+    width: 5vw;
+    z-index: 1;
+    
+}
+
 .batiments{
-    width:60vw;
+    width:58vw;
     height: 70vh;
     display: flex;
     justify-content: center;
     align-items: flex-end;
 
     position: relative;
-    left: -9vw;
+    left: -15vw;
 }
 
 .deco .panneau, .robot{
@@ -57,12 +65,12 @@ a{
 }
 .deco .panneau{
     position: relative;
-    left: 3vw;
+    left: 7vw;
 }
 
 .deco .robot{
     position: relative;
-    left: 14vw;
+    left: 17.5vw;
 }
 
 .deco .drone{
@@ -72,13 +80,24 @@ a{
     top: -35vh;
 }
 .building{
-    width: 20%;
-    margin: 0 20px;
+
     position: relative;
     top: 4px; 
 }
-.webmaster, .devweb, .reseau{
-    width: 11vw;
+.integrateur{
+    width: 12vw;
+    margin: 0 20px;
+}
+.webmaster{
+    margin: 0 20px;
+    width: 16vw;
+}
+ .devweb{
+    width: 12vw;
+}
+
+.reseau{
+    width: 10vw;
 }
 
 
