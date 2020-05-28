@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "DIN-Regular";
+
+    src:
+        url("./fonts/DINRegular.woff") format("woff"),
+        /* Modern Browsers */
+        url("./fonts/DINRegular.woff2") format("woff2");
+    /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    /* overflow: hidden; */
+    font-family: "DIN-Regular";
+    background-color: #9ad8e8;
+    margin: 0;
+}
+a{
+    position: absolute;
+    top:25px;
+    left: 25px;
+    width: 11.30vw;
+    margin: 0;
+}
+
+.page{
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: flex-end;
+    margin: 15vh auto;
+    margin-bottom: 0;
+    width: 80vw;
+}
+.deco{
+    width: 20vw;
+    height: 35vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    z-index: 1;
+}
+.batiments{
+    width:60vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    position: relative;
+    left: -9vw;
+}
+
+.deco .panneau, .robot{
+    width: 32%;
+}
+.deco .panneau{
+    position: relative;
+    left: 3vw;
+}
+
+.deco .robot{
+    position: relative;
+    left: 14vw;
+}
+
+.deco .drone{
+    width: 28%;
+    position: relative;
+    left: 40vw;
+    top: -35vh;
+}
+.building{
+    width: 20%;
+    margin: 0 20px;
+    position: relative;
+    top: 4px; 
+}
+.webmaster, .devweb, .reseau{
+    width: 11vw;
+}
+
+
+h3{
+    text-align: center;
+}
+
+.sol{
+    width: 100%;
+}
+
+
+
