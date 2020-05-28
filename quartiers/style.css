@@ -49,26 +49,36 @@ a{
     align-items: flex-end;
 
     position: relative;
-    left: -10vw;
-    
+    left: -9vw;
 }
-.objet{
-    margin: 0;
-    padding: 0;
 
-}
 .deco .panneau, .robot{
-    width: 30%;
+    width: 32%;
 }
+.deco .panneau{
+    position: relative;
+    left: 3vw;
+}
+
+.deco .robot{
+    position: relative;
+    left: 14vw;
+}
+
 .deco .drone{
-    width: 25%;
+    width: 28%;
+    position: relative;
+    left: 40vw;
+    top: -35vh;
 }
 .building{
     width: 20%;
     margin: 0 20px;
     position: relative;
-    top: 4px;
-    
+    top: 4px; 
+}
+.webmaster, .devweb, .reseau{
+    width: 11vw;
 }
 
 
