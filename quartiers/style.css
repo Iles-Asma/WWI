@@ -20,6 +20,7 @@ body {
 section{
     position: absolute;
     bottom: 0;
+    width: 100%;
 }
 a{
     position: absolute;
