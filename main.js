@@ -4,7 +4,6 @@ $(function(){  // Fonction principale de la page
         $(".button-visit").on("click",function(){  
             buttonVisit(); //appelle de la fonction buttonVisit au click
         });
-
         $(".communication").on("mouseover",function(){
             $(this).attr("d","M635.27,562.81c-5.38-34.8,25.28-53.36,75.89-119,73.18-94.9,67.41-131.77,110.08-143.4,43.54-11.86,94.1,14.37,120.78,47.8,47.6,59.66,18.1,141,6.41,173.14C920.75,597.65,846.82,688,773.15,678.6c-33.34-4.24-61.36-28.21-85.51-48.87C660,606.05,639.21,588.31,635.27,562.81Z");
             $(".cls-41").css("fill","white");
@@ -70,6 +69,8 @@ $(function(){  // Fonction principale de la page
             $("#txtPropos").css("fill","#515151");
             $("#à_propos").css("transform","translateX(-5px)")
         });
+
+
 });
 
 function buttonVisit () { // fonction buttonVisit qui active l'animation des nuages et qui supprime la div qui contient la page d'introduction
@@ -84,3 +85,4 @@ function buttonVisit () { // fonction buttonVisit qui active l'animation des nua
     }, 5000);
 
 };
+

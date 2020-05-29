@@ -9,7 +9,6 @@
     font-style: normal;
 }
 
-
 body {
     overflow: hidden;
     font-family: "DIN-Light";
@@ -30,6 +29,7 @@ section{
     left: 13.5vw;
 
 }
+
 a{
     position: absolute;
     top:25px;
@@ -37,132 +37,175 @@ a{
     width: 11.30vw;
     margin: 0;
 }
-
-.page{
-    display: flex;
-    align-items: flex-end;
-    margin:auto;
-    margin-bottom: 0;
-    width: 80vw;
-
+.objet{
+  z-index: 4;
 }
 
-.position{
-    width: 2vw;
-    position: absolute;
-    top: 34vh;
-    left: 27vw;
-    animation: float 3s ease infinite;
+/* BATIMENTS */
+
+
+
+.building{
+    position: relative;
+    top: 4px; 
 }
+<<<<<<< HEAD
+
+.building:hover h3{
+    opacity: 1;
+    transition: ease-in-out 0.5s;
+=======
 .wifi{
     width: 3vw;
     position: absolute;
     top: 29vh;
     left: 55.5vw;
-}
-
-
-.arbre1{
-    width: 10vw;
-    position: relative;
-    left: 38vw;
-    z-index: 3;
-}
-.arbre2{
-    width: 10vw;
-    position: relative;
-    left: 59vw;
-    z-index: 3;
-}
-
-.objet{
-    z-index: 4;
-}
-
-.panneau{
-    width: 12vw;
-    position: relative;
-    right: 3vw; 
-}
-
-.robot{
-    width: 10vw;
-    position: relative;
-    left: 6vw;
-}
-
-.drone{
-    width: 8vw;
-    position: relative;
-    left: 30vw;
-    top: -32vh;
-    animation: float 3s ease infinite;
-}
-
-/* BATIMENTS */
-.batiments{
-    width:58vw;
-    height: 70vh;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-
-    position: relative;
-    left: -18vw;
-   
-}
-.building{
-    position: relative;
-    top: 4px; 
-}
-
-.integrateur{
-    width: 12vw;
-    margin: 0 20px;
-
-}
-
-.webmaster{
-    margin: 0 20px;
-    width: 16vw;
-}
-
- .devweb{
-    position: relative;
-    left: 2vw;
-    width: 12vw;
-}
-
-.reseau{
-    position: relative;
-    left: 2vw;
-    width: 10vw;
-}
-
-
-.building h3{
-    text-align: center;
-    color: #515151;
-    opacity: 0;
-}
-.webmaster h3{
-    position: relative;
-    left: 2vw;
-}
-.devweb h3{
-    position: relative;
-    left: -1vw;
-
-}
-
-.building:hover h3{
-    opacity: 1;
-    transition: ease-in-out 0.5s;
+    display: none;
+>>>>>>> fffe11826e2e741e53a35d214fa4922ec985a4d3
 }
 
 .sol{
     width: 100%;
 }
+
+/* DEVELOPPEMENT */
+.dev .arbre1{
+  width: 10vw;
+  position: relative;
+  left: 38vw;
+  z-index: 3;
+}
+
+.dev .arbre2{
+  width: 10vw;
+  position: relative;
+  left: 59vw;
+  z-index: 3;
+}
+
+.dev .page{
+  display: flex;
+  align-items: flex-end;
+  margin:auto;
+  margin-bottom: 0;
+  width: 80vw;
+
+}
+
+.position{
+  width: 2vw;
+  position: absolute;
+  top: 34vh;
+  left: 27vw;
+  animation: float 3s ease infinite;
+}
+.wifi{
+  width: 3vw;
+  position: absolute;
+  top: 29vh;
+  left: 55.5vw;
+}
+.panneau{
+  width: 12vw;
+  position: relative;
+  right: 3vw; 
+}
+
+.robot{
+  width: 10vw;
+  position: relative;
+  left: 6vw;
+}
+
+.drone{
+  width: 8vw;
+  position: relative;
+  left: 30vw;
+  top: -32vh;
+  animation: float 3s ease infinite;
+}
+
+.dev .batiments{
+  width:58vw;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+  left: -18vw; 
+}
+
+.integrateur{
+  width: 12vw;
+  margin: 0 20px;
+
+}
+
+.webmaster{
+  margin: 0 20px;
+  width: 16vw;
+}
+.devweb{
+  position: relative;
+  left: 2vw;
+  width: 12vw;
+}
+.reseau{
+  position: relative;
+  left: 2vw;
+  width: 10vw;
+}
+
+.building h3{
+  text-align: center;
+  color: #515151;
+  opacity: 0;
+}
+.webmaster h3{
+  position: relative;
+  left: 2vw;
+}
+.devweb h3{
+  position: relative;
+  left: -1vw;
+
+}
+
+/* DESIGN */
+
+.design .page{
+    display: flex;
+    align-items: flex-end;
+    margin:auto;
+    margin-bottom: 0;
+    width: 80%;
+}
+
+.design .arbre1, .arbre2{
+  width: 5vw;
+}
+.design .batiments{
+  width:80%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; 
+  margin: auto;
+}
+.design .building{
+  margin: 0 10px;
+}
+.graphiste , .da{
+  width: 15vw;
+}
+
+.infographiste {
+  width: 14vw;
+}
+.uxui{
+  width: 10vw;
+}
+
 
 /* POP-UP */
 .popup{
@@ -269,3 +312,4 @@ a{
       transform: translatey(0px);
     }
   }
+
