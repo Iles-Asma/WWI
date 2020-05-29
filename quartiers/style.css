@@ -12,10 +12,14 @@
 
 
 body {
-    /* overflow: hidden; */
+    overflow: hidden;
     font-family: "DIN-Regular";
-    background-color: #9ad8e8;
+    background-color: #92d2f4;
     margin: 0;
+}
+section{
+    position: absolute;
+    bottom: 0;
 }
 a{
     position: absolute;
@@ -27,29 +31,58 @@ a{
 
 .page{
     display: flex;
-    /* justify-content: space-evenly; */
     align-items: flex-end;
     margin: 15vh auto;
     margin-bottom: 0;
     width: 80vw;
 }
 .deco{
-    width: 20vw;
+    width: 30vw;
     height: 35vh;
     display: flex;
     justify-content: space-evenly;
     align-items: flex-end;
     z-index: 1;
-    background-color: aquamarine;
 }
 .arbres{
-    background-color: aqua;
-
-    width: 5vw;
+    display: flex;
+    align-items: flex-end;
+    width: 20vw;
     z-index: 1;
-    
+}
+.arbre1{
+    width: 6vw;
+    position: relative;
+    left: 42.5vw;
+}
+.arbre2{
+    width: 7vw;
+    position: relative;
+    left: 60vw;
 }
 
+
+
+.deco .panneau{
+    width: 10vw;
+    position: relative;
+    right: 3vw;
+}
+
+.deco .robot{
+    width: 8vw;
+    position: relative;
+    left: 7vw;
+}
+
+.deco .drone{
+    width: 8vw;
+    position: relative;
+    left: 30vw;
+    top: -32vh;
+}
+
+/* BATIMENTS */
 .batiments{
     width:58vw;
     height: 70vh;
@@ -58,41 +91,23 @@ a{
     align-items: flex-end;
 
     position: relative;
-    left: -15vw;
+    left: -17vw;
 }
-
-.deco .panneau, .robot{
-    width: 32%;
-}
-/* .deco .panneau{
-    position: relative;
-    left: 7vw;
-}
-
-.deco .robot{
-    position: relative;
-    left: 17.5vw;
-}
-
-.deco .drone{
-    width: 28%;
-    position: relative;
-    left: 40vw;
-    top: -35vh;
-} */
 .building{
-
     position: relative;
     top: 4px; 
 }
+
 .integrateur{
     width: 12vw;
     margin: 0 20px;
 }
+
 .webmaster{
     margin: 0 20px;
     width: 16vw;
 }
+
  .devweb{
     width: 12vw;
 }
