@@ -54,6 +54,14 @@ a{
     opacity: 1;
     transition: ease-in-out 0.5s;
 }
+.wifi{
+    width: 3vw;
+    position: absolute;
+    top: 29vh;
+    left: 55.5vw;
+    display: none;
+
+}
 
 .sol{
     width: 100%;
@@ -159,7 +167,6 @@ a{
 .devweb h3{
   position: relative;
   left: -1vw;
-
 }
 
 /* DESIGN */
