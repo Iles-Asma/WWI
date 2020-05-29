@@ -9,9 +9,8 @@
 </head>
 
 <body class="dev">
-    <!-- <a href="../index.html"><img src="../images/logo.svg"></a> -->
-
     <section>
+    <a href="../index.html"><h1> &xlarr; Retour </h1></a>
         <div class="popup">
             <div class="background"></div>
             <div class="info">
