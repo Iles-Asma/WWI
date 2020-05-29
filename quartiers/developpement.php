@@ -4,8 +4,6 @@
     <meta charset="UTF-8">
     <title>Développement</title>
     <link href="style.css" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" crossorigin="anonymous"></script>
-    <script src="app.js"></script>
 </head>
 <body class="dev">
     <!-- <a href="../index.html"><img src="../images/logo.svg"></a> -->
