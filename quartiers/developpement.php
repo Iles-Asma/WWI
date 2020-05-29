@@ -9,7 +9,6 @@
 </head>
 <body class="dev">
     <!-- <a href="../index.html"><img src="../images/logo.svg"></a> -->
-
 <div class="page">
     <div class="deco">
     <div class="arbres">
