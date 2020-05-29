@@ -22,6 +22,12 @@ section{
     bottom: 0;
     width: 100%;
 }
+
+.traits{
+    width:58vw;
+    margin: 0 auto;
+
+}
 a{
     position: absolute;
     top:25px;
@@ -33,7 +39,7 @@ a{
 .page{
     display: flex;
     align-items: flex-end;
-    margin: 15vh auto;
+    margin:auto;
     margin-bottom: 0;
     width: 80vw;
 }
