@@ -65,6 +65,8 @@ a{
 
 .sol{
     width: 100%;
+    position: relative;
+    z-index: 3;
 }
 
 /* DEVELOPPEMENT */
@@ -177,6 +179,9 @@ a{
     margin:auto;
     margin-bottom: 0;
     width: 80%;
+    position: relative;
+    top: 2px;
+    z-index: 1;
 }
 
 .design .arbre1, .arbre2{
@@ -204,7 +209,14 @@ a{
   width: 10vw;
 }
 
-
+.sol1{
+  border-top: 10px #9ad5bf solid;
+  
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
 /* POP-UP */
 .popup{
     display: none;
