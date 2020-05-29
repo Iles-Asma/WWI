@@ -57,33 +57,33 @@ a{
     justify-content: center;
     align-items: flex-end;
 
-    /* position: relative;
-    left: -15vw; */
+    position: relative;
+    left: -15vw;
 }
 
 .deco .panneau, .robot{
     width: 32%;
 }
-.deco .panneau{
-    /* position: relative;
-    left: 7vw; */
+/* .deco .panneau{
+    position: relative;
+    left: 7vw;
 }
 
 .deco .robot{
-    /* position: relative;
-    left: 17.5vw; */
+    position: relative;
+    left: 17.5vw;
 }
 
 .deco .drone{
     width: 28%;
-    /* position: relative;
+    position: relative;
     left: 40vw;
-    top: -35vh; */
-}
+    top: -35vh;
+} */
 .building{
 
-    /* position: relative;
-    top: 4px;  */
+    position: relative;
+    top: 4px; 
 }
 .integrateur{
     width: 12vw;
