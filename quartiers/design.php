@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Développement</title>
+    <title>Design</title>
     <link href="style.css" rel="stylesheet">
 </head>
 
