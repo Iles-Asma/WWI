@@ -655,14 +655,6 @@
                 </div>
             </div>
         </div>
-<<<<<<< HEAD
-
-                        .b977d09c-94af-4c1e-ab06-08e34c4fe32b {
-                            stroke: #5765b2;
-                        }
-
-=======
->>>>>>> 8f61e5c91468e5151ebb0f6eb06cad04dd8a8daf
         <svg class="sol" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 127.5">
             <defs>
                 <style>
