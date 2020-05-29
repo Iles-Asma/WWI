@@ -21,14 +21,7 @@ section{
     width: 100%;
 }
 
-.traits{
-    width: 57vw;
-    margin: 0 auto;
-    position: relative;
-    top: 14.5vh;
-    left: 13.5vw;
 
-}
 
 a{
     position: absolute;
@@ -52,7 +45,7 @@ a{
 
 .building:hover h3{
     opacity: 1;
-    transition: ease-in-out 0.5s;
+    transition: ease-in-out 0.3s;
 }
 .wifi{
     width: 3vw;
@@ -70,6 +63,15 @@ a{
 }
 
 /* DEVELOPPEMENT */
+
+.traits{
+  width: 57vw;
+  margin: 0 auto;
+  position: relative;
+  top: 14.5vh;
+  left: 15.5vw;
+
+}
 .dev .arbre1{
   width: 10vw;
   position: relative;
@@ -97,14 +99,14 @@ a{
   width: 2vw;
   position: absolute;
   top: 34vh;
-  left: 27vw;
+  left: 29vw;
   animation: float 3s ease infinite;
 }
 .wifi{
   width: 3vw;
   position: absolute;
   top: 29vh;
-  left: 55.5vw;
+  left: 57.5vw;
 }
 .panneau{
   width: 12vw;
@@ -115,13 +117,13 @@ a{
 .robot{
   width: 10vw;
   position: relative;
-  left: 6vw;
+  left: 7vw;
 }
 
 .drone{
   width: 8vw;
   position: relative;
-  left: 30vw;
+  left: 33vw;
   top: -32vh;
   animation: float 3s ease infinite;
 }
@@ -133,7 +135,8 @@ a{
   justify-content: center;
   align-items: flex-end;
   position: relative;
-  left: -18vw; 
+  left: -16vw; 
+
 }
 
 .integrateur{
@@ -154,17 +157,19 @@ a{
 .reseau{
   position: relative;
   left: 2vw;
-  width: 10vw;
+  width: 11vw;
 }
 
 .building h3{
   text-align: center;
   color: #515151;
   opacity: 0;
+  font-size: 1.5rem;
 }
 .webmaster h3{
   position: relative;
-  left: 2vw;
+  top: 2.5vh;
+  left: 2.5vw;
 }
 .devweb h3{
   position: relative;
@@ -187,6 +192,16 @@ a{
 .design .arbre1, .arbre2{
   width: 5vw;
 }
+
+.design .arbre1{
+  position: absolute;
+  left: 26vw;
+}
+
+.design .arbre2{
+  position: absolute;
+  left: 51vw;
+}
 .design .batiments{
   width:80%;
   height: 70vh;
@@ -195,18 +210,42 @@ a{
   align-items: flex-end; 
   margin: auto;
 }
-.design .building{
-  margin: 0 10px;
-}
+
 .graphiste , .da{
-  width: 15vw;
+  width: 17vw;
 }
 
 .infographiste {
   width: 14vw;
+  position: relative;
+  z-index: 3;
 }
 .uxui{
-  width: 10vw;
+  width: 11vw;
+  position: relative;
+  right: 2vw;
+  z-index: 1;
+}
+
+.design .graphiste h3{
+  position: relative;
+  top: 15vh;
+  left: 1vw;
+}
+.design .infographiste h3{
+  position: relative;
+  top: 10vh;
+  right: 1.5vw;
+}
+.design .uxui h3{
+  position: relative;
+  top: 3vh;
+}
+.design .da h3{
+  position: relative;
+  top: 17vh;
+  right: 0.5vw;
+
 }
 
 .sol1{
@@ -220,6 +259,7 @@ a{
 /* POP-UP */
 .popup{
     display: none;
+   
   }
   .open{
     cursor: pointer;
