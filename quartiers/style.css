@@ -1,11 +1,10 @@
 @font-face {
-    font-family: "DIN-Regular";
+    font-family: "DIN-Light";
 
     src:
-        url("./fonts/DINRegular.woff") format("woff"),
-        /* Modern Browsers */
-        url("./fonts/DINRegular.woff2") format("woff2");
-    /* Modern Browsers */
+        url("../fonts/DINLight.woff") format("woff"),
+
+        url("../fonts/DINLight.woff2") format("woff2");
     font-weight: normal;
     font-style: normal;
 }
@@ -13,7 +12,7 @@
 
 body {
     overflow: hidden;
-    font-family: "DIN-Regular";
+    font-family: "DIN-Light";
     background-color: #92d2f4;
     margin: 0;
 }
@@ -24,8 +23,11 @@ section{
 }
 
 .traits{
-    width:58vw;
+    width: 57vw;
     margin: 0 auto;
+    position: relative;
+    top: 14.5vh;
+    left: 13.5vw;
 
 }
 a{
@@ -42,51 +44,59 @@ a{
     margin:auto;
     margin-bottom: 0;
     width: 80vw;
+
 }
-.deco{
-    width: 30vw;
-    height: 35vh;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: flex-end;
-    z-index: 1;
+
+.position{
+    width: 2vw;
+    position: absolute;
+    top: 34vh;
+    left: 27vw;
+    animation: float 3s ease infinite;
 }
-.arbres{
-    display: flex;
-    align-items: flex-end;
-    width: 20vw;
-    z-index: 1;
+.wifi{
+    width: 3vw;
+    position: absolute;
+    top: 29vh;
+    left: 55.5vw;
 }
+
+
 .arbre1{
-    width: 6vw;
-    position: relative;
-    left: 42.5vw;
-}
-.arbre2{
-    width: 7vw;
-    position: relative;
-    left: 60vw;
-}
-
-
-
-.deco .panneau{
     width: 10vw;
     position: relative;
-    right: 3vw;
+    left: 38vw;
+    z-index: 3;
 }
-
-.deco .robot{
-    width: 8vw;
+.arbre2{
+    width: 10vw;
     position: relative;
-    left: 7vw;
+    left: 59vw;
+    z-index: 3;
 }
 
-.deco .drone{
+.objet{
+    z-index: 4;
+}
+
+.panneau{
+    width: 12vw;
+    position: relative;
+    right: 3vw; 
+}
+
+.robot{
+    width: 10vw;
+    position: relative;
+    left: 6vw;
+}
+
+.drone{
     width: 8vw;
     position: relative;
     left: 30vw;
     top: -32vh;
+    animation: float 3s ease infinite;
 }
 
 /* BATIMENTS */
@@ -98,7 +108,8 @@ a{
     align-items: flex-end;
 
     position: relative;
-    left: -17vw;
+    left: -18vw;
+   
 }
 .building{
     position: relative;
@@ -108,6 +119,7 @@ a{
 .integrateur{
     width: 12vw;
     margin: 0 20px;
+
 }
 
 .webmaster{
@@ -116,21 +128,144 @@ a{
 }
 
  .devweb{
+    position: relative;
+    left: 2vw;
     width: 12vw;
 }
 
 .reseau{
+    position: relative;
+    left: 2vw;
     width: 10vw;
 }
 
 
-h3{
+.building h3{
     text-align: center;
+    color: #515151;
+    opacity: 0;
+}
+.webmaster h3{
+    position: relative;
+    left: 2vw;
+}
+.devweb h3{
+    position: relative;
+    left: -1vw;
+
+}
+
+.building:hover h3{
+    opacity: 1;
+    transition: ease-in-out 0.5s;
 }
 
 .sol{
     width: 100%;
 }
 
+/* POP-UP */
+.popup{
+    display: none;
+  }
+  .open{
+    cursor: pointer;
+  }
+  
+  .popup-open{
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .background{
+    z-index: 20;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .info{
+    position: absolute;
+    top: 40%;
+    left: 25%;
+
+    background-color: white;
+    border-radius: 20px;
+    width: 50%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    z-index: 2000;
+  }
+  
+  .info h3{
+    text-align: center;
+    margin:0 2vw;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C4D8EC;
+  }
+  .info p{
+    margin:0 2vw;
+    font-weight: normal;
+  }
+  .close{
+    width: 3vw;
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+    background: none;
+    position: absolute;
+    top: 2vh;
+    right: 1vw;
+    cursor: pointer;
+  }
 
 
+
+/* ANIMATION */
+@-webkit-keyframes float {
+    0% {
+      box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.2);
+      -webkit-transform: translatey(0px);
+      transform: translatey(0px);
+    }
+  
+    50% {
+      box-shadow: 0 15px 15px 0px rgba(0, 0, 0, 0.2);
+      -webkit-transform: translatey(-5px);
+      transform: translatey(-5px);
+    }
+  
+    100% {
+      box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.2);
+      -webkit-transform: translatey(0px);
+      transform: translatey(0px);
+    }
+  }
+  
+  @keyframes float {
+    0% {
+      -webkit-transform: translatey(0px);
+      transform: translatey(0px);
+    }
+  
+    50% {
+      -webkit-transform: translatey(-5px);
+      transform: translatey(-5px);
+    }
+  
+    100% {
+      -webkit-transform: translatey(0px);
+      transform: translatey(0px);
+    }
+  }
