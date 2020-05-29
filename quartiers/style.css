@@ -21,15 +21,20 @@ section{
     width: 100%;
 }
 
-
-
 a{
-    position: absolute;
-    top:25px;
+    position: fixed;
+    top:15px;
     left: 25px;
-    width: 11.30vw;
+    width: 10vw;
     margin: 0;
+    text-decoration: none;
+    cursor: pointer;
 }
+a h1{
+  font-size: 1.5vw;
+  color: #515151;
+}
+
 .objet{
   z-index: 4;
 }
@@ -280,7 +285,7 @@ a{
   
   .background{
     z-index: 20;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
