@@ -43,6 +43,13 @@ a{
     top: 4px; 
 }
 
+.building h3{
+  text-align: center;
+  color: #515151;
+  opacity: 0;
+  font-size: 1.5625vw;
+}
+
 .building:hover h3{
     opacity: 1;
     transition: ease-in-out 0.3s;
@@ -160,12 +167,7 @@ a{
   width: 11vw;
 }
 
-.building h3{
-  text-align: center;
-  color: #515151;
-  opacity: 0;
-  font-size: 1.5rem;
-}
+
 .webmaster h3{
   position: relative;
   top: 2.5vh;
