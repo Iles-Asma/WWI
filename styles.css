@@ -12,11 +12,6 @@
     font-style: normal;
 }
 
-
-
-
-
-
 body {
     overflow: hidden;
     font-family: "DIN-Regular";
@@ -335,10 +330,10 @@ a:hover {
 }
 
 .boatMouvLeft{
-    animation: boatMouvLeftAnim 9s ease forwards;
+    animation: boatMouvLeftAnim 6s linear forwards;
 }
 .boatMouvRight {
-    animation: boatMouvRightAnim 7s ease forwards;
+    animation: boatMouvRightAnim 5s linear forwards;
 }
 
 @keyframes boatMouvLeftAnim {
