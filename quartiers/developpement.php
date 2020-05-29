@@ -456,7 +456,7 @@
                 </div>
 
                 <div class="integrateur building">
-                    <h3>Integrateur</h3>
+                    <h3>Intégrateur</h3>
                     <svg class="open" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 264 705">
                         <defs>
                             <style>
