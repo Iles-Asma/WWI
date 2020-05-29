@@ -572,8 +572,8 @@
                 </div>
             </div>
         </div>
-        <div class=""></div>
-<svg class="sol" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 126"><defs><style>.a92431fa-daa9-4ecb-8182-79e84ddf78c2{fill:#9ad5bf;}.b4771122-dcc2-47dc-8d88-2081684c7cdf{fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2px;}</style></defs><title>sol-design</title><g id="f6cfd1bd-dcd1-4db8-807b-8dccc59adfaf" data-name="Calque 2"><g id="ecf5852e-6bf1-40c9-a600-e0ca9dafd29b" data-name="Calque 1"><rect class="a92431fa-daa9-4ecb-8182-79e84ddf78c2" width="1920" height="126"/></g><g id="a9c86f69-a449-43b0-ab55-7f93d5c46697" data-name="Calque 8"><line class="b4771122-dcc2-47dc-8d88-2081684c7cdf" x1="46" y1="1" x2="1876" y2="3"/><line class="b4771122-dcc2-47dc-8d88-2081684c7cdf" x1="366" y1="24" x2="868" y2="26"/><line class="b4771122-dcc2-47dc-8d88-2081684c7cdf" x1="953" y1="60" x2="1455" y2="62"/><line class="b4771122-dcc2-47dc-8d88-2081684c7cdf" x1="735" y1="39.33" x2="941" y2="38.67"/></g></g></svg>
+        <div class="sol1"></div>
+        <svg class="sol" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 126"><defs><style>.a92431fa-daa9-4ecb-8182-79e84ddf78c2{fill:#9ad5bf;}.b4771122-dcc2-47dc-8d88-2081684c7cdf{fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2px;}</style></defs><title>sol-design</title><g id="f6cfd1bd-dcd1-4db8-807b-8dccc59adfaf" data-name="Calque 2"><g id="ecf5852e-6bf1-40c9-a600-e0ca9dafd29b" data-name="Calque 1"><rect class="a92431fa-daa9-4ecb-8182-79e84ddf78c2" width="1920" height="126"/></g><g id="a9c86f69-a449-43b0-ab55-7f93d5c46697" data-name="Calque 8"><line class="b4771122-dcc2-47dc-8d88-2081684c7cdf" x1="46" y1="1" x2="1876" y2="3"/><line class="b4771122-dcc2-47dc-8d88-2081684c7cdf" x1="366" y1="24" x2="868" y2="26"/><line class="b4771122-dcc2-47dc-8d88-2081684c7cdf" x1="953" y1="60" x2="1455" y2="62"/><line class="b4771122-dcc2-47dc-8d88-2081684c7cdf" x1="735" y1="39.33" x2="941" y2="38.67"/></g></g></svg>
     </section>
 
 
