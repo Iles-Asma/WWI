@@ -295,7 +295,7 @@
 </body>
 
 </html>
-=======
+
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -593,4 +593,3 @@
 </body>
 
 </html>
->>>>>>> 69a7a1e6e5163108fc8b711a8ddf1d7225b50f50

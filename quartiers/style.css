@@ -49,19 +49,10 @@ a{
     position: relative;
     top: 4px; 
 }
-<<<<<<< HEAD
 
 .building:hover h3{
     opacity: 1;
     transition: ease-in-out 0.5s;
-=======
-.wifi{
-    width: 3vw;
-    position: absolute;
-    top: 29vh;
-    left: 55.5vw;
-    display: none;
->>>>>>> fffe11826e2e741e53a35d214fa4922ec985a4d3
 }
 
 .sol{
