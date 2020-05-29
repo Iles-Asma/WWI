@@ -259,6 +259,112 @@ a:hover {
 .accueilEnd {
     animation: accueilAnim 5s ease forwards;
 }
+.logo {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    width: 11.30vw;
+    z-index: -7;
+}
+
+.island {
+    z-index: -8;
+    position: absolute;
+    width: 56.57vw;
+    height: 87.78vh;
+    left: 21.34%;
+    top: 10.81%;
+
+    max-width: 1086.13px;
+    max-height: 948.03px;
+}
+
+.communication,.audiovisuel,.mmi,.design,.dev,.propos{
+    cursor: pointer;
+}
+.vague1{
+    position: absolute;
+    z-index: -7;
+    width: 15.07vw;
+    height: 5.43vh;
+    top: 23.43%;
+    left: 7.22%;
+}
+.vague2{
+    position: absolute;
+    z-index: -7;
+    width: 12.34vw;
+    height: 3.88vh;
+
+    top: 77.16%;
+    left: 11.15%;
+}
+.vague3 {
+    position: absolute;
+    z-index: -7;
+    width: 12.34vw;
+    height: 3.88vh;
+
+    left: 76.96%;
+    top: 23.41%;
+}
+.vague4 {
+    position: absolute;
+    z-index: -7;
+    width: 13.8vw;
+    height: 4.9vh;
+
+    left: 79.32%;
+    top: 70.84%;
+}
+.boat1 {
+    position: absolute;
+    z-index: -7;
+    width: 7.06vw;
+    height: 11.02vh;
+    top: 32.92%;
+    left: 100%;
+}
+.boat2 {
+    position: absolute;
+    z-index: -7;
+    width: 7.56vw;
+    height: 4.07vh;
+    left: 0%;
+    top: 64.93%;
+}
+
+.boatMouvLeft{
+    animation: boatMouvLeftAnim 9s ease forwards;
+}
+.boatMouvRight {
+    animation: boatMouvRightAnim 7s ease forwards;
+}
+
+@keyframes boatMouvLeftAnim {
+
+    from {
+        left: 100%;
+        opacity: 0%;
+    }
+
+    to {
+        left:77.25%;
+        opacity: 100%;
+    }
+}
+
+@keyframes boatMouvRightAnim {
+    from {
+        left:0%;
+        opacity: 0%;
+    }
+
+    to {
+        left:12.31%;
+        opacity: 100%;
+    }
+}
 
 @keyframes mouvRightAnim {
     From {
@@ -297,79 +403,4 @@ a:hover {
     To {
         opacity: 0%;
     }
-}
-
-.logo {
-    position: absolute;
-    top: 25px;
-    left: 25px;
-    width: 11.30vw;
-    z-index: -7;
-}
-
-.island {
-    z-index: -8;
-    position: absolute;
-    width: 56.57vw;
-    height: 87.78vh;
-    left: 21.34%;
-    top: 10.81%;
-
-    max-width: 1086.13px;
-    max-height: 948.03px;
-}
-
-.communication,.audiovisuel,.mmi,.design,.dev,.propos{
-    cursor: pointer;
-}
-.boat1 {
-    position: absolute;
-    z-index: -7;
-    width: 7.06vw;
-    height: 11.02vh;
-    top: 32.92%;
-    left: 77.25%;
-}
-.boat2 {
-    position: absolute;
-    z-index: -7;
-    width: 7.56vw;
-    height: 4.07vh;
-    left: 12.31%;
-    top: 64.93%;
-}
-.vague1{
-    position: absolute;
-    z-index: -7;
-    width: 15.07vw;
-    height: 5.43vh;
-    top: 23.43%;
-    left: 7.22%;
-}
-.vague2{
-    position: absolute;
-    z-index: -7;
-    width: 12.34vw;
-    height: 3.88vh;
-
-    top: 77.16%;
-    left: 11.15%;
-}
-.vague3 {
-    position: absolute;
-    z-index: -7;
-    width: 12.34vw;
-    height: 3.88vh;
-
-    left: 76.96%;
-    top: 23.41%;
-}
-.vague4 {
-    position: absolute;
-    z-index: -7;
-    width: 13.8vw;
-    height: 4.9vh;
-
-    left: 79.32%;
-    top: 70.84%;
 }

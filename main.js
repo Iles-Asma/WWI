@@ -76,6 +76,8 @@ function buttonVisit () { // fonction buttonVisit qui active l'animation des nua
     $(".div-gauche").addClass("mouvLeft");
     $(".div-droite").addClass("mouvRight");
     $(".intro-div").addClass("accueilEnd");
+    $(".boat1").addClass("boatMouvLeft");
+    $(".boat2").addClass("boatMouvRight")
     $("title").text("Bienvenue sur WWI !");
     setTimeout(function(){
         $(".intro-div").remove();
