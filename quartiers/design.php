@@ -8,9 +8,9 @@
 </head>
 
 <body class="design">
-    <!-- <a href="../index.html"><img src="../images/logo.svg"></a> -->
-
+<a href="../index.html"><h1> &xlarr; Retour </h1></a>
     <section>
+    
         <div class="popup">
             <div class="background"></div>
             <div class="info">
