@@ -413,8 +413,8 @@ a:hover {
   
     50% {
       box-shadow: 0 15px 15px 0px rgba(0, 0, 0, 0.2);
-      -webkit-transform: translatey(-10px);
-      transform: translatey(-10px);
+      -webkit-transform: translatey(-5px);
+      transform: translatey(-5px);
     }
   
     100% {
@@ -431,8 +431,8 @@ a:hover {
     }
   
     50% {
-      -webkit-transform: translatey(-10px);
-      transform: translatey(-10px);
+      -webkit-transform: translatey(-5px);
+      transform: translatey(-5px);
     }
   
     100% {
