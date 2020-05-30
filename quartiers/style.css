@@ -346,27 +346,26 @@ a h1 {
   width: 20vw;
 }
 
-.audio .graphiste h3 {
+.audio .motion h3 {
   position: relative;
-  top: 15vh;
+  top: 4vh;
   left: 1vw;
 }
 
-.audio .infographiste h3 {
+.audio .videaste h3 {
   position: relative;
-  top: 10vh;
+  top: 16vh;
   right: 1.5vw;
 }
 
-.audio .uxui h3 {
+.audio .sound h3 {
   position: relative;
-  top: 3vh;
+  top: 8vh;
 }
 
-.audio .da h3 {
+.audio .vfx h3 {
   position: relative;
-  top: 17vh;
-  right: 0.5vw;
+  top: 3vh;
 
 }
 
