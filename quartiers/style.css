@@ -183,6 +183,14 @@ a h1{
   left: -1vw;
 }
 
+.dev .sol1{
+  border-top: 10px #96cfe2 solid;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
 /* DESIGN */
 
 .design .page{
