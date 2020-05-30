@@ -278,48 +278,52 @@ a h1{
   align-items: flex-end;
   margin:auto;
   margin-bottom: 0;
-  width: 80%;
+  width: 100%;
   position: relative;
   top: 2px;
   z-index: 1;
 }
 
-.audio .arbre1, .arbre2{
-width: 5vw;
-}
-
 .audio .arbre1{
+  width: 4vw;
 position: absolute;
 left: 26vw;
 }
 
 .audio .arbre2{
+  width: 5vw;
 position: absolute;
 left: 51vw;
 }
 .audio .batiments{
-width:80%;
+
 height: 70vh;
 display: flex;
 justify-content: center;
 align-items: flex-end; 
 margin: auto;
 }
-
-.motion, .vfx{
-width: 17vw;
+.audio .building{
+  margin: 0 10px;
 }
+.motion{
+width: 20vw;
+}
+
 
 .videaste {
-width: 14vw;
-position: relative;
-z-index: 3;
+width: 21vw;
+/* position: relative;
+z-index: 3; */
 }
 .sound{
-width: 11vw;
-position: relative;
+width:15vw;
+/* position: relative;
 right: 2vw;
-z-index: 1;
+z-index: 1; */
+}
+.vfx{
+  width: 18vw;
 }
 
 .audio .graphiste h3{
