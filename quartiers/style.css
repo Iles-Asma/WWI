@@ -255,14 +255,93 @@ a h1{
 
 }
 
-.sol1{
+.design .sol1{
   border-top: 10px #9ad5bf solid;
-  
     width: 100%;
     position: absolute;
     left: 0;
     bottom: 0;
 }
+
+/* AUDIOVISUEL CSS */
+
+.audio .page{
+  display: flex;
+  align-items: flex-end;
+  margin:auto;
+  margin-bottom: 0;
+  width: 80%;
+  position: relative;
+  top: 2px;
+  z-index: 1;
+}
+
+.audio .arbre1, .arbre2{
+width: 5vw;
+}
+
+.audio .arbre1{
+position: absolute;
+left: 26vw;
+}
+
+.audio .arbre2{
+position: absolute;
+left: 51vw;
+}
+.audio .batiments{
+width:80%;
+height: 70vh;
+display: flex;
+justify-content: center;
+align-items: flex-end; 
+margin: auto;
+}
+
+.graphiste , .da{
+width: 17vw;
+}
+
+.infographiste {
+width: 14vw;
+position: relative;
+z-index: 3;
+}
+.uxui{
+width: 11vw;
+position: relative;
+right: 2vw;
+z-index: 1;
+}
+
+.audio .graphiste h3{
+position: relative;
+top: 15vh;
+left: 1vw;
+}
+.audio .infographiste h3{
+position: relative;
+top: 10vh;
+right: 1.5vw;
+}
+.audio .uxui h3{
+position: relative;
+top: 3vh;
+}
+.audio .da h3{
+position: relative;
+top: 17vh;
+right: 0.5vw;
+
+}
+.audio .sol1{
+  border-top: 10px #efc68f solid;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
 /* POP-UP */
 .popup{
     display: none;
