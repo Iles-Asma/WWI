@@ -556,7 +556,7 @@ a:hover {
 
     50% {
         box-shadow: 0 15px 15px 0px rgba(0, 0, 0, 0.2);
-        transform: translatey(-2.5px);
+        transform: translatey(-4px);
     }
 
     100% {
@@ -571,7 +571,7 @@ a:hover {
     }
 
     50% {
-        transform: translatey(-2.5px);
+        transform: translatey(-4px);
     }
 
     100% {

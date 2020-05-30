@@ -305,7 +305,7 @@
                         <line class="e81a7fd6-1825-4f68-8560-17d7f11b040b" x1="44.29" y1="31" x2="44.29" y2="49.56" />
                         <path class="ba7ddc8b-0085-41bd-98c0-74711e1d6080"
                             d="M52.91,42.6h-17A12.49,12.49,0,0,1,23.41,30.11V21.3A21.1,21.1,0,0,1,44.29,0h0A21.1,21.1,0,0,1,65.17,21.3v8.81A12.4,12.4,0,0,1,52.91,42.6Z" />
-                        <path class="e81a7fd6-1825-4f68-8560-17d7f11b040b"
+                        <path id="robotArm" class="e81a7fd6-1825-4f68-8560-17d7f11b040b"
                             d="M67.9,57.86c3,4.81,6.87,11.47,11,19.76,7.57,15.28,9,22.16,11.89,22.27,3.28.12,7.8-8.38,13.71-42" />
                         <path class="e81a7fd6-1825-4f68-8560-17d7f11b040b"
                             d="M21.86,61.89A48.33,48.33,0,0,0,11.64,79.32c-3.54,11-1.4,19-.77,34.9A213.17,213.17,0,0,1,9.94,144" />
@@ -321,7 +321,7 @@
                             d="M35,186.42H26.28a32.28,32.28,0,0,1-8,2.4c-5.65.92-8.66-.16-10.8,1.83-1,.89-1.91,2.57-1.73,6L35,195.51v-9.09Z" />
                         <circle cx="36.68" cy="21.34" r="2.93" />
                         <circle cx="55.08" cy="21.34" r="2.93" />
-                        <path class="b977d09c-94af-4c1e-ab06-08e34c4fe32b"
+                        <path id="robotHand" class="b977d09c-94af-4c1e-ab06-08e34c4fe32b"
                             d="M100,40.69c-1.34,7.45,2.11,14.15,6,14.73s8.49-5.08,8.35-12.82" />
                         <path class="b977d09c-94af-4c1e-ab06-08e34c4fe32b"
                             d="M16.43,155.26c1.18-7.48-2.41-14.08-6.34-14.54S1.71,146,2,153.74" />
@@ -687,15 +687,20 @@
 
     <script type="text/javascript">
         $(document).ready(function () {
+            var navigateur = navigator.userAgent;
             $(".open").click(function () {
                 $(".popup").show();
             });
             $(".background, .close").click(function () {
                 $(".popup").hide();
             });
-
+            
             wifiAnim();
-
+            
+            if ((navigateur.indexOf("Chrome") >= 1 && navigateur.indexOf("Edge") <= 0)) {
+                $("#robotArm").addClass("armMouv");
+                $("#robotHand").addClass("handMouv");
+            };
 
         });
         function wifiAnim() {
