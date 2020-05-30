@@ -298,16 +298,16 @@ align-items: flex-end;
 margin: auto;
 }
 
-.graphiste , .da{
+.motion, .vfx{
 width: 17vw;
 }
 
-.infographiste {
+.videaste {
 width: 14vw;
 position: relative;
 z-index: 3;
 }
-.uxui{
+.sound{
 width: 11vw;
 position: relative;
 right: 2vw;
