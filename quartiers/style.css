@@ -377,7 +377,95 @@ a h1 {
 }
 
 /* COMMUNICATION CSS */
+.com .page {
+  display: flex;
+  align-items: flex-end;
+  margin: auto;
+  margin-bottom: 0;
+  width: 100%;
+  position: relative;
+  top: 2px;
+  z-index: 1;
 
+}
+
+.com .arbre1 , .arbre2, .arbre3{
+  width: 5vw;
+
+}
+.com .arbre1 {
+  position: absolute;
+  left: 13vw;
+}
+.com .arbre2 {
+  position: absolute;
+  left: 29vw;
+  z-index: 9;
+}
+
+.com .arbre3 {
+  position: absolute;
+  left: 80vw;
+  z-index: 9;
+ 
+}
+
+.com .batiments {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin: auto;
+}
+
+
+.marketing {
+  width: 11.5vw;
+  position: relative;
+  right: 1vw;
+
+}
+
+.data {
+  width: 16vw;
+  position: relative;
+  z-index: 6;
+}
+
+.projet {
+  width: 11.7vw;
+  position: relative;
+  right: 2.5vw;
+}
+
+.charge {
+  width: 12vw;
+}
+.manager {
+  width: 13vw;
+}
+
+.audio .motion h3 {
+  position: relative;
+  top: 4vh;
+  left: 1vw;
+}
+
+.audio .videaste h3 {
+  position: relative;
+  top: 16vh;
+  right: 1.5vw;
+}
+
+.audio .sound h3 {
+  position: relative;
+  top: 8vh;
+}
+
+.audio .vfx h3 {
+  position: relative;
+  top: 3vh;
+}
 
 .com .sol1{
   border-top: 10px #fcbdb6 solid;
