@@ -46,7 +46,7 @@
                 </div>
         </div>
 
-        <div></div>
+        <div class="sol1"></div>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 127"><defs><style>.ae4345ba-d018-4723-a7a2-7f5e831278b0{fill:#efc68f;}.e203cd62-204c-4818-a83c-1eced5c041b7{fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2px;}</style></defs><title>sol_audio</title><g id="be67d027-dd75-44dd-ba9d-b11a9058f57a" data-name="Calque 2"><g id="b79e29a3-6234-41e8-a1bb-cf94e5c62f71" data-name="Calque 1"><rect class="ae4345ba-d018-4723-a7a2-7f5e831278b0" y="1" width="1920" height="126"/></g><g id="bedcd530-08c9-454b-8ce0-723ee126dc46" data-name="Calque 5"><line class="e203cd62-204c-4818-a83c-1eced5c041b7" x1="13" y1="1" x2="1843" y2="3"/><line class="e203cd62-204c-4818-a83c-1eced5c041b7" x1="657" y1="16" x2="1797" y2="18"/><line class="e203cd62-204c-4818-a83c-1eced5c041b7" x1="224" y1="40" x2="1006" y2="42"/><line class="e203cd62-204c-4818-a83c-1eced5c041b7" x1="928" y1="82" x2="1710" y2="84"/></g></g></svg>    </section>
 
 
