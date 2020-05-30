@@ -389,13 +389,13 @@ a h1 {
 
 }
 
-.com .arbre1 , .arbre2, .arbre3{
+.com .arbre2, .arbre3{
   width: 5vw;
-
 }
 .com .arbre1 {
+  width: 7vw;
   position: absolute;
-  left: 13vw;
+  left: 12vw;
 }
 .com .arbre2 {
   position: absolute;
@@ -445,26 +445,30 @@ a h1 {
   width: 13vw;
 }
 
-.audio .motion h3 {
-  position: relative;
-  top: 4vh;
-  left: 1vw;
+.marketing h3{
+ position: relative;
+ top: 2vh; 
 }
-
-.audio .videaste h3 {
+.data h3 {
   position: relative;
-  top: 16vh;
-  right: 1.5vw;
+  top: 10vh;
+  left:0.5vw;
 }
-
-.audio .sound h3 {
-  position: relative;
-  top: 8vh;
-}
-
-.audio .vfx h3 {
+.projet h3 {
   position: relative;
   top: 3vh;
+  left: 1vw;
+}
+.charge h3 {
+  position: relative;
+  top: 13vh;
+  /* right: 1.5vw; */
+}
+
+.manager h3 {
+  position: relative;
+  top: 3vh;
+  left: 1vw;
 }
 
 .com .sol1{
