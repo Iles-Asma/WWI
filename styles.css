@@ -244,15 +244,18 @@ a:hover {
 
 
 .mouvRight {
-    animation: mouvRightAnim 5s ease forwards;
+    -webkit-animation: mouvRightAnim 5s ease forwards;
+            animation: mouvRightAnim 5s ease forwards;
 }
 
 .mouvLeft {
-    animation: mouvLeftAnim 5s ease forwards;
+    -webkit-animation: mouvLeftAnim 5s ease forwards;
+            animation: mouvLeftAnim 5s ease forwards;
 }
 
 .accueilEnd {
-    animation: accueilAnim 5s ease forwards;
+    -webkit-animation: accueilAnim 5s ease forwards;
+            animation: accueilAnim 5s ease forwards;
 }
 .logo {
     position: absolute;
@@ -330,18 +333,36 @@ a:hover {
 }
 
 .boatMouvLeft{
-    animation: boatMouvLeftAnim 6s linear forwards,
+    -webkit-animation: boatMouvLeftAnim 6s linear forwards,
+                float 3s ease infinite;
+            animation: boatMouvLeftAnim 6s linear forwards,
                 float 3s ease infinite;
 }
 .boatMouvRight {
-    animation: boatMouvRightAnim 5s linear forwards,
+    -webkit-animation: boatMouvRightAnim 5s linear forwards,
+                float 4s ease infinite;
+            animation: boatMouvRightAnim 5s linear forwards,
                 float 4s ease infinite;
 }
 .audiovisuel-over{
-    animation: audiovisuelOverAnim 0.75s ease forwards;
+    -webkit-animation: audiovisuelOverAnim 0.75s ease forwards;
+            animation: audiovisuelOverAnim 0.75s ease forwards;
 }
 .audiovisuel-leave{
-    animation: audiovisuelLeaveAnim 0.75s ease forwards;
+    -webkit-animation: audiovisuelLeaveAnim 0.75s ease forwards;
+            animation: audiovisuelLeaveAnim 0.75s ease forwards;
+}
+@-webkit-keyframes boatMouvLeftAnim {
+
+    from {
+        left: 100%;
+        opacity: 0%;
+    }
+
+    to {
+        left:77.25%;
+        opacity: 100%;
+    }
 }
 @keyframes boatMouvLeftAnim {
 
@@ -352,6 +373,18 @@ a:hover {
 
     to {
         left:77.25%;
+        opacity: 100%;
+    }
+}
+
+@-webkit-keyframes boatMouvRightAnim {
+    from {
+        left:0%;
+        opacity: 0%;
+    }
+
+    to {
+        left:12.31%;
         opacity: 100%;
     }
 }
@@ -368,6 +401,20 @@ a:hover {
     }
 }
 
+@-webkit-keyframes mouvRightAnim {
+    From {
+
+        transform: translateX(0px);
+
+    }
+
+    To {
+
+        transform: translateX(1000px);
+
+    }
+}
+
 @keyframes mouvRightAnim {
     From {
 
@@ -378,6 +425,21 @@ a:hover {
     To {
 
         transform: translateX(1000px);
+
+    }
+}
+
+@-webkit-keyframes mouvLeftAnim {
+    From {
+
+
+        transform: translateX(0px);
+
+    }
+
+    To {
+
+        transform: translateX(-1000px);
 
     }
 }
@@ -397,6 +459,16 @@ a:hover {
     }
 }
 
+@-webkit-keyframes accueilAnim {
+    From {
+        opacity: 100%;
+    }
+
+    To {
+        opacity: 0%;
+    }
+}
+
 @keyframes accueilAnim {
     From {
         opacity: 100%;
@@ -412,45 +484,55 @@ a:hover {
 @-webkit-keyframes float {
     0% {
       box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.2);
-      -webkit-transform: translatey(0px);
       transform: translatey(0px);
     }
   
     50% {
       box-shadow: 0 15px 15px 0px rgba(0, 0, 0, 0.2);
-      -webkit-transform: translatey(-5px);
       transform: translatey(-5px);
     }
   
     100% {
       box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.2);
-      -webkit-transform: translatey(0px);
       transform: translatey(0px);
     }
   }
   
 @keyframes float {
     0% {
-      -webkit-transform: translatey(0px);
       transform: translatey(0px);
     }
   
     50% {
-      -webkit-transform: translatey(-5px);
       transform: translatey(-5px);
     }
   
     100% {
-      -webkit-transform: translatey(0px);
       transform: translatey(0px);
     }
   }
+@-webkit-keyframes audiovisuelOverAnim {
+    0% {
+        d: path("M380.23,214.27c-20.7-49.68,30.5-119.73,68-150,11.38-9.19,46.84-37.36,96-39,17.64-.59,48.8,1.75,125,53,79,53.1,155.47,104.55,145,152-5.9,26.76-37.76,44.5-62,58-14,7.79-39.17,22.2-73,23-27.44.65-48-7.82-56-11C502.25,252,404,271.4,380.23,214.27Z");
+    }
+    100%{
+        d: path("M380.54,220.21C358.48,169,413.06,96.76,453,65.55,465.17,56.07,503,27,555.37,25.34c18.81-.61,52,1.8,133.26,54.64,84.18,54.76,165.73,107.81,154.57,156.73-6.29,27.59-40.26,45.89-66.09,59.81-14.91,8-41.75,22.89-77.82,23.71-29.25.67-51.18-8.06-59.7-11.34C510.62,259.14,405.92,279.12,380.54,220.21Z");
+    }
+}
 @keyframes audiovisuelOverAnim {
     0% {
         d: path("M380.23,214.27c-20.7-49.68,30.5-119.73,68-150,11.38-9.19,46.84-37.36,96-39,17.64-.59,48.8,1.75,125,53,79,53.1,155.47,104.55,145,152-5.9,26.76-37.76,44.5-62,58-14,7.79-39.17,22.2-73,23-27.44.65-48-7.82-56-11C502.25,252,404,271.4,380.23,214.27Z");
     }
     100%{
         d: path("M380.54,220.21C358.48,169,413.06,96.76,453,65.55,465.17,56.07,503,27,555.37,25.34c18.81-.61,52,1.8,133.26,54.64,84.18,54.76,165.73,107.81,154.57,156.73-6.29,27.59-40.26,45.89-66.09,59.81-14.91,8-41.75,22.89-77.82,23.71-29.25.67-51.18-8.06-59.7-11.34C510.62,259.14,405.92,279.12,380.54,220.21Z");
+    }
+}
+@-webkit-keyframes audiovisuelLeaveAnim {
+    0% {
+        d: path("M380.54,220.21C358.48,169,413.06,96.76,453,65.55,465.17,56.07,503,27,555.37,25.34c18.81-.61,52,1.8,133.26,54.64,84.18,54.76,165.73,107.81,154.57,156.73-6.29,27.59-40.26,45.89-66.09,59.81-14.91,8-41.75,22.89-77.82,23.71-29.25.67-51.18-8.06-59.7-11.34C510.62,259.14,405.92,279.12,380.54,220.21Z");
+    }
+    100%{
+        d: path("M380.23,214.27c-20.7-49.68,30.5-119.73,68-150,11.38-9.19,46.84-37.36,96-39,17.64-.59,48.8,1.75,125,53,79,53.1,155.47,104.55,145,152-5.9,26.76-37.76,44.5-62,58-14,7.79-39.17,22.2-73,23-27.44.65-48-7.82-56-11C502.25,252,404,271.4,380.23,214.27Z");
     }
 }
 @keyframes audiovisuelLeaveAnim {
