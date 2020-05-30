@@ -331,11 +331,11 @@ a:hover {
 
 .boatMouvLeft{
     animation: boatMouvLeftAnim 6s linear forwards,
-                float 6s ease infinite;
+                float 3s ease infinite;
 }
 .boatMouvRight {
     animation: boatMouvRightAnim 5s linear forwards,
-                float 6s ease infinite;
+                float 4s ease infinite;
 }
 
 @keyframes boatMouvLeftAnim {
