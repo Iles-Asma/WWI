@@ -71,7 +71,7 @@ a h1{
 .sol{
     width: 100%;
     position: relative;
-    z-index: 3;
+    z-index: 10;
 }
 
 /* DEVELOPPEMENT */
@@ -201,7 +201,6 @@ a h1{
     width: 80%;
     position: relative;
     top: 2px;
-    z-index: 1;
 }
 
 .design .arbre1, .arbre2{
@@ -278,10 +277,11 @@ a h1{
   align-items: flex-end;
   margin:auto;
   margin-bottom: 0;
-  width: 100%;
+  width:100%;
   position: relative;
   top: 2px;
   z-index: 1;
+ 
 }
 
 .audio .arbre1{
@@ -296,7 +296,6 @@ position: absolute;
 left: 51vw;
 }
 .audio .batiments{
-
 height: 70vh;
 display: flex;
 justify-content: center;
@@ -306,24 +305,27 @@ margin: auto;
 .audio .building{
   margin: 0 10px;
 }
-.motion{
-width: 20vw;
-}
 
+.motion{
+width: 21vw;
+
+}
 
 .videaste {
-width: 21vw;
-/* position: relative;
-z-index: 3; */
+width: 22vw;
+position: relative;
+z-index: 8;
 }
+
 .sound{
-width:15vw;
-/* position: relative;
+width:16vw;
+position: relative;
 right: 2vw;
-z-index: 1; */
+
+
 }
 .vfx{
-  width: 18vw;
+  width: 20vw;
 }
 
 .audio .graphiste h3{
