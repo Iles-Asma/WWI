@@ -654,6 +654,7 @@
                 </div>
             </div>
         </div>
+        <div class="sol1"></div>
         <svg class="sol" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 127.5">
             <defs>
                 <style>
