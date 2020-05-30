@@ -1,41 +1,43 @@
 @font-face {
-    font-family: "DIN-Light";
+  font-family: "DIN-Light";
 
-    src:
-        url("../fonts/DINLight.woff") format("woff"),
+  src:
+    url("../fonts/DINLight.woff") format("woff"),
 
-        url("../fonts/DINLight.woff2") format("woff2");
-    font-weight: normal;
-    font-style: normal;
+    url("../fonts/DINLight.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
-    overflow: hidden;
-    font-family: "DIN-Light";
-    background-color: #92d2f4;
-    margin: 0;
-}
-section{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+  overflow: hidden;
+  font-family: "DIN-Light";
+  background-color: #92d2f4;
+  margin: 0;
 }
 
-a{
-    position: fixed;
-    top:15px;
-    left: 25px;
-    width: 10vw;
-    margin: 0;
-    text-decoration: none;
-    cursor: pointer;
+section {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
-a h1{
+
+a {
+  position: fixed;
+  top: 15px;
+  left: 25px;
+  width: 10vw;
+  margin: 0;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a h1 {
   font-size: 1.5vw;
   color: #515151;
 }
 
-.objet{
+.objet {
   z-index: 4;
 }
 
@@ -43,40 +45,41 @@ a h1{
 
 
 
-.building{
-    position: relative;
-    top: 4px; 
+.building {
+  position: relative;
+  top: 4px;
 }
 
-.building h3{
+.building h3 {
   text-align: center;
   color: #515151;
   opacity: 0;
   font-size: 1.5625vw;
 }
 
-.building:hover h3{
-    opacity: 1;
-    transition: ease-in-out 0.3s;
+.building:hover h3 {
+  opacity: 1;
+  transition: ease-in-out 0.3s;
 }
-.wifi{
-    width: 3vw;
-    position: absolute;
-    top: 29vh;
-    left: 55.5vw;
-    display: none;
+
+.wifi {
+  width: 3vw;
+  position: absolute;
+  top: 29vh;
+  left: 55.5vw;
+  display: none;
 
 }
 
-.sol{
-    width: 100%;
-    position: relative;
-    z-index: 10;
+.sol {
+  width: 100%;
+  position: relative;
+  z-index: 10;
 }
 
 /* DEVELOPPEMENT */
 
-.traits{
+.traits {
   width: 57vw;
   margin: 0 auto;
   position: relative;
@@ -84,55 +87,58 @@ a h1{
   left: 15.5vw;
 
 }
-.dev .arbre1{
+
+.dev .arbre1 {
   width: 10vw;
   position: relative;
   left: 38vw;
   z-index: 3;
 }
 
-.dev .arbre2{
+.dev .arbre2 {
   width: 10vw;
   position: relative;
   left: 59vw;
   z-index: 3;
 }
 
-.dev .page{
+.dev .page {
   display: flex;
   align-items: flex-end;
-  margin:auto;
+  margin: auto;
   margin-bottom: 0;
   width: 80vw;
 
 }
 
-.position{
+.position {
   width: 2vw;
   position: absolute;
   top: 34vh;
   left: 29vw;
   animation: float 3s ease infinite;
 }
-.wifi{
+
+.wifi {
   width: 3vw;
   position: absolute;
   top: 29vh;
   left: 57.5vw;
 }
-.panneau{
+
+.panneau {
   width: 12vw;
   position: relative;
-  right: 3vw; 
+  right: 3vw;
 }
 
-.robot{
+.robot {
   width: 10vw;
   position: relative;
   left: 7vw;
 }
 
-.drone{
+.drone {
   width: 8vw;
   position: relative;
   left: 33vw;
@@ -140,92 +146,98 @@ a h1{
   animation: float 3s ease infinite;
 }
 
-.dev .batiments{
-  width:58vw;
+.dev .batiments {
+  width: 58vw;
   height: 70vh;
   display: flex;
   justify-content: center;
   align-items: flex-end;
   position: relative;
-  left: -16vw; 
+  left: -16vw;
 
 }
 
-.integrateur{
+.integrateur {
   width: 12vw;
   margin: 0 20px;
 
 }
 
-.webmaster{
+.webmaster {
   margin: 0 20px;
   width: 16vw;
 }
-.devweb{
+
+.devweb {
   position: relative;
   left: 2vw;
   width: 12vw;
 }
-.reseau{
+
+.reseau {
   position: relative;
   left: 2vw;
   width: 11vw;
 }
 
 
-.webmaster h3{
+.webmaster h3 {
   position: relative;
   top: 2.5vh;
   left: 2.5vw;
 }
-.devweb h3{
+
+.devweb h3 {
   position: relative;
   left: -1vw;
 }
 
-.dev .sol1{
+.dev .sol1 {
   border-top: 10px #96cfe2 solid;
-    width: 100%;
-    position: absolute;
-    left: 0;
-    bottom: 0;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
 
 /* DESIGN */
 
-.design .page{
-    display: flex;
-    align-items: flex-end;
-    margin:auto;
-    margin-bottom: 0;
-    width: 80%;
-    position: relative;
-    top: 2px;
+.design .page {
+  display: flex;
+  align-items: flex-end;
+  margin: auto;
+  margin-bottom: 0;
+  width: 80%;
+  position: relative;
+  top: 2px;
 }
 
-.design .arbre1, .arbre2{
+.design .arbre1,
+.arbre2 {
   width: 5vw;
 }
 
-.design .arbre1{
+.design .arbre1 {
   position: absolute;
   left: 26vw;
 }
 
-.design .arbre2{
+.design .arbre2 {
   position: absolute;
   left: 51vw;
 }
-.design .batiments{
-  width:80%;
+
+.design .batiments {
+  width: 80%;
   height: 70vh;
   display: flex;
   justify-content: center;
-  align-items: flex-end; 
+  align-items: flex-end;
   margin: auto;
 }
 
-.graphiste , .da{
+.graphiste,
+.da {
   width: 17vw;
 }
 
@@ -234,232 +246,245 @@ a h1{
   position: relative;
   z-index: 3;
 }
-.uxui{
+
+.uxui {
   width: 11vw;
   position: relative;
   right: 2vw;
   z-index: 1;
 }
 
-.design .graphiste h3{
+.design .graphiste h3 {
   position: relative;
   top: 15vh;
   left: 1vw;
 }
-.design .infographiste h3{
+
+.design .infographiste h3 {
   position: relative;
   top: 10vh;
   right: 1.5vw;
 }
-.design .uxui h3{
+
+.design .uxui h3 {
   position: relative;
   top: 3vh;
 }
-.design .da h3{
+
+.design .da h3 {
   position: relative;
   top: 17vh;
   right: 0.5vw;
 
 }
 
-.design .sol1{
+.design .sol1 {
   border-top: 10px #9ad5bf solid;
-    width: 100%;
-    position: absolute;
-    left: 0;
-    bottom: 0;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
 
 /* AUDIOVISUEL CSS */
 
-.audio .page{
+.audio .page {
   display: flex;
   align-items: flex-end;
-  margin:auto;
+  margin: auto;
   margin-bottom: 0;
-  width:100%;
+  width: 100%;
   position: relative;
   top: 2px;
   z-index: 1;
- 
+
 }
 
-.audio .arbre1{
+.audio .arbre1 {
   width: 4vw;
-position: absolute;
-left: 26vw;
+  position: absolute;
+  left: 29vw;
+  z-index: 9;
 }
 
-.audio .arbre2{
+.audio .arbre2 {
   width: 5vw;
-position: absolute;
-left: 51vw;
+  position: absolute;
+  left: 66vw;
 }
-.audio .batiments{
-height: 70vh;
-display: flex;
-justify-content: center;
-align-items: flex-end; 
-margin: auto;
+
+.audio .batiments {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin: auto;
 }
-.audio .building{
+
+.audio .building {
   margin: 0 10px;
 }
 
-.motion{
-width: 21vw;
+.motion {
+  width: 21vw;
 
 }
 
 .videaste {
-width: 22vw;
-position: relative;
-z-index: 8;
+  width: 22vw;
+  position: relative;
+  z-index: 6;
 }
 
-.sound{
-width:16vw;
-position: relative;
-right: 2vw;
-
-
+.sound {
+  width: 14vw;
+  position: relative;
+  right: 2vw;
 }
-.vfx{
+
+.vfx {
   width: 20vw;
 }
 
-.audio .graphiste h3{
-position: relative;
-top: 15vh;
-left: 1vw;
+.audio .graphiste h3 {
+  position: relative;
+  top: 15vh;
+  left: 1vw;
 }
-.audio .infographiste h3{
-position: relative;
-top: 10vh;
-right: 1.5vw;
+
+.audio .infographiste h3 {
+  position: relative;
+  top: 10vh;
+  right: 1.5vw;
 }
-.audio .uxui h3{
-position: relative;
-top: 3vh;
+
+.audio .uxui h3 {
+  position: relative;
+  top: 3vh;
 }
-.audio .da h3{
-position: relative;
-top: 17vh;
-right: 0.5vw;
+
+.audio .da h3 {
+  position: relative;
+  top: 17vh;
+  right: 0.5vw;
 
 }
-.audio .sol1{
+
+.audio .sol1 {
   border-top: 10px #efc68f solid;
-    width: 100%;
-    position: absolute;
-    left: 0;
-    bottom: 0;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
 
 /* POP-UP */
-.popup{
-    display: none;
-   
-  }
-  .open{
-    cursor: pointer;
-  }
-  
-  .popup-open{
-    display: block;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-  }
-  
-  .background{
-    z-index: 20;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  .info{
-    position: absolute;
-    top: 40%;
-    left: 25%;
+.popup {
+  display: none;
 
-    background-color: white;
-    border-radius: 20px;
-    width: 50%;
-    height: 30%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    z-index: 2000;
-  }
-  
-  .info h3{
-    text-align: center;
-    margin:0 2vw;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #C4D8EC;
-  }
-  .info p{
-    margin:0 2vw;
-    font-weight: normal;
-  }
-  .close{
-    width: 3vw;
-    font-size: 1.5rem;
-    border: none;
-    outline: none;
-    background: none;
-    position: absolute;
-    top: 2vh;
-    right: 1vw;
-    cursor: pointer;
-  }
+}
+
+.open {
+  cursor: pointer;
+}
+
+.popup-open {
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.background {
+  z-index: 20;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.info {
+  position: absolute;
+  top: 40%;
+  left: 25%;
+
+  background-color: white;
+  border-radius: 20px;
+  width: 50%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  z-index: 2000;
+}
+
+.info h3 {
+  text-align: center;
+  margin: 0 2vw;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #C4D8EC;
+}
+
+.info p {
+  margin: 0 2vw;
+  font-weight: normal;
+}
+
+.close {
+  width: 3vw;
+  font-size: 1.5rem;
+  border: none;
+  outline: none;
+  background: none;
+  position: absolute;
+  top: 2vh;
+  right: 1vw;
+  cursor: pointer;
+}
 
 
 
 /* ANIMATION */
 @-webkit-keyframes float {
-    0% {
-      box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.2);
-      -webkit-transform: translatey(0px);
-      transform: translatey(0px);
-    }
-  
-    50% {
-      box-shadow: 0 15px 15px 0px rgba(0, 0, 0, 0.2);
-      -webkit-transform: translatey(-5px);
-      transform: translatey(-5px);
-    }
-  
-    100% {
-      box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.2);
-      -webkit-transform: translatey(0px);
-      transform: translatey(0px);
-    }
-  }
-  
-  @keyframes float {
-    0% {
-      -webkit-transform: translatey(0px);
-      transform: translatey(0px);
-    }
-  
-    50% {
-      -webkit-transform: translatey(-5px);
-      transform: translatey(-5px);
-    }
-  
-    100% {
-      -webkit-transform: translatey(0px);
-      transform: translatey(0px);
-    }
+  0% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.2);
+    -webkit-transform: translatey(0px);
+    transform: translatey(0px);
   }
 
+  50% {
+    box-shadow: 0 15px 15px 0px rgba(0, 0, 0, 0.2);
+    -webkit-transform: translatey(-5px);
+    transform: translatey(-5px);
+  }
+
+  100% {
+    box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.2);
+    -webkit-transform: translatey(0px);
+    transform: translatey(0px);
+  }
+}
+
+@keyframes float {
+  0% {
+    -webkit-transform: translatey(0px);
+    transform: translatey(0px);
+  }
+
+  50% {
+    -webkit-transform: translatey(-5px);
+    transform: translatey(-5px);
+  }
+
+  100% {
+    -webkit-transform: translatey(0px);
+    transform: translatey(0px);
+  }
+}
