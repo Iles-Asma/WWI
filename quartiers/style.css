@@ -366,11 +366,21 @@ a h1 {
 .audio .vfx h3 {
   position: relative;
   top: 3vh;
-
 }
 
 .audio .sol1 {
   border-top: 10px #efc68f solid;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+/* COMMUNICATION CSS */
+
+
+.com .sol1{
+  border-top: 10px #fcbdb6 solid;
   width: 100%;
   position: absolute;
   left: 0;
