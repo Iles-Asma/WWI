@@ -319,8 +319,6 @@ a:hover {
     height: 11.02vh;
     top: 32.92%;
     left: 100%;
-    animation: float 3s ease infinite;
-    animation-delay:5s;
 }
 .boat2 {
     position: absolute;
@@ -329,12 +327,11 @@ a:hover {
     height: 4.07vh;
     left: 0%;
     top: 64.93%;
-    
 }
 
 .boatMouvLeft{
     animation: boatMouvLeftAnim 6s linear forwards,
-                float 6s ease infinite;;
+                float 6s ease infinite;
 }
 .boatMouvRight {
     animation: boatMouvRightAnim 5s linear forwards,
@@ -416,8 +413,8 @@ a:hover {
   
     50% {
       box-shadow: 0 15px 15px 0px rgba(0, 0, 0, 0.2);
-      -webkit-transform: translatey(-5px);
-      transform: translatey(-5px);
+      -webkit-transform: translatey(-10px);
+      transform: translatey(-10px);
     }
   
     100% {
@@ -434,8 +431,8 @@ a:hover {
     }
   
     50% {
-      -webkit-transform: translatey(-5px);
-      transform: translatey(-5px);
+      -webkit-transform: translatey(-10px);
+      transform: translatey(-10px);
     }
   
     100% {
