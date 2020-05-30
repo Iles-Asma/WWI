@@ -26,15 +26,18 @@ $(function(){  // Fonction principale de la page
             $("#MMI").css("transform","translateX(-15px)")
         });
 
-        $(".audiovisuel").on("mouseover",function(){
-            $(this).attr("d","M380.54,220.21C358.48,169,413.06,96.76,453,65.55,465.17,56.07,503,27,555.37,25.34c18.81-.61,52,1.8,133.26,54.64,84.18,54.76,165.73,107.81,154.57,156.73-6.29,27.59-40.26,45.89-66.09,59.81-14.91,8-41.75,22.89-77.82,23.71-29.25.67-51.18-8.06-59.7-11.34C510.62,259.14,405.92,279.12,380.54,220.21Z");
-            $("#txtAudio").css("fill","white");
-            $("#audiovisuel").css("transform","translateX(15px)")
+        $(".audvis").on("mouseover",function(){
+            $(".audiovisuel").removeClass("audiovisuel-leave")
+            $(".audiovisuel").addClass("audiovisuel-over");
+            $("#txtAudio").css({"fill":"white","transition":"fill 0.75s ease"});
+            $("#audiovisuel").css({"transform":"translateX(15px)","transition":"transform 0.75s ease"})
+
         });
-        $(".audiovisuel").on("mouseleave",function(){
-            $(this).attr("d","M380.23,214.27c-20.7-49.68,30.5-119.73,68-150,11.38-9.19,46.84-37.36,96-39,17.64-.59,48.8,1.75,125,53,79,53.1,155.47,104.55,145,152-5.9,26.76-37.76,44.5-62,58-14,7.79-39.17,22.2-73,23-27.44.65-48-7.82-56-11C502.25,252,404,271.4,380.23,214.27Z");
-            $("#txtAudio").css("fill","#515151");
-            $("#audiovisuel").css("transform","translateX(-15px)")
+        $(".audvis").on("mouseleave",function(){
+            $(".audiovisuel").removeClass("audiovisuel-over");
+            $(".audiovisuel").addClass("audiovisuel-leave");
+            $("#txtAudio").css({"fill":"#515151","transition":"fill 0.75s ease"});
+            $("#audiovisuel").css({"transform":"translateX(-15px)","transition":"transform 0.75s ease"})
         });
 
         $(".design").on("mouseover",function(){
