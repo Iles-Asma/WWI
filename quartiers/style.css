@@ -584,9 +584,10 @@ a h1 {
 }
 
 .arbre-droite{
+  display: flex;
   position: absolute;
   width: 6vw;
-  z-index: -4;
+  z-index: -1;
   top: 50.80469583778015vh;
   right: 24.0625vw;
 
@@ -595,7 +596,7 @@ a h1 {
 
 
 .mmi-batiment{
-  display:block;
+ 
   position: relative;
   display: flex;
   margin: auto;
@@ -603,7 +604,7 @@ a h1 {
   height:84.52508004268944vh ;
   top:8.62vh;
 
-  z-index: 1;
+
 
 }
 
