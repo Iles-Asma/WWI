@@ -587,7 +587,7 @@ a h1 {
   display: flex;
   position: absolute;
   width: 6vw;
-  z-index: -1;
+  z-index: 1;
   top: 50.80469583778015vh;
   right: 24.0625vw;
 
