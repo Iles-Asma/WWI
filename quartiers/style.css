@@ -554,37 +554,31 @@ a h1 {
 /*mmi css*/
 
 
-.mmi{
-  width: 100%;
 
-
-}
 .mmi-page{
  
   display: flex;
- 
-  width: 100%;
-  
- 
+
   margin: auto;
   margin-bottom: 0;
+  width: 100%;
+  position: relative;
 
-  
-  z-index: 1;
+  z-index: -9;
+ 
+ 
 
 
 
 }
 
 .arbre-gauche {
+  display: flex;
   width: 7vw;
-  
-  z-index: 1;
+  z-index: -4;
   position: absolute;
-  top: 52%;
-  left: 20.5%;
-  
-  
+  top: 51.40554962646745vh;
+  left: 21.239583333333334vw;
 
 
 }
@@ -592,25 +586,45 @@ a h1 {
 .arbre-droite{
   position: absolute;
   width: 6vw;
-  z-index: 1;
-  top: 50%;
-  right: 24%;
+  z-index: -4;
+  top: 50.80469583778015vh;
+  right: 24.0625vw;
 
 
 }
 
 
 .mmi-batiment{
+  display:block;
   position: relative;
   display: flex;
-  align-items: center;
-
   margin: auto;
   width:55.208333333333336vw ;
   height:84.52508004268944vh ;
   top:8.62vh;
 
+  z-index: 1;
+
 }
+
+.mmi-sol{
+
+  width: 100%;
+ position: relative;
+padding-bottom: 0px;
+
+}
+/* 
+.dut-mmi{
+  
+  position: relative;
+  display: flex;
+  margin: auto;
+  width:55.208333333333336vw ;
+  height:84.52508004268944vh ;
+  top:8.62vh;
+  z-index: 1;
+} */
 
 
 
