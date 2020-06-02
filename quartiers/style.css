@@ -554,6 +554,65 @@ a h1 {
 /*mmi css*/
 
 
+.mmi{
+  width: 100%;
+
+
+}
+.mmi-page{
+ 
+  display: flex;
+ 
+  width: 100%;
+  
+ 
+  margin: auto;
+  margin-bottom: 0;
+
+  
+  z-index: 1;
+
+
+
+}
+
+.arbre-gauche {
+  width: 7vw;
+  
+  z-index: 1;
+  position: absolute;
+  top: 52%;
+  left: 20.5%;
+  
+  
+
+
+}
+
+.arbre-droite{
+  position: absolute;
+  width: 6vw;
+  z-index: 1;
+  top: 50%;
+  right: 24%;
+
+
+}
+
+
+.mmi-batiment{
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  margin: auto;
+  width:55.208333333333336vw ;
+  height:84.52508004268944vh ;
+  top:8.62vh;
+
+}
+
+
 
 
 .cloudMouv{
