@@ -555,71 +555,46 @@ a h1 {
 
 
 
-.mmi-page{
- 
-  display: flex;
 
-  margin: auto;
-  margin-bottom: 0;
-  width: 100%;
-  position: relative;
-
-  z-index: -9;
- 
- 
-
-
-
-}
 
 .arbre-gauche {
-  display: flex;
+  
   width: 7vw;
-  z-index: -4;
+  z-index: 1;
   position: absolute;
-  top: 51.40554962646745vh;
+  top: 52%;
   left: 21.239583333333334vw;
 
 
 }
 
 .arbre-droite{
-  display: flex;
+  
   position: absolute;
   width: 6vw;
   z-index: 1;
-  top: 50.80469583778015vh;
+  top: 50%; 
   right: 24.0625vw;
-
-
-}
+} 
 
 
 .mmi-batiment{
- 
-  position: relative;
-  display: flex;
-  margin: auto;
-  width:55.208333333333336vw ;
-  height:84.52508004268944vh ;
-  top:8.62vh;
+   margin:auto;
+   position: relative;
+   padding:0 auto;
+   top:0.45vh;
+   width:55.208333333333336vw ;
 
-
+}
+.h3center{
+  text-align: center;
+  font-size: 2rem;
 
 }
 
 
-/* 
-.dut-mmi{
-  
-  position: relative;
-  display: flex;
-  margin: auto;
-  width:55.208333333333336vw ;
-  height:84.52508004268944vh ;
-  top:8.62vh;
-  z-index: 1;
-} */
+
+
 
 
 
