@@ -60,7 +60,7 @@
 
             <!-- <div class="dut-mmi">
                 <h3>DUT MMI </h3> -->
-                <svg class="mmi-batiment" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1335.56 794.51">
+                <svg class="mmi-batiment open" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1335.56 794.51">
                     <title>DUT MMI</title>
                     <g id="Calque_2" data-name="Calque 2">
                         <g id="Calque_2-2" data-name="Calque 2">
@@ -145,36 +145,23 @@
             </g>
         </svg>
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-        <script type="text/javascript">
-            $(document).ready(function () {
-                var navigateur = navigator.userAgent;
-                $(".open").click(function () {
-                    $(".popup").show();
-                });
-                $(".background, .close").click(function () {
-                    $(".popup").hide();
-                });
-
-            });
-        </script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        var navigateur = navigator.userAgent;
+        $(".open").click(function () {
+            $(".popup").show();
+        });
+        $(".background, .close").click(function () {
+            $(".popup").hide();
+        });
+
+    });
+</script>
 
 
 </body>
