@@ -41,10 +41,6 @@ a h1 {
   z-index: 4;
 }
 
-/* BATIMENTS */
-
-
-
 .building {
   position: relative;
   top: 4px;
@@ -554,9 +550,6 @@ a h1 {
 /*mmi css*/
 
 
-
-
-
 .arbre-gauche {
   
   width: 7vw;
@@ -577,19 +570,21 @@ a h1 {
   right: 24.0625vw;
 } 
 
-
 .mmi-batiment{
    margin:auto;
    position: relative;
    padding:0 auto;
-   top:0.45vh;
+   top:0.5vh;
    width:55.208333333333336vw ;
 
 }
-.h3center{
-  text-align: center;
-  font-size: 2rem;
 
+.mmi .sol1{
+  border-top: 10px #d0c3e5 solid;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
 
 
