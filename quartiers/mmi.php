@@ -64,7 +64,105 @@
 
 
                     <h3>Le DUT Métiers du Multimédia et de l’Internet </h3>
-<svg class="open" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1335.56 794.51"><defs><style>.ef0a5515-3a21-432e-94b5-cc954777a5bd{fill:#5765b2;}.bda8289f-45c5-47a3-a1e7-2ceef7684f91{fill:#ffd985;}.aa49f494-5b0e-4a8f-80d9-3376e64df8ce{fill:#fff;}.afa1a879-8bdb-477b-9d58-7e3b20294b83,.eb7b137a-13c4-4960-8198-c3690aeda16f{fill:none;stroke-miterlimit:10;}.afa1a879-8bdb-477b-9d58-7e3b20294b83{stroke:#232323;stroke-linecap:round;stroke-width:3px;}.eb7b137a-13c4-4960-8198-c3690aeda16f{stroke:#fff;stroke-width:2px;}</style></defs><title>mmi_1</title><g id="b866c1db-7a8e-43ab-bafc-44a304af67f6" data-name="Calque 2"><g id="b5a3a99c-ac5b-4c38-ba2d-bcdd993a7519" data-name="Calque 2"><rect class="ef0a5515-3a21-432e-94b5-cc954777a5bd" x="169.73" y="190.93" width="1004.06" height="600.71"/><rect class="ef0a5515-3a21-432e-94b5-cc954777a5bd" x="138.16" y="724.17" width="1059.24" height="68.26"/><rect class="ef0a5515-3a21-432e-94b5-cc954777a5bd" x="470.55" y="118.67" width="408.8" height="114.01"/><polygon class="ef0a5515-3a21-432e-94b5-cc954777a5bd" points="470.55 118.67 671.37 23.1 879.35 118.67 470.55 118.67"/><polygon class="bda8289f-45c5-47a3-a1e7-2ceef7684f91" points="1017.35 190.72 1173.7 191.1 1173.7 543.1 1092.7 543.46 1092.7 281.1 1017.7 279.1 1017.35 190.72"/><polygon class="bda8289f-45c5-47a3-a1e7-2ceef7684f91" points="138.16 792.43 137.7 724.1 169.34 724.17 169.34 524.49 322.7 524.1 322.7 682.1 371.7 682.1 372.01 792.1 138.16 792.43"/><ellipse class="aa49f494-5b0e-4a8f-80d9-3376e64df8ce" cx="672.55" cy="170.98" rx="57.26" ry="55.45"/><rect class="aa49f494-5b0e-4a8f-80d9-3376e64df8ce" x="262.22" y="309.61" width="45.57" height="101.66"/><rect class="aa49f494-5b0e-4a8f-80d9-3376e64df8ce" x="372.01" y="309.61" width="45.57" height="101.66"/><rect class="aa49f494-5b0e-4a8f-80d9-3376e64df8ce" x="481.81" y="309.61" width="45.57" height="101.66"/><rect class="aa49f494-5b0e-4a8f-80d9-3376e64df8ce" x="262.22" y="485.21" width="45.57" height="101.66"/><rect class="aa49f494-5b0e-4a8f-80d9-3376e64df8ce" x="372.01" y="485.21" width="45.57" height="101.66"/><rect class="aa49f494-5b0e-4a8f-80d9-3376e64df8ce" x="481.81" y="485.21" width="45.57" height="101.66"/><rect class="aa49f494-5b0e-4a8f-80d9-3376e64df8ce" x="808.19" y="309.61" width="45.57" height="101.66"/><rect class="aa49f494-5b0e-4a8f-80d9-3376e64df8ce" x="917.98" y="309.61" width="45.57" height="101.66"/><rect class="aa49f494-5b0e-4a8f-80d9-3376e64df8ce" x="1027.78" y="309.61" width="45.57" height="101.66"/><rect class="aa49f494-5b0e-4a8f-80d9-3376e64df8ce" x="808.19" y="485.21" width="45.57" height="101.66"/><rect class="aa49f494-5b0e-4a8f-80d9-3376e64df8ce" x="917.98" y="485.21" width="45.57" height="101.66"/><rect class="aa49f494-5b0e-4a8f-80d9-3376e64df8ce" x="1027.78" y="485.21" width="45.57" height="101.66"/><path class="aa49f494-5b0e-4a8f-80d9-3376e64df8ce" d="M738.7,792.41H606.4V637.09c8-28.23,35.25-48,66.15-48s58.15,19.77,66.15,48Z"/><polyline class="afa1a879-8bdb-477b-9d58-7e3b20294b83" points="672.55 141.71 672.55 166.36 691.64 191"/><line class="eb7b137a-13c4-4960-8198-c3690aeda16f" y1="793.51" x2="1335.56" y2="793.51"/><rect class="bda8289f-45c5-47a3-a1e7-2ceef7684f91" x="581.28" y="519.1" width="173" height="47"/><path class="aa49f494-5b0e-4a8f-80d9-3376e64df8ce" d="M642.51,543.79l9.06-17.73h6.27v32.53h-6.32V538.41l-7.07,14.34h-4l-7-14.2v20h-6.27V526.06h6.18Z"/><path class="aa49f494-5b0e-4a8f-80d9-3376e64df8ce" d="M679.57,543.79l9-17.73h6.27v32.53h-6.31V538.41l-7.08,14.34h-4l-7-14.2v20h-6.28V526.06h6.18Z"/><path class="aa49f494-5b0e-4a8f-80d9-3376e64df8ce" d="M708.37,558.59h-6.6V526.06h6.6Z"/></g><g id="ec142b53-6e3e-47f9-948c-ef3d084fe4a3" data-name="Calque 3"><polyline class="eb7b137a-13c4-4960-8198-c3690aeda16f" points="454.79 176.1 454.79 107.1 673.79 1.1 759.79 40.1"/><line class="eb7b137a-13c4-4960-8198-c3690aeda16f" x1="927.63" y1="724.17" x2="1129.79" y2="724.17"/><line class="eb7b137a-13c4-4960-8198-c3690aeda16f" x1="170.87" y1="723.91" x2="344.79" y2="723.91"/></g></g></svg>
+                    <svg class="open" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1335.56 794.51">
+                        <defs>
+                            <style>
+                                .ef0a5515-3a21-432e-94b5-cc954777a5bd {
+                                    fill: #5765b2;
+                                }
+
+                                .bda8289f-45c5-47a3-a1e7-2ceef7684f91 {
+                                    fill: #ffd985;
+                                }
+
+                                .aa49f494-5b0e-4a8f-80d9-3376e64df8ce {
+                                    fill: #fff;
+                                }
+
+                                .afa1a879-8bdb-477b-9d58-7e3b20294b83,
+                                .eb7b137a-13c4-4960-8198-c3690aeda16f {
+                                    fill: none;
+                                    stroke-miterlimit: 10;
+                                }
+
+                                .afa1a879-8bdb-477b-9d58-7e3b20294b83 {
+                                    stroke: #232323;
+                                    stroke-linecap: round;
+                                    stroke-width: 3px;
+                                }
+
+                                .eb7b137a-13c4-4960-8198-c3690aeda16f {
+                                    stroke: #fff;
+                                    stroke-width: 2px;
+                                }
+                            </style>
+                        </defs>
+                        <title>mmi_1</title>
+                        <g id="b866c1db-7a8e-43ab-bafc-44a304af67f6" data-name="Calque 2">
+                            <g id="b5a3a99c-ac5b-4c38-ba2d-bcdd993a7519" data-name="Calque 2">
+                                <rect class="ef0a5515-3a21-432e-94b5-cc954777a5bd" x="169.73" y="190.93" width="1004.06"
+                                    height="600.71" />
+                                <rect class="ef0a5515-3a21-432e-94b5-cc954777a5bd" x="138.16" y="724.17" width="1059.24"
+                                    height="68.26" />
+                                <rect class="ef0a5515-3a21-432e-94b5-cc954777a5bd" x="470.55" y="118.67" width="408.8"
+                                    height="114.01" />
+                                <polygon class="ef0a5515-3a21-432e-94b5-cc954777a5bd"
+                                    points="470.55 118.67 671.37 23.1 879.35 118.67 470.55 118.67" />
+                                <polygon class="bda8289f-45c5-47a3-a1e7-2ceef7684f91"
+                                    points="1017.35 190.72 1173.7 191.1 1173.7 543.1 1092.7 543.46 1092.7 281.1 1017.7 279.1 1017.35 190.72" />
+                                <polygon class="bda8289f-45c5-47a3-a1e7-2ceef7684f91"
+                                    points="138.16 792.43 137.7 724.1 169.34 724.17 169.34 524.49 322.7 524.1 322.7 682.1 371.7 682.1 372.01 792.1 138.16 792.43" />
+                                <ellipse class="aa49f494-5b0e-4a8f-80d9-3376e64df8ce" cx="672.55" cy="170.98" rx="57.26"
+                                    ry="55.45" />
+                                <rect class="aa49f494-5b0e-4a8f-80d9-3376e64df8ce" x="262.22" y="309.61" width="45.57"
+                                    height="101.66" />
+                                <rect class="aa49f494-5b0e-4a8f-80d9-3376e64df8ce" x="372.01" y="309.61" width="45.57"
+                                    height="101.66" />
+                                <rect class="aa49f494-5b0e-4a8f-80d9-3376e64df8ce" x="481.81" y="309.61" width="45.57"
+                                    height="101.66" />
+                                <rect class="aa49f494-5b0e-4a8f-80d9-3376e64df8ce" x="262.22" y="485.21" width="45.57"
+                                    height="101.66" />
+                                <rect class="aa49f494-5b0e-4a8f-80d9-3376e64df8ce" x="372.01" y="485.21" width="45.57"
+                                    height="101.66" />
+                                <rect class="aa49f494-5b0e-4a8f-80d9-3376e64df8ce" x="481.81" y="485.21" width="45.57"
+                                    height="101.66" />
+                                <rect class="aa49f494-5b0e-4a8f-80d9-3376e64df8ce" x="808.19" y="309.61" width="45.57"
+                                    height="101.66" />
+                                <rect class="aa49f494-5b0e-4a8f-80d9-3376e64df8ce" x="917.98" y="309.61" width="45.57"
+                                    height="101.66" />
+                                <rect class="aa49f494-5b0e-4a8f-80d9-3376e64df8ce" x="1027.78" y="309.61" width="45.57"
+                                    height="101.66" />
+                                <rect class="aa49f494-5b0e-4a8f-80d9-3376e64df8ce" x="808.19" y="485.21" width="45.57"
+                                    height="101.66" />
+                                <rect class="aa49f494-5b0e-4a8f-80d9-3376e64df8ce" x="917.98" y="485.21" width="45.57"
+                                    height="101.66" />
+                                <rect class="aa49f494-5b0e-4a8f-80d9-3376e64df8ce" x="1027.78" y="485.21" width="45.57"
+                                    height="101.66" />
+                                <path class="aa49f494-5b0e-4a8f-80d9-3376e64df8ce"
+                                    d="M738.7,792.41H606.4V637.09c8-28.23,35.25-48,66.15-48s58.15,19.77,66.15,48Z" />
+                                <polyline class="afa1a879-8bdb-477b-9d58-7e3b20294b83"
+                                    points="672.55 141.71 672.55 166.36 691.64 191" />
+                                <line class="eb7b137a-13c4-4960-8198-c3690aeda16f" y1="793.51" x2="1335.56"
+                                    y2="793.51" />
+                                <rect class="bda8289f-45c5-47a3-a1e7-2ceef7684f91" x="581.28" y="519.1" width="173"
+                                    height="47" />
+                                <path class="aa49f494-5b0e-4a8f-80d9-3376e64df8ce"
+                                    d="M642.51,543.79l9.06-17.73h6.27v32.53h-6.32V538.41l-7.07,14.34h-4l-7-14.2v20h-6.27V526.06h6.18Z" />
+                                <path class="aa49f494-5b0e-4a8f-80d9-3376e64df8ce"
+                                    d="M679.57,543.79l9-17.73h6.27v32.53h-6.31V538.41l-7.08,14.34h-4l-7-14.2v20h-6.28V526.06h6.18Z" />
+                                <path class="aa49f494-5b0e-4a8f-80d9-3376e64df8ce"
+                                    d="M708.37,558.59h-6.6V526.06h6.6Z" />
+                            </g>
+                            <g id="ec142b53-6e3e-47f9-948c-ef3d084fe4a3" data-name="Calque 3">
+                                <polyline class="eb7b137a-13c4-4960-8198-c3690aeda16f"
+                                    points="454.79 176.1 454.79 107.1 673.79 1.1 759.79 40.1" />
+                                <line class="eb7b137a-13c4-4960-8198-c3690aeda16f" x1="927.63" y1="724.17" x2="1129.79"
+                                    y2="724.17" />
+                                <line class="eb7b137a-13c4-4960-8198-c3690aeda16f" x1="170.87" y1="723.91" x2="344.79"
+                                    y2="723.91" />
+                            </g>
+                        </g>
+                    </svg>
                 </div>
             </div>
 
