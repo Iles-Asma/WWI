@@ -10,7 +10,10 @@
 
 <body class="dev">
     <section>
+    <!-- BOUTON RETOUR -->
     <a href="../index.html"><h1> &xlarr; Retour </h1></a>
+
+        <!-- POP UP -->
         <div class="popup">
             <div class="background"></div>
             <div class="info">
@@ -19,6 +22,8 @@
                 <p>Text</p>
             </div>
         </div>
+
+        <!-- RESEAU DECO -->
         <svg class="traits" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1217.62 265.6">
             <defs>
                 <style>
@@ -93,6 +98,7 @@
 
         <div class="page">
 
+            <!-- POSITION ICONE DECO -->
             <svg class="position" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53.03 77.69">
                 <defs>
                     <style>
@@ -114,6 +120,8 @@
                     </g>
                 </g>
             </svg>
+
+            <!-- WIFI DECO -->
             <svg class="wifi" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 69 53.05">
                 <defs>
                     <style>
@@ -143,6 +151,8 @@
                     </g>
                 </g>
             </svg>
+
+            <!-- ARBRES -->
             <svg class="arbre1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 139.56 352">
                 <defs>
                     <style>
@@ -213,6 +223,7 @@
                 </g>
             </svg>
 
+            <!-- PANNEAU -->
             <svg class="panneau objet" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144.19 376.13">
                 <defs>
                     <style>
@@ -272,6 +283,8 @@
                     </g>
                 </g>
             </svg>
+
+            <!-- ROBOT -->
             <svg class="robot objet" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 116.39 196.67">
                 <defs>
                     <style>
@@ -330,6 +343,8 @@
                     </g>
                 </g>
             </svg>
+
+            <!-- DRONE -->
             <svg class="drone objet" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 119.22 91.77">
                 <defs>
                     <style>
@@ -379,11 +394,13 @@
                 </g>
             </svg>
 
+
+            <!-- BATIMENTS + NOMS -->
             <div class="batiments">
 
                 <div class="webmaster building">
-
                     <h3>Web master</h3>
+
                     <svg class="open" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 353.54 580">
                         <defs>
                             <style>
@@ -655,6 +672,7 @@
             </div>
         </div>
         
+        <!-- SOL -->
         <div class="sol1"></div>
         <svg class="sol" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 127.5">
             <defs>
