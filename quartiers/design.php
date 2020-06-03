@@ -81,6 +81,9 @@
                     </g>
                 </g>
             </svg>
+
+        <!-- image svg batiments du design -->
+
             <div class="batiments">
 
                 <div class="graphiste building">
@@ -547,6 +550,9 @@
                 </div>
             </div>
         </div>
+
+        <!-- image svg du sol du design -->
+
         <div class="sol1"></div>
         <svg class="sol" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 126">
             <defs>
@@ -578,6 +584,7 @@
         </svg>
     </section>
 
+    <!-- script faisant apparaitre pop up avec les infos metiers -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
