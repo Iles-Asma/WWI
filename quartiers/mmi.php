@@ -22,6 +22,7 @@
             </div>
         </div>
         <div class="page">
+            <!-- image svg arbre gauche -->
             <svg class="objet arbre-gauche" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 166.34 387.97">
                 <title>arbre gauche</title>
                 <g id="Calque_2" data-name="Calque 2">
@@ -41,7 +42,7 @@
                     </g>
                 </g>
             </svg>
-
+            <!-- image svg arbre droite -->
             <svg class="objet arbre-droite" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144.15 414">
                 <title>arbre droite</title>
                 <g id="Calque_2" data-name="Calque 2">
@@ -58,7 +59,7 @@
                     </g>
                 </g>
             </svg>
-
+            <!-- image svg du batiment mmi -->
             <div class="batiments">
                 <div class="mmi-batiment building">
 
@@ -165,14 +166,10 @@
                     </svg>
                 </div>
             </div>
-
-
-
-
         </div>
 
 
-
+        <!-- image svg du sol violet -->
         <div class="sol1"></div>
 
         <svg class="sol" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 126">
@@ -201,10 +198,8 @@
                 </g>
             </g>
         </svg>
-
-
-
     </section>
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
