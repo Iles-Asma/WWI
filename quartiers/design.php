@@ -8,11 +8,11 @@
 </head>
 
 <body class="design">
-    <a href="../index.html">
-        <h1> &xlarr; Retour </h1>
-    </a>
+    <!-- BOUTON RETOUR -->
+    <a href="../index.html"><h1> &xlarr; Retour </h1></a>
     <section>
-
+    
+        <!-- POP UP -->
         <div class="popup">
             <div class="background"></div>
             <div class="info">
@@ -23,6 +23,8 @@
         </div>
 
         <div class="page">
+            
+            <!-- ARBRES SVG -->
             <svg class="arbre1 objet" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 121.7 359.56">
                 <defs>
                     <style>
@@ -81,11 +83,13 @@
                     </g>
                 </g>
             </svg>
+
+            <!-- BATIMENTS SVG + NOMS -->
             <div class="batiments">
 
                 <div class="graphiste building">
-
                     <h3>Graphiste</h3>
+
                     <svg class="open" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384.11 792.46">
                         <defs>
                             <style>
@@ -262,6 +266,7 @@
 
                 <div class="infographiste building">
                     <h3>Infographiste</h3>
+
                     <svg class="open" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 325.48 746.01">
                         <defs>
                             <style>
@@ -547,6 +552,8 @@
                 </div>
             </div>
         </div>
+
+        <!-- SOL -->
         <div class="sol1"></div>
         <svg class="sol" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 126">
             <defs>
