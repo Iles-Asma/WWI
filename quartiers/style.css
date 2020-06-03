@@ -475,6 +475,46 @@ a h1 {
   bottom: 0;
 }
 
+/*MMI CSS*/
+
+
+.arbre-gauche {
+  
+  width: 7vw;
+  z-index: 1;
+  position: absolute;
+  top: 52%;
+  left: 21.239583333333334vw;
+
+
+}
+
+.arbre-droite{
+  
+  position: absolute;
+  width: 6vw;
+  z-index: 1;
+  top: 50%; 
+  right: 24.0625vw;
+} 
+
+.mmi-batiment{
+   margin:auto;
+   position: relative;
+   padding:0 auto;
+   top:0.5vh;
+   width:55.208333333333336vw ;
+
+}
+
+.mmi .sol1{
+  border-top: 10px #d0c3e5 solid;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
 /* POP-UP */
 .popup {
   display: none;
@@ -545,50 +585,6 @@ a h1 {
   right: 1vw;
   cursor: pointer;
 }
-
-
-/*mmi css*/
-
-
-.arbre-gauche {
-  
-  width: 7vw;
-  z-index: 1;
-  position: absolute;
-  top: 52%;
-  left: 21.239583333333334vw;
-
-
-}
-
-.arbre-droite{
-  
-  position: absolute;
-  width: 6vw;
-  z-index: 1;
-  top: 50%; 
-  right: 24.0625vw;
-} 
-
-.mmi-batiment{
-   margin:auto;
-   position: relative;
-   padding:0 auto;
-   top:0.5vh;
-   width:55.208333333333336vw ;
-
-}
-
-.mmi .sol1{
-  border-top: 10px #d0c3e5 solid;
-  width: 100%;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-}
-
-
-
 
 
 
