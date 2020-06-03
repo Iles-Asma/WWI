@@ -84,12 +84,7 @@
                 </g>
             </svg>
 
-<<<<<<< HEAD
-        <!-- image svg batiments du design -->
-
-=======
             <!-- BATIMENTS SVG + NOMS -->
->>>>>>> 8b6d630c6637a461d68c9570d2ddcd92bb507999
             <div class="batiments">
 
                 <div class="graphiste building">
