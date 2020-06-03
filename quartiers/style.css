@@ -41,10 +41,6 @@ a h1 {
   z-index: 4;
 }
 
-/* BATIMENTS */
-
-
-
 .building {
   position: relative;
   top: 4px;
@@ -366,11 +362,153 @@ a h1 {
 .audio .vfx h3 {
   position: relative;
   top: 3vh;
-
 }
 
 .audio .sol1 {
   border-top: 10px #efc68f solid;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+/* COMMUNICATION CSS */
+.com .page {
+  display: flex;
+  align-items: flex-end;
+  margin: auto;
+  margin-bottom: 0;
+  width: 100%;
+  position: relative;
+  top: 2px;
+  z-index: 1;
+
+}
+
+.com .arbre2, .arbre3{
+  width: 5vw;
+}
+.com .arbre1 {
+  width: 7vw;
+  position: absolute;
+  left: 12vw;
+}
+.com .arbre2 {
+  position: absolute;
+  left: 29vw;
+  z-index: 9;
+}
+
+.com .arbre3 {
+  position: absolute;
+  left: 80vw;
+  z-index: 9;
+ 
+}
+
+.com .batiments {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin: auto;
+}
+
+
+.marketing {
+  width: 11.5vw;
+  position: relative;
+  right: 1vw;
+
+}
+
+.data {
+  width: 16vw;
+  position: relative;
+  z-index: 6;
+}
+
+.projet {
+  width: 11.7vw;
+  position: relative;
+  right: 2.5vw;
+}
+
+.charge {
+  width: 12vw;
+}
+.manager {
+  width: 13vw;
+}
+
+.marketing h3{
+ position: relative;
+ top: 2vh; 
+}
+.data h3 {
+  position: relative;
+  top: 10vh;
+  left:0.5vw;
+}
+.projet h3 {
+  position: relative;
+  top: 3vh;
+  left: 1vw;
+}
+.charge h3 {
+  position: relative;
+  top: 13vh;
+  /* right: 1.5vw; */
+}
+
+.manager h3 {
+  position: relative;
+  top: 3vh;
+  left: 1vw;
+}
+
+.com .sol1{
+  border-top: 10px #fcbdb6 solid;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+/*MMI CSS*/
+
+
+.arbre-gauche {
+  
+  width: 7vw;
+  z-index: 1;
+  position: absolute;
+  top: 52%;
+  left: 21.239583333333334vw;
+
+
+}
+
+.arbre-droite{
+  
+  position: absolute;
+  width: 6vw;
+  z-index: 1;
+  top: 50%; 
+  right: 24.0625vw;
+} 
+
+.mmi-batiment{
+   margin:auto;
+   position: relative;
+   padding:0 auto;
+   top:0.5vh;
+   width:55.208333333333336vw ;
+
+}
+
+.mmi .sol1{
+  border-top: 10px #d0c3e5 solid;
   width: 100%;
   position: absolute;
   left: 0;
@@ -447,6 +585,10 @@ a h1 {
   right: 1vw;
   cursor: pointer;
 }
+
+
+
+
 
 .cloudMouv{
   animation: cloudAnim 3s ease infinite;
