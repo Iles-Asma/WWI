@@ -8,9 +8,12 @@
 </head>
 
 <body class="audio">
-<a href="../index.html"><h1> &xlarr; Retour </h1></a>
+
+    <!-- BOUTON RETOUR -->
+    <a href="../index.html"><h1> &xlarr; Retour </h1></a>
     <section>
     
+    <!-- POP UP -->
         <div class="popup">
             <div class="background"></div>
             <div class="info">
@@ -22,8 +25,11 @@
 
         <div class="page"> 
         
+        <!-- ARBRES -->
         <svg class="arbre1 objet" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88 355.56"><defs><style>.bc271a17-46e8-454b-868d-3e0db1d1b23b{fill:#8beabf;}.e308cee8-3827-4329-b103-7c33da49fedc{fill:none;stroke:#fff;stroke-linecap:round;stroke-miterlimit:10;stroke-width:3px;}</style></defs><title>arbre1_audio</title><g id="f66899e5-28ad-4995-b76c-4306af64ba12" data-name="Calque 2"><g id="b6c268f6-bd7e-4153-994e-0a3af4d968be" data-name="Calque 7"><path class="bc271a17-46e8-454b-868d-3e0db1d1b23b" d="M47.38.06c18.26,1.42,27.91,29.11,32.4,42,10,28.77,4,45.53,4,87,0,37.5,5,34,4,59-1.76,45.74-20.14,105.66-40.5,106C28,294.38,4,240.49,4.19,192.06c.14-31.76,10.55-30.37,9.45-63C12.1,83.37-8.7,68.39,4.19,38.06,11.93,19.85,30.68-1.24,47.38.06Z"/><line class="e308cee8-3827-4329-b103-7c33da49fedc" x1="44" y1="78.06" x2="44" y2="354.06"/><path class="e308cee8-3827-4329-b103-7c33da49fedc" d="M26.5,97.56q8.7,12.35,17.39,24.71L56,109.06"/><polyline class="e308cee8-3827-4329-b103-7c33da49fedc" points="24 150.06 43.88 193 58 171.16"/></g></g></svg>
         <svg class="arbre2 objet" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 114.03 263.5"><defs><style>.ba52b4b2-a13f-4169-b834-e2e8c0929b65{fill:#8beabf;}.ba90d34b-297b-40b1-a302-3ed8738dc2db{fill:none;stroke:#fff;stroke-linecap:round;stroke-miterlimit:10;stroke-width:3px;}</style></defs><title>arbre2_audio</title><g id="fdfbc492-7e1c-4d40-ab44-994e89ce8c50" data-name="Calque 2"><g id="a947fd9f-da55-4b4e-8e33-19615f315fb5" data-name="Calque 7"><path class="ba52b4b2-a13f-4169-b834-e2e8c0929b65" d="M53.17.68C24.12,6.51,11.67,47.59,7.91,60c-2.4,7.94-23.26,80,14.45,114.09,22.22,20.08,58.37,21.14,78,0,17.9-19.27,14.85-49.19,9.63-100.4-4.53-44.52-15.17-56.44-19.26-60.46C89.5,12,73.37-3.38,53.17.68Z"/><line class="ba90d34b-297b-40b1-a302-3ed8738dc2db" x1="57.03" y1="83" x2="57.03" y2="262"/><polyline class="ba90d34b-297b-40b1-a302-3ed8738dc2db" points="37.53 94.23 56.17 110 80.03 85"/><polyline class="ba90d34b-297b-40b1-a302-3ed8738dc2db" points="35.53 132.5 57.01 147.16 71.53 138.5"/></g></g></svg>
+        
+        <!-- BATIMENTS + NOMS -->
         <div class="batiments">
 
                 <div class="motion building">
@@ -46,6 +52,7 @@
                 </div>
         </div>
 
+        <!-- SOL -->
         <div class="sol1"></div>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 127"><defs><style>.ae4345ba-d018-4723-a7a2-7f5e831278b0{fill:#efc68f;}.e203cd62-204c-4818-a83c-1eced5c041b7{fill:none;stroke:#fff;stroke-miterlimit:10;stroke-width:2px;}</style></defs><title>sol_audio</title><g id="be67d027-dd75-44dd-ba9d-b11a9058f57a" data-name="Calque 2"><g id="b79e29a3-6234-41e8-a1bb-cf94e5c62f71" data-name="Calque 1"><rect class="ae4345ba-d018-4723-a7a2-7f5e831278b0" y="1" width="1920" height="126"/></g><g id="bedcd530-08c9-454b-8ce0-723ee126dc46" data-name="Calque 5"><line class="e203cd62-204c-4818-a83c-1eced5c041b7" x1="13" y1="1" x2="1843" y2="3"/><line class="e203cd62-204c-4818-a83c-1eced5c041b7" x1="657" y1="16" x2="1797" y2="18"/><line class="e203cd62-204c-4818-a83c-1eced5c041b7" x1="224" y1="40" x2="1006" y2="42"/><line class="e203cd62-204c-4818-a83c-1eced5c041b7" x1="928" y1="82" x2="1710" y2="84"/></g></g></svg>    </section>
 
