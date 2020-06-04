@@ -535,6 +535,17 @@ a h1 {
 
 /* ========================================== */
 
+
+/*A PROPOS*/
+
+.statue{
+  position:relative;
+  width:33.4375vw;
+  left:53.59375vw ;
+}
+
+
+
 /* POP-UP */
 .popup {
   display: none;
