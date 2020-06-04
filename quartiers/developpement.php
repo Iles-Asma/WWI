@@ -18,11 +18,13 @@
             <div class="info">
                 <button class="close">&times;</button>
                 <h3>Métier</h3>
+                <div class="text">
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate officia dolores magni iure quidem ratione fugit debitis beatae. At doloribus culpa adipisci autem quaerat commodi. Qui adipisci eaque quod eveniet.</p>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate officia dolores magni iure quidem ratione fugit debitis beatae. At doloribus culpa adipisci autem quaerat commodi. Qui adipisci eaque quod eveniet.</p>
+                </div>
 
                 <table>
-                    <tr>
+                    <tr class="categorie">
                         <th>Qualités</th>
                         <th>Compétences</th>
                     </tr>
