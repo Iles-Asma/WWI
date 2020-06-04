@@ -15,8 +15,29 @@
             <div class="background"></div>
             <div class="info">
                 <button class="close">&times;</button>
-                <h3>Titre</h3>
-                <p>Text</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate officia dolores magni iure quidem ratione fugit debitis beatae. At doloribus culpa adipisci autem quaerat commodi. Qui adipisci eaque quod eveniet.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate officia dolores magni iure quidem ratione fugit debitis beatae. At doloribus culpa adipisci autem quaerat commodi. Qui adipisci eaque quod eveniet.</p>
+
+                <table>
+                    <tr>
+                        <th>Qualités</th>
+                        <th>Compétences</th>
+                    </tr>
+                    <tr>
+                        <td><ul>
+                            <li>lorem</li>
+                            <li>lorem</li>
+                            <li>lorem</li>
+                            <li>lorem</li>
+                        </ul></td>
+                        <td><ul>
+                            <li>lorem</li>
+                            <li>lorem</li>
+                            <li>lorem</li>
+                            <li>lorem</li>
+                        </ul></td>
+                    </tr>
+                </table>
             </div>
         </div>
 
