@@ -9,12 +9,11 @@
 </head>
 
 <body class="dev">
-    <section>
     <!-- BOUTON RETOUR -->
     <a href="../index.html"><h1> &xlarr; Retour </h1></a>
 
-        <!-- POP UP -->
-        <div class="popup">
+    <!-- POP UP -->
+    <div class="popup">
             <div class="background"></div>
             <div class="info">
                 <button class="close">&times;</button>
@@ -22,6 +21,10 @@
                 <p>Text</p>
             </div>
         </div>
+    <section>
+    
+
+        
 
         <!-- RESEAU DECO -->
         <svg class="traits" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1217.62 265.6">
