@@ -582,7 +582,7 @@ a h1 {
   border: 2px white solid;
   opacity: 0.9;
   width: 35vw;
-  height: 82vh;
+  height: 85vh;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -610,12 +610,17 @@ a h1 {
 
 .info h3 {
   text-align: center;
-  margin: 20px auto;
+  margin: 20px 0 auto;
   font-size:  2vw;
   text-transform: uppercase;
   color: #515151;
 }
 
+.info .text{
+  width: 90%;
+  margin: auto;
+  overflow: auto;
+}
 .info p {
   margin:5px 10px;
   font-size:  1.2vw;
@@ -625,7 +630,7 @@ a h1 {
 .info table{
   border: 1.5px white solid;
   width: 90%;
-  margin: 10px auto;
+  margin: 15px auto;
   border-spacing: 0;
 }
 th{
@@ -646,13 +651,37 @@ li{
 .formation{
   display: flex;
   flex-direction: column;
+  width: 90%;
+  margin: auto;
 }
-.bac
+.contenu{
+  display: flex;
+  justify-content: space-around;
+}
+.vertical{
+  align-self: center;
+  border-top: 1.5px white solid;
+  width: 70%;
+  position: relative;
+  top: -2vh;
+}
+
+.salaire{
+  align-self:flex-end;
+}
+span{
+  background-color: white;
+  border-radius: 50%;
+  width: 2vw;
+ height: 2vw;
+ opacity: 1;
+}
 
 
 .close {
   width: 3vw;
-  font-size: 1.5rem;
+  font-size: 2rem;
+  color: #515151;
   border: none;
   outline: none;
   background: none;
@@ -660,6 +689,7 @@ li{
   top: 2vh;
   right: 1vw;
   cursor: pointer;
+
 }
 
 /* ========================================== */
@@ -778,4 +808,17 @@ li{
   50% {
     d: path("M77.64,47.55c.65,7.54,5.73,13.11,9.64,12.65S94.15,53.08,92,45.65");
   }
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+::-webkit-scrollbar-track {
+  background: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background: white;
 }
