@@ -609,15 +609,35 @@ a h1 {
   margin:5px 10px;
   font-size:  1.2vw;
   font-weight: normal;
+  text-align: justify;
 }
 .info table{
-  border: 1px white solid;
+  border: 1.5px white solid;
   width: 90%;
   margin: 10px auto;
+  border-spacing: 0;
 }
-table .categorie{
-  border: 1px white solid;
+th{
+  border-bottom: 1.5px white solid;
 }
+th:first-child{
+  border-right: 1.5px white solid;
+}
+td:first-child{
+  border-right: 1.5px white solid;
+}
+li{
+  list-style: none;
+  position: relative;
+  right: 30px;
+}
+
+.formation{
+  display: flex;
+  flex-direction: column;
+}
+.bac
+
 
 .close {
   width: 3vw;
