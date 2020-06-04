@@ -30,6 +30,7 @@ a {
   margin: 0;
   text-decoration: none;
   cursor: pointer;
+  z-index: 3000;
 }
 
 a h1 {
@@ -537,7 +538,6 @@ a h1 {
 /* POP-UP */
 .popup {
   display: none;
-
 }
 
 .open {
@@ -562,29 +562,46 @@ a h1 {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  /* background-color: rgba(0, 0, 0, 0.5); */
 }
 
 .info {
-  position: absolute;
-  top: 40%;
-  left: 25%;
-  background-color: white;
-  border-radius: 20px;
-  width: 50%;
-  height: 30%;
+  margin: auto;
+  position: relative;
+  top: 2vh;
+  border: 2px white solid;
+  opacity: 0.9;
+  width: 35vw;
+  height: 82vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
   z-index: 2000;
+}
+        /* COULEURS POPUP */
+.dev .info{
+  background-color: #96CFE2;
+}
+.design .info{
+  background-color: #9AD5BF;
+}
+
+.audio .info{
+  background-color: #EFC68F;
+}
+.com .info{
+  background-color: #FCBDB6;
+}
+
+.mmi .info{
+  background-color: #D0C3E5;
 }
 
 .info h3 {
   text-align: center;
   margin: 0 2vw;
-  letter-spacing: 2px;
+  font-size:  2vw;
   text-transform: uppercase;
-  color: #C4D8EC;
+  color: #515151;
 }
 
 .info p {
