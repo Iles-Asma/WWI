@@ -9,18 +9,20 @@
 </head>
 
 <body class="mmi">
-    <section>
-        <a href="../index.html">
+<a href="../index.html">
             <h1> &xlarr; Retour </h1>
         </a>
-        <div class="popup">
+     <!-- POP UP -->
+     <div class="popup">
             <div class="background"></div>
             <div class="info">
                 <button class="close">&times;</button>
-                <h3>présentation mmi</h3>
+                <h3>Titre</h3>
                 <p>Text</p>
             </div>
         </div>
+    <section>
+        
         <div class="page">
             <!-- image svg arbre gauche -->
             <svg class="objet arbre-gauche" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 166.34 387.97">

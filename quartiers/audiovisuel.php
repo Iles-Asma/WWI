@@ -11,10 +11,8 @@
 
     <!-- BOUTON RETOUR -->
     <a href="../index.html"><h1> &xlarr; Retour </h1></a>
-    <section>
-    
-    <!-- POP UP -->
-        <div class="popup">
+     <!-- POP UP -->
+     <div class="popup">
             <div class="background"></div>
             <div class="info">
                 <button class="close">&times;</button>
@@ -22,6 +20,7 @@
                 <p>Text</p>
             </div>
         </div>
+    <section>
 
         <div class="page"> 
         
