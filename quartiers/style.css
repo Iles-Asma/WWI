@@ -596,33 +596,103 @@ div p{
 /*FORMULAIRE*/
 
 .border-div2{
-  width:45.8984375vw;
-  height: 123.40720221606648vh;
-  top: 34vh;
- 
+  width: 27.2125vw;
+  height: 16;
   position: relative;
- 
- 
-
-
+  right:-20vw;
+  top: 125vh;
 
 }
-
 
 
 .main-form{
-  left: 6vw;
-  height: 50vh;
-  width: 40vw;
+  
+  padding: 30px;
+  left: 22vw;
+  height: 55vh;
+  width: 20vw;
   position: relative;
-  border: solid 3px red;
-  top: 50vh;
+  border-radius: 50px;
+  top: 58.5vh;
+  background-color:  #ACE2DD;
   text-align:center;
-  display: none;
+  margin-right: auto;
+  
+}
+
+form .form1{
+  
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  height: 55vh;
+  position: relative;
+}
+
+.form1 p{
+  
+  margin:0 auto;
+  padding: 10px;
+}
+
+input {
+  font-size: 2vh;
+  font-family: "DIN-Medium";
+  
+}
+
+input[type=text]{
+  padding-left: 25px;
+  border-radius: 30px;
+  height: 5vh;
+  border: none;
+  outline-style: unset;
+  
+
+
+  
+}
+input[type=email]{
+  padding-left: 25px;
+  border-radius: 30px;
+  height: 5vh;
+  border: none;
+  outline-style: unset;
+  
+  
+}
+
+textarea{
+  padding-top: 10px;
+  padding-left: 25px;
+  font-size: 2vh;
+  font-family: "DIN-Medium";
+  height:25vh;
+  resize: none;
+  outline-style: unset;
+  border-radius: 25px;
+  border: none;
+ 
+}
+
+::placeholder{
+  color: rgba(107, 107, 107, 0.664);
 
 }
 
+input[type=submit]{
+  
+  outline-style: unset;
+  height: 5vh;
+  background-color: transparent;
+  border-radius: 30px;
+  border-style:unset;
+  border: #707070 solid 3px;
+  cursor: pointer;
+  color: #707070;
 
+
+}
 
 
 

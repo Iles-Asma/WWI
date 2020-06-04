@@ -32,9 +32,6 @@
                         </g>
                     </svg>
 
-
-
-
                     <div class="text-apropos">
                         <p>
                             Web Work Islands est un projet tutoré réalisé par un groupe d'étudiant en MMI. La plateforme
@@ -45,46 +42,45 @@
                         </p>
                     </div>
                 </div>
+                <!-- width="562.877" height="710.599" -->
 
                 <div class="border-div2">
 
-                    <svg xmlns="http://www.w3.org/2000/svg" width="707.442" height="893.241"
-                        viewBox="0 0 707.442 893.241">
+                    <svg xmlns="http://www.w3.org/2000/svg" 
+                        viewBox="0 0 562.877 710.599">
                         <g id="Calque_4" data-name="Calque 4" transform="translate(-171.076 -343.256)">
-                            <g id="Groupe_188" data-name="Groupe 188">
+                            <g id="Groupe_188" data-name="Groupe 188" transform="translate(172.076 344.256)">
                                 <g id="Groupe_187" data-name="Groupe 187">
                                     <path id="Tracé_1700" data-name="Tracé 1700"
-                                        d="M172.076,423.937c.028-6.29.874-30.978,19.92-52.73,19.85-22.671,45.565-26.27,51.558-26.951l393.714,1.172"
-                                        fill="none" stroke="#f7f7f7" stroke-miterlimit="10" stroke-width="2" />
+                                        d="M172.076,407.608a63.959,63.959,0,0,1,56.83-63.352l313.03.932"
+                                        transform="translate(-172.076 -344.256)" fill="none" stroke="#f7f7f7"
+                                        stroke-miterlimit="10" stroke-width="2" />
                                 </g>
                             </g>
                             <path id="Tracé_1701" data-name="Tracé 1701"
-                                d="M785,656.741c-.029,6.289-.874,30.977-19.92,52.729-19.851,22.671-45.566,26.27-51.558,26.951L561.1,735.627"
-                                transform="translate(92.518 499.075)" fill="none" stroke="#f7f7f7"
+                                d="M739.117,656.741a63.959,63.959,0,0,1-56.83,63.351L561.1,719.461"
+                                transform="translate(-6.164 332.763)" fill="none" stroke="#f7f7f7"
                                 stroke-miterlimit="10" stroke-width="2" />
                         </g>
                     </svg>
+                </div>
+
 
 
                     <div class="main-form">
 
                         <form action=" ">
 
-
-                            <div>
-                                <input type="text" id="nom" required></p>
-                                <input type="text" id="prenom" required></p>
-                                <input type="email" id="email" required>
-                            </div>
-
-                            <div>
-                                <textarea id="" rows="5" cols="50" placeholder="La paroles est a vous"></textarea>
+                            <div class="form1">
+                                <input type="text" id="nom" placeholder="Nom"  required></p>
+                                <input type="text" id="prenom" placeholder="Prénom" required></p>
+                                <input type="email" id="email" placeholder="Email" required></p>
+                                <textarea id="" rows="5" cols="50" placeholder="Message"></textarea></p>
                                 <input type="submit" value="Envoyé">
-                            </div>
-
+                           </div>
                         </form>
                     </div>
-                </div>
+                
 
 
 
