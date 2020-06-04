@@ -21,6 +21,7 @@
                 <div class="text">
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate officia dolores magni iure quidem ratione fugit debitis beatae. At doloribus culpa adipisci autem quaerat commodi. Qui adipisci eaque quod eveniet.</p>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate officia dolores magni iure quidem ratione fugit debitis beatae. At doloribus culpa adipisci autem quaerat commodi. Qui adipisci eaque quod eveniet.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate officia dolores magni iure quidem ratione fugit debitis beatae. At doloribus culpa adipisci autem quaerat commodi. Qui adipisci eaque quod eveniet.</p>
                 </div>
 
                 <table>
@@ -43,22 +44,29 @@
                         </ul></td>
                     </tr>
                 </table>
-                <div class="formation ">
-                    <div class="bac">
-                        <p>BAC+2</p>
-                        <p>BAC+3</p>
-                        <p>BAC+5</p>
-                    </div>
-                    <div class="diplome">
-                        <p>DUT: <br> métiers du multimédia et de l'Internet</p>
+                
+                <div class="formation contenu">
+                <p class="titre">Formations:</p>
+                    <div class="bac contenu">
+                        <p>Lorem ipsum</p>
                         <p>Lorem ipsum</p>
                         <p>Lorem ipsum</p>
                     </div>
-                    <div class="point">
+                    <div class="point contenu">
                         <span></span>
                         <span></span>
                         <span></span>
+                        
                     </div>
+                    <div class="vertical"></div>
+                    <div class="diplome contenu">
+                        <p>Lorem ipsum</p>
+                        <p>Lorem ipsum</p>
+                        <p>Lorem ipsum</p>
+                    </div>
+
+                    <p class="salaire">Salaire:lorem</p>
+                    
                 </div>
 
             </div>
