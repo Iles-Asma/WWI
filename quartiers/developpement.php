@@ -30,20 +30,36 @@
                     </tr>
                     <tr>
                         <td><ul>
-                            <li>lorem</li>
-                            <li>lorem</li>
-                            <li>lorem</li>
-                            <li>lorem</li>
+                            <li>lorem<br>
+                            <li>lorem<br>
+                            <li>lorem<br>
+                            <li>lorem<br>
                         </ul></td>
                         <td><ul>
-                            <li>lorem</li>
-                            <li>lorem</li>
-                            <li>lorem</li>
-                            <li>lorem</li>
+                            <li>lorem<br>
+                            <li>lorem<br>
+                            <li>lorem<br>
+                            <li>lorem<br>
                         </ul></td>
                     </tr>
                 </table>
-
+                <div class="formation ">
+                    <div class="bac">
+                        <p>BAC+2</p>
+                        <p>BAC+3</p>
+                        <p>BAC+5</p>
+                    </div>
+                    <div class="diplome">
+                        <p>DUT: <br> métiers du multimédia et de l'Internet</p>
+                        <p>Lorem ipsum</p>
+                        <p>Lorem ipsum</p>
+                    </div>
+                    <div class="point">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
 
             </div>
         </div>
