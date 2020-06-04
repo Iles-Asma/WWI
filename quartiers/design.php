@@ -10,9 +10,7 @@
 <body class="design">
     <!-- BOUTON RETOUR -->
     <a href="../index.html"><h1> &xlarr; Retour </h1></a>
-    <section>
-    
-        <!-- POP UP -->
+     <!-- POP UP -->
         <div class="popup">
             <div class="background"></div>
             <div class="info">
@@ -21,6 +19,10 @@
                 <p>Text</p>
             </div>
         </div>
+
+    <section>
+    
+       
 
         <div class="page">
             
