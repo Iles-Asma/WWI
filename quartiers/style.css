@@ -5,9 +5,23 @@
     url("../fonts/DINLight.woff") format("woff"),
 
     url("../fonts/DINLight.woff2") format("woff2");
+
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: "DIN-Medium";
+
+  src:
+    url("../fonts/DINMedium.woff") format("woff"),
+
+    url("../fonts/DINMedium.woff2") format("woff2");
+
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 body {
   overflow: hidden;
@@ -540,9 +554,75 @@ a h1 {
 
 .statue{
   position:relative;
-  width:33.4375vw;
+  width:36.09375vw;
+  
   left:53.59375vw ;
+ 
 }
+
+.border-div1{
+  position: relative;
+  width: 39.927083333333332vw;
+  height: 25.27107790821771vh;
+  top: 25.71291355389541vh;
+  left: 8.958333333333334vw;
+  display: none;
+
+}
+
+.text-apropos{
+  font-family: "DIN-Medium";
+  font-size: 2.5613660618996796vh;
+  width: 36.34375vw;
+  height:  44.942369263607254vh;
+  margin-left:4.5% ;
+  top:3.8vh;
+  position: absolute;
+  background-color: #ACE2DD;
+  border-radius: 60px;
+  display: none;
+
+}
+div p{
+
+  margin: 0 auto;
+  padding: 33px;
+  line-height: 5.4034151547492vh;
+  text-align: left;
+  
+
+}
+
+/*FORMULAIRE*/
+
+.border-div2{
+  width:45.8984375vw;
+  height: 123.40720221606648vh;
+  top: 34vh;
+ 
+  position: relative;
+ 
+ 
+
+
+
+}
+
+
+
+.main-form{
+  left: 6vw;
+  height: 50vh;
+  width: 40vw;
+  position: relative;
+  border: solid 3px red;
+  top: 50vh;
+  text-align:center;
+  display: none;
+
+}
+
+
 
 
 
