@@ -11,33 +11,62 @@
     <!-- BOUTON RETOUR -->
     <a href="../index.html"><h1> &xlarr; Retour </h1></a>
      <!-- POP UP -->
-        <div class="popup">
+     <div class="popup">
             <div class="background"></div>
             <div class="info">
                 <button class="close">&times;</button>
+                <h3>Métier</h3>
+                <div class="text">
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate officia dolores magni iure quidem ratione fugit debitis beatae. At doloribus culpa adipisci autem quaerat commodi. Qui adipisci eaque quod eveniet.</p>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate officia dolores magni iure quidem ratione fugit debitis beatae. At doloribus culpa adipisci autem quaerat commodi. Qui adipisci eaque quod eveniet.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate officia dolores magni iure quidem ratione fugit debitis beatae. At doloribus culpa adipisci autem quaerat commodi. Qui adipisci eaque quod eveniet.</p>
+                </div>
 
                 <table>
-                    <tr>
+                    <tr class="categorie">
                         <th>Qualités</th>
                         <th>Compétences</th>
                     </tr>
                     <tr>
                         <td><ul>
-                            <li>lorem</li>
-                            <li>lorem</li>
-                            <li>lorem</li>
-                            <li>lorem</li>
+                            <li>lorem<br>
+                            <li>lorem<br>
+                            <li>lorem<br>
+                            <li>lorem<br>
                         </ul></td>
                         <td><ul>
-                            <li>lorem</li>
-                            <li>lorem</li>
-                            <li>lorem</li>
-                            <li>lorem</li>
+                            <li>lorem<br>
+                            <li>lorem<br>
+                            <li>lorem<br>
+                            <li>lorem<br>
                         </ul></td>
                     </tr>
                 </table>
+                
+                <div class="formation contenu">
+                <p class="titre">Formations:</p>
+                    <div class="bac contenu">
+                        <p>Lorem ipsum</p>
+                        <p>Lorem ipsum</p>
+                        <p>Lorem ipsum</p>
+                    </div>
+                    <div class="point contenu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        
+                    </div>
+                    <div class="vertical"></div>
+                    <div class="diplome contenu">
+                        <p>Lorem ipsum</p>
+                        <p>Lorem ipsum</p>
+                        <p>Lorem ipsum</p>
+                    </div>
+
+                    <p class="salaire">Salaire:lorem</p>
+                    
+                </div>
+
             </div>
         </div>
 
