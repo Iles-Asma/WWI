@@ -562,7 +562,6 @@ a h1 {
   left: 0;
   width: 100%;
   height: 100%;
-  /* background-color: rgba(0, 0, 0, 0.5); */
 }
 
 .info {
@@ -575,9 +574,11 @@ a h1 {
   height: 82vh;
   display: flex;
   flex-direction: column;
+  align-content: center;
   z-index: 2000;
 }
-        /* COULEURS POPUP */
+
+    /* COULEURS POPUP */
 .dev .info{
   background-color: #96CFE2;
 }
@@ -598,15 +599,24 @@ a h1 {
 
 .info h3 {
   text-align: center;
-  margin: 0 2vw;
+  margin: 20px auto;
   font-size:  2vw;
   text-transform: uppercase;
   color: #515151;
 }
 
 .info p {
-  margin: 0 2vw;
+  margin:5px 10px;
+  font-size:  1.2vw;
   font-weight: normal;
+}
+.info table{
+  border: 1px white solid;
+  width: 90%;
+  margin: 10px auto;
+}
+.info td{
+  border: 1px white solid;
 }
 
 .close {
