@@ -68,14 +68,14 @@
 
 
                     <div class="main-form">
-
+                      <h1>MESSAGERIE</h1>
                         <form action=" ">
-
+                            
                             <div class="form1">
-                                <input type="text" id="nom" placeholder="Nom"  required></p>
-                                <input type="text" id="prenom" placeholder="Prénom" required></p>
-                                <input type="email" id="email" placeholder="Email" required></p>
-                                <textarea id="" rows="5" cols="50" placeholder="Message"></textarea></p>
+                                <input type="text" id="nom" placeholder="Nom" maxlength="35"  required></p>
+                                <input type="text" id="prenom" placeholder="Prénom" maxlength="35" required></p>
+                                <input type="email" id="email" placeholder="Email" maxlength="35" required></p>
+                                <textarea id="" rows="5" cols="50" placeholder="Message" maxlength="600"></textarea></p>
                                 <input type="submit" value="Envoyé">
                            </div>
                         </form>
