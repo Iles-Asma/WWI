@@ -566,12 +566,13 @@ a h1 {
   height: 25.27107790821771vh;
   top: 25.71291355389541vh;
   left: 8.958333333333334vw;
-  display: none;
+  /* display: none; */
 
 }
 
 .text-apropos{
   font-family: "DIN-Medium";
+  color: #515151;
   font-size: 2.5613660618996796vh;
   width: 36.34375vw;
   height:  44.942369263607254vh;
@@ -580,7 +581,7 @@ a h1 {
   position: absolute;
   background-color: #ACE2DD;
   border-radius: 60px;
-  display: none;
+  /* display: none; */
 
 }
 div p{
@@ -601,6 +602,7 @@ div p{
   position: relative;
   right:-20vw;
   top: 125vh;
+  display: none;
 
 }
 
@@ -617,6 +619,7 @@ div p{
   background-color:  #ACE2DD;
   text-align:center;
   margin-right: auto;
+  display: none;
   
 }
 
@@ -627,6 +630,7 @@ div h1{
   margin-bottom: 10px;
   padding: 0px;
   color: #515151;
+
  
 }
 
@@ -637,18 +641,20 @@ form .form1{
   width: 20vw;
   height: 55vh;
   position: relative;
+  display: none;
 }
 
 .form1 p{
-  
+  display: none;
   margin:0 auto;
   padding: 10px;
 }
 
 input {
+  display: none;
   font-size: 2vh;
   font-family: "DIN-Medium";
-  
+
 }
 
 input[type=text]{
@@ -667,7 +673,7 @@ input[type=email]{
   height: 5vh;
   border: none;
   outline-style: unset;
-  
+
 }
 
 textarea{
@@ -679,11 +685,11 @@ textarea{
   outline-style: unset;
   border-radius: 25px;
   border: none;
- 
 }
 
 ::placeholder{
   color: rgba(107, 107, 107, 0.664);
+  
 
 }
 
