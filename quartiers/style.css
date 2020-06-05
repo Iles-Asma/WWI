@@ -24,14 +24,14 @@
 
 
 body {
-  overflow: hidden;
+  overflow: auto;
   font-family: "DIN-Light";
   background-color: #92d2f4;
   margin: 0;
 }
 
-.mmi,.audio,.com ,.design,.dev section {
-  position: absolute;
+section {
+  position: relative;
   bottom: 0;
   width: 100%;
 }
@@ -594,9 +594,9 @@ a h1 {
   
 
 }
-.apropos div p{
+.a-propos div p{
 
-  margin: 0 auto;
+  margin: 0px;
   padding: 33px;
   line-height: 5.4034151547492vh;
   text-align: left;
@@ -604,15 +604,18 @@ a h1 {
 
 }
 
+
+
+
 /*FORMULAIRE*/
 
 .border-div2{
   width: 27.2125vw;
-  height: 16;
+  height: 16vh;
   position: relative;
   right:-20vw;
-  top: 125vh;
-  display: none;
+  top: 70vh;
+  
 
 }
 
@@ -625,15 +628,15 @@ a h1 {
   width: 20vw;
   position: relative;
   border-radius: 50px;
-  top: 56.24vh;
+  top: 55.95vh;
   background-color:  #ACE2DD;
   text-align:center;
   margin-right: auto;
-  display: none;
+ 
   
 }
 
-.apropos div h1{
+.a-propos div h1{
   font-family: 'DIN-Medium';
   font-size: 26px;
   margin-top: 0px;
