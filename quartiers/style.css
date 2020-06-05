@@ -654,17 +654,17 @@ form .form1{
   width: 20vw;
   height: 55vh;
   position: relative;
-  display: none;
+
 }
 
 .form1 p{
-  display: none;
-  margin:0 auto;
-  padding: 10px;
+  
+  margin:0px;
+  padding: 0px;
 }
 
 input {
-  display: none;
+
   font-size: 2vh;
   font-family: "DIN-Medium";
 
@@ -683,7 +683,7 @@ input[type=email]{
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 30px;
-  height: 5vh;
+  height: 7vh;
   border: none;
   outline-style: unset;
 
