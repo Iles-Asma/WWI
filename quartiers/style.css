@@ -31,7 +31,7 @@ body {
 }
 
 .a-propos section {
-  position: relative;
+  position: rela;
   bottom: 0px;
   width: 100%;
 }
@@ -617,6 +617,12 @@ a h1 {
   left: 7vw;
   
 }
+.p-div3{
+  margin: 0px;
+  padding: 10px 33px 33px 33px;
+  line-height: 6.4034151547492vh;
+ 
+}
 
 .text-apropos2 {
   font-family: "DIN-Medium";
@@ -634,38 +640,40 @@ a h1 {
 
 }
 
-.p-div3{
-  margin: 0px;
-  padding: 10px 33px 33px 33px;
-  line-height: 6.4034151547492vh;
- 
-}
+
 
 .figurine{
   display: flex;
   position:relative;
-  left: 20vw;
-  top: -60vh;
-  width: 80vw;
+  bottom: 50vh;
+  
+ 
+  
+  
+
   
 
 }
 .figurine_iles{
+  position:relative;
   width:  9.344791666666667vw;
 
 }
 
 .figurine_thanh{
+  position:relative;
   width:  6.811979166666666vw;
 
 }
 
 .figurine_pierre{
+  position:relative;
   width:  8.2046875vw;
 
 }
 
 .figurine_jean{
+  position:relative;
   width:  12.119270833333333vw;
 
 }
