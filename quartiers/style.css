@@ -30,7 +30,7 @@ body {
   margin: 0;
 }
 
-section {
+.mmi,.audio,.com ,.design,.dev section {
   position: absolute;
   bottom: 0;
   width: 100%;
