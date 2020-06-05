@@ -507,13 +507,21 @@ a h1 {
 
 /*MMI CSS*/
 
-
+.mmi .page {
+  display: flex;
+  align-items: flex-end;
+  margin: auto;
+  margin-bottom: 0;
+  width: 100%;
+  position: relative;
+  top: 2px;
+  z-index: 1;
+}
 .arbre-gauche {
 
   width: 7vw;
   z-index: 1;
-  position: absolute;
-  top: 52%;
+  position: relative;
   left: 21.239583333333334vw;
 
 
@@ -521,10 +529,9 @@ a h1 {
 
 .arbre-droite {
 
-  position: absolute;
+  position: relative;
   width: 6vw;
   z-index: 1;
-  top: 50%;
   right: 24.0625vw;
 }
 
@@ -540,7 +547,6 @@ a h1 {
 }
 
 .mmi .sol1 {
-
   width: 100%;
   position: absolute;
   left: 0;
