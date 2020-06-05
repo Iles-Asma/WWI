@@ -30,8 +30,14 @@ body {
   margin: 0;
 }
 
-section {
+.a-propos section {
   position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.mmi section, .dev section, .com section, .design section, .audio section {
+  position: absolute;
   bottom: 0;
   width: 100%;
 }
