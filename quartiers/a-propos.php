@@ -32,8 +32,8 @@
                         </g>
                     </svg>
 
-                    <div class="text-apropos">
-                        <p>
+                    <div class="text-apropos1">
+                        <p class="p-apropos1">
                             Web Work Islands est un projet tutoré réalisé par un groupe d'étudiant en MMI. La plateforme
                             a
                             pour but de présenter aux lycéens en classe de Terminale les métiers accessibles après la
@@ -158,14 +158,14 @@
 
 
                 <div class="main-form">
-                    <h1>MESSAGERIE</h1>
+                    <h1 class="h1-msg">MESSAGERIE</h1>
                     <form action=" ">
 
                         <div class="form1">
-                            <input type="text" id="nom" placeholder="Nom" maxlength="35" required></p>
-                            <input type="text" id="prenom" placeholder="Prénom" maxlength="35" required></p>
-                            <input type="email" id="email" placeholder="Email" maxlength="35" required></p>
-                            <textarea id="" rows="5" cols="50" placeholder="Message" maxlength="600"></textarea></p>
+                            <input type="text" id="nom" placeholder="Nom" maxlength="35" required>
+                            <input type="text" id="prenom" placeholder="Prénom" maxlength="35" required>
+                            <input type="email" id="email" placeholder="Email" maxlength="35" required>
+                            <textarea id="" rows="5" cols="50" placeholder="Message" maxlength="600"></textarea>
                             <input type="submit" value="Envoyé">
                         </div>
                     </form>
@@ -278,6 +278,13 @@
                                 stroke-miterlimit="10" stroke-width="2" />
                         </g>
                     </svg>
+
+
+                    <div class="text-apropos2">
+                        <p class="p-div3">
+                        Voici l'équipe de projet au complet, survole l'un d'entre eux pour voir son profil apparaitre…
+                        </p>
+                    </div>
                 </div>
 
 
