@@ -8,7 +8,7 @@
     <title>à propos</title>
 </head>
 
-<body>
+<body class="a-propos">
     <a href="../index.html">
         <h1> &xlarr; Retour </h1>
     </a>
