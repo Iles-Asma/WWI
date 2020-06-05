@@ -17,9 +17,55 @@
             <div class="background"></div>
             <div class="info">
                 <button class="close">&times;</button>
-                <h3>Métier</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate officia dolores magni iure quidem ratione fugit debitis beatae. At doloribus culpa adipisci autem quaerat commodi. Qui adipisci eaque quod eveniet.</p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate officia dolores magni iure quidem ratione fugit debitis beatae. At doloribus culpa adipisci autem quaerat commodi. Qui adipisci eaque quod eveniet.</p>
+                <h3>Présentation MMI</h3>
+
+                <div class="text">
+                <h4>DUT MMI, qu'est-ce que c'est?</h4>
+                <p>C’est une formation post-bac de niveau bac+2 dont les cours ont lieu dans des IUT (Institut Universitaire de Technologie), au sein des universités.</p>
+                <p>Cette formation permet d’acquérir de solides compétences de base dans les domaines de la programmation et du design de sites Internet, dans l'utilisation des nouvelles technologies au service de la communication d'entreprise, dans la production d'outils multimédias et dans les métiers des réseaux informatiques.
+                </p>
+                <p>La formation met particulièrement l'accent sur la pédagogie de projet et l'accompagnement individualisé de l'étudiant. Ceci permettant de découvrir la complexité et la pluridisciplinarité des activités. De part la diversité de son programme, cette formation convient aussi bien aux profils créatifs qu’aux profils analytiques.
+                </p>
+
+                <h4>Le programme MMI</h4>
+                <p>Il comprend 1 800 heures d’enseignements (cours, TD et TP), 1 stage de 10 semaines (semestre 4) et 300 heures de projets tutorés réparties sur les 4 semestres.
+                </p>
+                <p>L'enseignement est dispensé sur 4 semestres, chacun comportant 2 Unités d'Enseignement (UE) : l’une axée sur la communication, l'autre sur l'informatique et le multimédia.</p>
+                <p>Pour valider chaque semestre, il faut avoir au minimum 8/20 dans chaque UE, et au minimum 10/20 en faisant la moyenne des deux UE. Les devoirs finaux, les travaux pratiques notés, ainsi que les divers projets constituent l’essentiel des notes.</p>
+                <p>Le semestre 4 est divisé en deux parcours possibles : développement web et mobile, ou communication plurimédia. Ce sera à l’élève de choisir son parcours en fonction de ses compétences et de ses goûts. <br>
+                Toutefois, il est recommandé de faire son choix par rapport à la poursuite d'étude souhaitée et en lien avec le futur métier visé.</p>
+
+                <h4>Les disciplines étudiées en DUT sont variées :</h4>
+                <ul>
+                    <li>communication orale et écrite</li>
+                    <li>programmation</li>
+                    <li>infographie</li>
+                    <li>intégration web</li>
+                    <li>langue vivante</li>
+                    <li>audiovisuel</li>
+                    <li>marketing</li>
+                    <li>réseaux et informatique</li>
+                    <li>théories de l'information et de la communication</li>
+                    <li>culture générale et communicationnelle</li>
+                    <li>multimédia</li>
+                </ul>
+                <p>Ce programme demande d’être exigeant et nécessite beaucoup d'investissement personnel de la part de l’étudiant. <br>
+                Avec des semaines de cours qui pour la majeure partie du temps sont de 35h/semaine. Une bonne organisation et une bonne autonomie sont donc nécessaires.</p>
+
+                <h4>Comment y accéder ?</h4>
+
+                <p>Un DUT MMI est accessible via l’admission post-bac, ce uniquement par la plateforme Parcoursup. La formation s’adresse à tous les types de baccalauréats ou titres équivalents. Les DUT sont généralement sélectifs : un jury d’admission examinera votre dossier qui comprendra votre lettre de motivation, vos notes et votre CV. <br>
+                Un projet personnel en lien avec les matières de cette formation est très apprécié par le jury.</p>
+
+                <h4>Et après ?</h4>
+
+                <p>À l’issue de votre formation, vous serez titulaire d’un diplôme de niveau bac+2 vous permettant ainsi de poursuivre vos études.</p>
+                
+                <h4>Ou alors...</h4>
+
+                <p>Vous pourrez également rejoindre la vie professionnelle.
+                La polyvalence du diplôme MMI permet une insertion professionnelle. Avec le large spectre de compétences, les titulaires du DUT MMI sont généralement appréciés dans le marché du travail.</p>
+                </div>
             </div>
         </div>
     <section>

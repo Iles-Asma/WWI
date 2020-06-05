@@ -507,31 +507,19 @@ a h1 {
 
 /*MMI CSS*/
 
-.mmi .page {
-  display: flex;
-  align-items: flex-end;
-  margin: auto;
-  margin-bottom: 0;
-  width: 100%;
-  position: relative;
-  top: 2px;
-  z-index: 1;
-}
 .arbre-gauche {
-
   width: 7vw;
   z-index: 1;
-  position: relative;
+  position: absolute;
+  top: 50%;
   left: 21.239583333333334vw;
-
-
 }
 
 .arbre-droite {
-
-  position: relative;
+  position: absolute;
   width: 6vw;
   z-index: 1;
+  top: 50%;
   right: 24.0625vw;
 }
 
@@ -557,10 +545,6 @@ a h1 {
 
 
 /*A PROPOS*/
-
-
-
-
 
 .statue{
   position:relative;
@@ -845,7 +829,7 @@ input[type=submit]{
 
 .info .text{
   width: 90%;
-  margin: auto;
+  margin: 10px auto;
   overflow: auto;
 }
 .info p {
@@ -873,6 +857,13 @@ li{
   list-style: none;
   position: relative;
   right: 30px;
+}
+
+.mmi .popup li::before{
+  content: '- ';
+}
+.mmi .popup h4{
+  margin-bottom: auto;
 }
 
 .formation{
@@ -916,8 +907,8 @@ span{
   top: 2vh;
   right: 1vw;
   cursor: pointer;
-
 }
+
 
 /* ========================================== */
 
