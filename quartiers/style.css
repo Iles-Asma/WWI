@@ -588,7 +588,7 @@ a h1 {
   /* display: none; */
 
 }
-div p{
+.apropos div p{
 
   margin: 0 auto;
   padding: 33px;
@@ -627,7 +627,7 @@ div p{
   
 }
 
-div h1{
+.apropos div h1{
   font-family: 'DIN-Medium';
   font-size: 26px;
   margin-top: 0px;
