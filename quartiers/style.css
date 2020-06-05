@@ -30,8 +30,8 @@ body {
   margin: 0;
 }
 
-section {
-  position: relative;
+.mmi section,.dev section,.design section,.audio section,.com section {
+  position: absolute;
   bottom: 0;
   width: 100%;
 }
