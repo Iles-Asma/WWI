@@ -137,19 +137,19 @@
 
         <div class="figurines">
             <!-- ILES -->
-                <img src="../images/avatar-iles.png" alt="">
+                <img class="iles" src="../images/avatar-iles.png" alt="">
 
 
             <!-- THANH -->
-                <img src="../images/avatar-thanh.png" alt="">
+                <img class="thanh" src="../images/avatar thanh.png" alt="">
 
 
             <!-- PIERRE -->
-                <img src="../images/avatar-pierre.png" alt="">
+                <img class="pierre" src="../images/avatar-pierre.png" alt="">
 
 
             <!-- JEAN -->
-                <img src="../images/avatar-jean.png" alt="">
+                <img class="jean" src="../images/avatar-jean.png" alt="">
 
         </div>
 
