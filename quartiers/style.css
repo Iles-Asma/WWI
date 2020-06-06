@@ -24,13 +24,16 @@
 
 
 body {
-  /* overflow: hidden; */
+  overflow: auto;
   font-family: "DIN-Light";
   background-color: #92d2f4;
   margin: 0;
 }
 
-
+.a-propos section {
+  height: 100vh;
+  position: relative;
+}
 
 .mmi section, .dev section, .com section, .design section, .audio section {
   position: absolute;
@@ -879,9 +882,16 @@ input[type=submit]{
   overflow: auto;
 }
 .info p {
-  margin:5px 10px;
+  margin:10px 10px;
   font-size:  1.2vw;
   font-weight: normal;
+}
+th {
+  width: 45%;
+}
+.null {
+  display: block;
+  width: 150px;
 }
 .info table{
   border: 1.5px white solid;
@@ -932,7 +942,7 @@ li{
 .salaire{
   align-self:flex-end;
 }
-span{
+.circle{
   background-color: white;
   border-radius: 50%;
   width: 2vw;

@@ -5,21 +5,36 @@
     <meta charset="UTF-8">
     <title>Design</title>
     <link href="style.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="../main.js"></script>
+    <?php $db = new PDO ('mysql:host=localhost;dbname=wwi', 'root', '', array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"));?>
 </head>
 
 <body class="design">
     <!-- BOUTON RETOUR -->
     <a href="../index.html"><h1> &xlarr; Retour </h1></a>
      <!-- POP UP -->
-     <div class="popup">
+
+    <?php
+    
+    $stmt = $db -> prepare('SELECT * FROM metiers WHERE id_quartiers = 3');
+    $stmt -> execute();
+
+    while ($data = $stmt -> fetch()) {
+        
+        $skill = $data['competences'];
+        $skill_ex = explode(",", $skill);
+
+        $qualities = $data['qualites'];
+        $qualities_ex = explode(",", $qualities);
+        
+        echo('
+     <div class="popup" id="popup-'.$data['id'].'">
             <div class="background"></div>
             <div class="info">
                 <button class="close">&times;</button>
-                <h3>Métier</h3>
-                <div class="text">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate officia dolores magni iure quidem ratione fugit debitis beatae. At doloribus culpa adipisci autem quaerat commodi. Qui adipisci eaque quod eveniet.</p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate officia dolores magni iure quidem ratione fugit debitis beatae. At doloribus culpa adipisci autem quaerat commodi. Qui adipisci eaque quod eveniet.</p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate officia dolores magni iure quidem ratione fugit debitis beatae. At doloribus culpa adipisci autem quaerat commodi. Qui adipisci eaque quod eveniet.</p>
+                <h3>'.$data['nom'].'</h3>
+                <div class="text">'.$data['description_metier'].'
                 </div>
 
                 <table>
@@ -29,16 +44,16 @@
                     </tr>
                     <tr>
                         <td><ul>
-                            <li>lorem<br>
-                            <li>lorem<br>
-                            <li>lorem<br>
-                            <li>lorem<br>
+                            <li>'.$qualities_ex[0].'<br>
+                            <li>'.$qualities_ex[1].'<br>
+                            <li>'.$qualities_ex[2].'<br>
+                            <li>'.$qualities_ex[3].'<br>
                         </ul></td>
                         <td><ul>
-                            <li>lorem<br>
-                            <li>lorem<br>
-                            <li>lorem<br>
-                            <li>lorem<br>
+                            <li>'.$skill_ex[0].'<br>
+                            <li>'.$skill_ex[1].'<br>
+                            <li>'.$skill_ex[2].'<br>
+                            <li>'.$skill_ex[3].'<br>
                         </ul></td>
                     </tr>
                 </table>
@@ -46,29 +61,32 @@
                 <div class="formation contenu">
                 <p class="titre">Formations:</p>
                     <div class="bac contenu">
-                        <p>Lorem ipsum</p>
-                        <p>Lorem ipsum</p>
-                        <p>Lorem ipsum</p>
+                        <p>Bac +2</p>
+                        <p>Bac +3</p>
+                        <p>Bac +5</p>
                     </div>
                     <div class="point contenu">
-                        <span></span>
-                        <span></span>
-                        <span></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
+                        <span class="circle"></span>
                         
                     </div>
                     <div class="vertical"></div>
                     <div class="diplome contenu">
-                        <p>Lorem ipsum</p>
-                        <p>Lorem ipsum</p>
-                        <p>Lorem ipsum</p>
+                        <p>'.$data['bac_2'].'</p>
+                        <p>'.$data['bac_3'].'</p>
+                        <p>'.$data['bac_5'].'</p>
                     </div>
 
-                    <p class="salaire">Salaire:lorem</p>
+                    <p class="salaire">Salaire :'.$data['salaire'].'</p>
                     
                 </div>
 
             </div>
-        </div>
+        </div>');
+    };
+
+        ?>
 
     <section>
     
@@ -142,7 +160,7 @@
                 <div class="graphiste building">
                     <h3>Graphiste</h3>
 
-                    <svg class="open" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384.11 792.46">
+                    <svg class="open" id="10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384.11 792.46">
                         <defs>
                             <style>
                                 .e7429201-3903-48fe-a9ac-0f7453ed520e {
@@ -319,7 +337,7 @@
                 <div class="infographiste building">
                     <h3>Infographiste</h3>
 
-                    <svg class="open" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 325.48 746.01">
+                    <svg class="open" id="11" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 325.48 746.01">
                         <defs>
                             <style>
                                 .ae9ad6bb-0e9a-4362-b7e9-8e0b588ff5f3 {
@@ -434,7 +452,7 @@
                 </div>
                 <div class="uxui building">
                     <h3>UX/UI Designer</h3>
-                    <svg class="open" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 257.93 586.35">
+                    <svg class="open" id="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 257.93 586.35">
                         <defs>
                             <style>
                                 .a2ec506a-c776-4987-a3a6-773a292f77da {
@@ -526,7 +544,7 @@
 
                 <div class="da building">
                     <h3>Directeur artistique</h3>
-                    <svg class="open" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 393.72 724.19">
+                    <svg class="open" id="13" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 393.72 724.19">
                         <defs>
                             <style>
                                 .f66a1dfe-934e-4127-ab10-126a94b75f16 {
@@ -644,8 +662,10 @@
     <script type="text/javascript">
         $(document).ready(function () {
             var navigateur = navigator.userAgent;
+            
             $(".open").click(function () {
-                $(".popup").show();
+                var idBatiment = $(this).attr('id');
+                $("#popup-"+idBatiment).show();
             });
             $(".background, .close").click(function () {
                 $(".popup").hide();

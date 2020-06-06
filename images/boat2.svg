@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="145.2" height="44.5" viewBox="0 0 145.2 44.5">
+  <g id="boat2" transform="translate(-240.361 -703.828)">
+    <rect id="Rectangle_79" data-name="Rectangle 79" width="44.66" height="18.229" transform="translate(279.521 704.784)" fill="#fff"/>
+    <rect id="Rectangle_80" data-name="Rectangle 80" width="67.446" height="18.229" transform="translate(276.787 714.809)" fill="#fff"/>
+    <rect id="Rectangle_81" data-name="Rectangle 81" width="4.557" height="8.203" transform="translate(281.344 719.367)" fill="#8599aa"/>
+    <path id="Tracé_89" data-name="Tracé 89" d="M240.361,729.628a531.564,531.564,0,0,0,114.4-4.4c10.653-1.577,20.923-3.432,30.8-5.5a34.617,34.617,0,0,1-11.587,24.247H244.887Q242.624,736.8,240.361,729.628Z" fill="#fff"/>
+    <path id="Tracé_90" data-name="Tracé 90" d="M241.7,730.948a493.478,493.478,0,0,0,116.914-4.07q12.453-1.939,24.2-4.4" fill="none" stroke="#8599aa" stroke-miterlimit="10" stroke-width="1"/>
+    <circle id="Ellipse_12" data-name="Ellipse 12" cx="1.367" cy="1.367" r="1.367" transform="translate(251.722 735.316)" fill="#8599aa"/>
+    <circle id="Ellipse_13" data-name="Ellipse 13" cx="1.367" cy="1.367" r="1.367" transform="translate(274.964 735.772)" fill="#8599aa"/>
+    <circle id="Ellipse_14" data-name="Ellipse 14" cx="1.367" cy="1.367" r="1.367" transform="translate(295.927 735.772)" fill="#8599aa"/>
+    <circle id="Ellipse_15" data-name="Ellipse 15" cx="1.367" cy="1.367" r="1.367" transform="translate(319.624 735.772)" fill="#8599aa"/>
+    <circle id="Ellipse_16" data-name="Ellipse 16" cx="1.367" cy="1.367" r="1.367" transform="translate(344.232 735.772)" fill="#8599aa"/>
+    <line id="Ligne_58" data-name="Ligne 58" x2="67.446" transform="translate(276.787 714.809)" fill="none" stroke="#8599aa" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Ligne_59" data-name="Ligne 59" x2="44.66" transform="translate(279.521 704.328)" fill="none" stroke="#8599aa" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Tracé_91" data-name="Tracé 91" d="M244.88,744.171q-.61,1.528-1.219,3.057l133.1,1.1q-1.09-2.274-2.18-4.548Z" fill="#8599aa"/>
+    <circle id="Ellipse_17" data-name="Ellipse 17" cx="1.367" cy="1.367" r="1.367" transform="translate(368.793 735.397)" fill="#8599aa"/>
+  </g>
+</svg>
