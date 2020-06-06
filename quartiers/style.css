@@ -87,7 +87,7 @@ a h1 {
 
 }
 
-.sol {
+.mmi .sol, .dev .sol, .com .sol, .design .sol, .audio .sol {
   width: 100%;
   position: relative;
   z-index: 10;
@@ -256,8 +256,7 @@ a h1 {
   margin: auto;
 }
 
-.graphiste,
-.da {
+.graphiste, .da {
   width: 17vw;
 }
 
@@ -551,6 +550,18 @@ a h1 {
 
 /*A PROPOS*/
 
+.a-propos .page{
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background-image: url();
+}
+
+.a-propos .partie1{
+  background-color: black;
+}
+
+
 
 .profils{
   color: #515151;
@@ -580,7 +591,6 @@ a h1 {
 .statue{
   position:relative;
   width:36.09375vw;
-  
   left:53.59375vw ;
  
 }
@@ -887,7 +897,7 @@ input[type=submit]{
 
 .info h3 {
   text-align: center;
-  margin: 20px 0 auto;
+  margin: 20px;
   font-size:  2vw;
   text-transform: uppercase;
   color: #515151;
