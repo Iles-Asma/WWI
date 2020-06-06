@@ -552,6 +552,32 @@ a h1 {
 
 /*A PROPOS*/
 
+
+.profils{
+  color: #515151;
+  position: relative;
+  left: 8vw;
+  margin: 0 auto;
+}
+
+.contacts{
+  color: #515151;
+  position: relative;
+  left: 13vw;
+  margin: 0px;
+  padding: 0px;
+}
+
+.p-contact{
+  position: relative;
+  top :6vh;
+  margin: 0px;
+  
+  
+}
+
+
+
 .statue{
   position:relative;
   width:36.09375vw;
@@ -576,8 +602,9 @@ a h1 {
   font-size: 2.5613660618996796vh;
   width: 36.34375vw;
   height:  44.942369263607254vh;
-  margin-left:4.5% ;
-  top:3.8vh;
+  left: 1.7vw;
+  margin: 0px;
+  top:3.7vh;
   position: absolute;
   background-color: #ACE2DD;
   border-radius: 60px;
@@ -585,19 +612,14 @@ a h1 {
 
 }
 .p-apropos1{
-  padding: 25px 33px 33px 33px;
+  padding: 20px 33px 0px 33px;
   margin: 0px;
 
-  line-height: 5.4034151547492vh;
+  line-height: 5vh;
   text-align: left;
   
-
 }
 
-
-
-
-/*FORMULAIRE*/
 
 .border-div2{
   width: 27.2125vw;
@@ -640,54 +662,8 @@ a h1 {
 
 }
 
+/*FORMULAIRE*/
 
-
-.figurine{
-  
-  display: flex;
-  position: relative;
-  top: 71vh;
-  width: 34.020833333333336vw;
-  
-
- margin: 0px;
- padding: 0 auto;
- 
- left: 10vw;
- 
-  
-
-}
-.figurine_iles{
-  position: relative;
-  width:  7.344791666666667vw;
-  margin: 10px;
-  top: 0.7vh;
-
-}
-
-.figurine_thanh{
-  position:relative;
-  width:  5.811979166666666vw;
-  top: 3vh;
-  margin: 10px;
-
-}
-
-.figurine_pierre{
-  position:relative;
-  width:  7.2046875vw;
-  margin: 10px;
-  
-
-}
-
-.figurine_jean{
-  position:relative;
-  width: 10.119270833333333vw;
-  margin: 10px;
-  top: 1vh;
-}
 
 .main-form  {
   
@@ -791,13 +767,60 @@ input[type=submit]{
   border: #707070 solid 3px;
   cursor: pointer;
   color: #707070;
-  align-items: center;
-  /* width: 15vw; */
+  
+}
 
+/*===========================================*/
+
+ /*figurine*/
+
+.figurine{
+  
+  display: flex;
+  position: relative;
+  top: 71vh;
+  width: 34.020833333333336vw;
+  
+
+ margin: 0px;
+ padding: 0 auto;
+ 
+ left: 10vw;
+ 
+  
+
+}
+.figurine_iles{
+  position: relative;
+  width:  7.344791666666667vw;
+  margin: 10px;
+  top: 0.7vh;
 
 }
 
+.figurine_thanh{
+  position:relative;
+  width:  5.811979166666666vw;
+  top: 3vh;
+  margin: 10px;
 
+}
+
+.figurine_pierre{
+  position:relative;
+  width:  7.2046875vw;
+  margin: 10px;
+  
+
+}
+
+.figurine_jean{
+  position:relative;
+  width: 10.119270833333333vw;
+  margin: 10px;
+  top: 1vh;
+}
+/*==========================================================*/
 
 
 

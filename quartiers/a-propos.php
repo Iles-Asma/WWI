@@ -38,8 +38,13 @@
                             a
                             pour but de présenter aux lycéens en classe de Terminale les métiers accessibles après la
                             formation en MMI et ainsi, les aider dans leur choix de formation post-bac.
-
                         </p>
+
+                        <p class="p-contact">
+                        <a class="profils" href="#profils">Nos profils</a>
+                        <a class="contacts" href="#contacts">Nous contacter</a>
+                       </p>
+                        
                     </div>
                 </div>
 
