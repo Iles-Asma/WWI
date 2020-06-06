@@ -24,17 +24,13 @@
 
 
 body {
-  overflow: hidden;
+  /* overflow: hidden; */
   font-family: "DIN-Light";
   background-color: #92d2f4;
   margin: 0;
 }
 
-.a-propos section {
-  position: rela;
-  bottom: 0px;
-  width: 100%;
-}
+
 
 .mmi section, .dev section, .com section, .design section, .audio section {
   position: absolute;
@@ -88,7 +84,7 @@ a h1 {
 
 }
 
-.sol {
+.mmi .sol, .dev .sol, .com .sol, .design .sol, .audio .sol {
   width: 100%;
   position: relative;
   z-index: 10;
@@ -257,8 +253,7 @@ a h1 {
   margin: auto;
 }
 
-.graphiste,
-.da {
+.graphiste, .da {
   width: 17vw;
 }
 
@@ -552,6 +547,18 @@ a h1 {
 
 /*A PROPOS*/
 
+.a-propos .page{
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background-image: url();
+}
+
+.a-propos .partie1{
+  background-color: black;
+}
+
+
 
 .profils{
   color: #515151;
@@ -581,7 +588,6 @@ a h1 {
 .statue{
   position:relative;
   width:36.09375vw;
-  
   left:53.59375vw ;
  
 }
@@ -888,7 +894,7 @@ input[type=submit]{
 
 .info h3 {
   text-align: center;
-  margin: 20px 0 auto;
+  margin: 20px;
   font-size:  2vw;
   text-transform: uppercase;
   color: #515151;
@@ -903,7 +909,6 @@ input[type=submit]{
   margin:5px 10px;
   font-size:  1.2vw;
   font-weight: normal;
-  text-align: justify;
 }
 .info table{
   border: 1.5px white solid;
