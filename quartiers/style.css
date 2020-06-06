@@ -551,23 +551,59 @@ a h1 {
 /*A PROPOS*/
 
 .a-propos .page{
-  width: 100vw;
+  width: 100%;
   height: 100vh;
-  margin: 0;
-  background-image: url();
 }
 
-.a-propos .partie1{
-  background-color: black;
+.statue{
+  position:relative;
+  width:26vw;
+  left:53.59375vw;
+  top: 4px;
 }
 
+/* === PARTIE 1 */
+.partie1 .floor{
+  position: absolute;
+  bottom:0;
+  left: 0;
+  width: 100%;
+}
 
-
-.profils{
-  color: #515151;
+.a-propos .partie1 .contenu{
   position: relative;
-  left: 8vw;
-  margin: 0 auto;
+  right: 20vw;
+  top: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.border-div1{
+width: 39.927083333333332vw;
+height: 25.27107790821771vh;
+}
+
+.text-apropos1{
+font-family: "DIN-Medium";
+color: #515151;
+font-size: 2.6vh;
+width: 36.34375vw;
+height:  44.942369263607254vh;
+margin: 0;
+background-color: #ACE2DD;
+border-radius: 60px;
+position: relative;
+bottom: 51vh;
+left: 2vw;
+
+}
+.p-apropos1{
+padding: 20px 33px 0px 33px;
+margin: 0px;
+
+line-height: 5vh;
+text-align: left;
+
 }
 
 .contacts{
@@ -581,52 +617,15 @@ a h1 {
 .p-contact{
   position: relative;
   top :6vh;
-  margin: 0px;
-  
-  
+  margin: 0px; 
 }
 
-
-
-.statue{
-  position:relative;
-  width:36.09375vw;
-  left:53.59375vw ;
- 
-}
-
-.border-div1{
-  position: relative;
-  width: 39.927083333333332vw;
-  height: 25.27107790821771vh;
-  top: 25.71291355389541vh;
-  left: 8.958333333333334vw;
-  
-
-}
-
-.text-apropos1{
-  font-family: "DIN-Medium";
-  color: #515151;
-  font-size: 2.5613660618996796vh;
-  width: 36.34375vw;
-  height:  44.942369263607254vh;
-  left: 1.7vw;
-  margin: 0px;
-  top:3.7vh;
+/* === PARTIE 2 */
+.partie2 .floor{
   position: absolute;
-  background-color: #ACE2DD;
-  border-radius: 60px;
-  
-
-}
-.p-apropos1{
-  padding: 20px 33px 0px 33px;
-  margin: 0px;
-
-  line-height: 5vh;
-  text-align: left;
-  
+  bottom:-100vh;
+  left: 0;
+  width: 100%;
 }
 
 
@@ -634,57 +633,23 @@ a h1 {
   width: 27.2125vw;
   height: 16vh;
   position: relative;
-  right:-20vw;
-  top: 70vh;
-  
-
-}
-
-
-.border-div3{
-  width: 45.297916666666666vw;
-  position: relative;
-  top: 70vh;
-  left: 7vw;
-  
-}
-.p-div3{
-  margin: 0px;
-  padding: 10px 33px 33px 33px;
-  line-height: 6.4034151547492vh;
- 
-}
-
-.text-apropos2 {
-  font-family: "DIN-Medium";
-  color: #515151;
-  font-size: 2.5613660618996796vh;
-  background-color: #ACE2DD;
-  position: relative;
-  border-radius: 50px;
-  top: -18.3vh;
-  width:  43.020833333333336vw;
-  height: 15.328708644610458vh;
-  left: 1.10vw;
-  padding :0px;
-  margin: 0px;
-
+  left:15vw;
+  top: 5vh;
 }
 
 /*FORMULAIRE*/
 
 
 .main-form  {
-  
   padding: 30px;
-  left: 22vw;
   height: 60vh;
   width: 20vw;
-  position: relative;
   border-radius: 50px;
-  top: 55.95vh;
   background-color:  #ACE2DD;
 
+  position: relative;
+  left:16vw;
+  top: -8.5vh;
 }
 
 .h1-msg{
@@ -708,7 +673,6 @@ form .form1{
   flex-direction: column;
   width: 20vw;
   height: 55vh;
-  position: relative;
 
 }
 
@@ -779,55 +743,62 @@ input[type=submit]{
   
 }
 
-/*===========================================*/
+/* === PARTIE 3 */
+.partie3 .floor{
+  position: absolute;
+  bottom:-200vh;
+  left: 0;
+  width: 100%;
+}
 
- /*figurine*/
+.profils{
+  color: #515151;
+  position: relative;
+  left: 8vw;
+  margin: 0 auto;
+}
 
-.figurine{
+.border-div3 svg{
+  width: 45vw;
+  position: relative;
+  top: 10vh;
   
+}
+
+.text-apropos2 {
+  font-family: "DIN-Medium";
+  color: #515151;
+  font-size: 2.5613660618996796vh;
+  background-color: #ACE2DD;
+  
+  border-radius: 50px;
+  width:  43.020833333333336vw;
+  height: 15.328708644610458vh;
+
+  position: relative;
+  top: 16.5vh;
+  right: 50vw;
+
   display: flex;
-  position: relative;
-  top: 71vh;
-  width: 34.020833333333336vw;
-  
-
- margin: 0px;
- padding: 0 auto;
- 
- left: 10vw;
- 
-  
-
-}
-.figurine_iles{
-  position: relative;
-  width:  7.344791666666667vw;
-  margin: 10px;
-  top: 0.7vh;
-
+  justify-content: center;
+  align-items: center;
 }
 
-.figurine_thanh{
-  position:relative;
-  width:  5.811979166666666vw;
-  top: 3vh;
-  margin: 10px;
 
+.text-apropos2 p{
+  padding-left: 15px;
 }
 
-.figurine_pierre{
-  position:relative;
-  width:  7.2046875vw;
-  margin: 10px;
-  
+ /*====figurine*/
 
+
+.figurines{
+  display: inline-block;
+  width: 30vw;
 }
 
-.figurine_jean{
-  position:relative;
-  width: 10.119270833333333vw;
-  margin: 10px;
-  top: 1vh;
+.figurines img{
+  width: 10vw;
 }
 /*==========================================================*/
 
