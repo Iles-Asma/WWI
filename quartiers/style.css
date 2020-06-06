@@ -790,7 +790,9 @@ input[type=submit]{
 
 
 .figurines{
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
   width: 30vw;
 }
 
