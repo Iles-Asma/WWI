@@ -24,7 +24,7 @@
 
 
 body {
-  overflow: auto;
+  overflow: hidden;
   font-family: "DIN-Light";
   background-color: #92d2f4;
   margin: 0;
@@ -613,7 +613,7 @@ a h1 {
 .border-div3{
   width: 45.297916666666666vw;
   position: relative;
-  top: 30vh;
+  top: 70vh;
   left: 7vw;
   
 }
@@ -643,39 +643,50 @@ a h1 {
 
 
 .figurine{
+  
   display: flex;
-  position:relative;
-  bottom: 50vh;
-  
- 
-  
+  position: relative;
+  top: 71vh;
+  width: 34.020833333333336vw;
   
 
+ margin: 0px;
+ padding: 0 auto;
+ 
+ left: 10vw;
+ 
   
 
 }
 .figurine_iles{
-  position:relative;
-  width:  9.344791666666667vw;
+  position: relative;
+  width:  7.344791666666667vw;
+  margin: 10px;
+  top: 0.7vh;
 
 }
 
 .figurine_thanh{
   position:relative;
-  width:  6.811979166666666vw;
+  width:  5.811979166666666vw;
+  top: 3vh;
+  margin: 10px;
 
 }
 
 .figurine_pierre{
   position:relative;
-  width:  8.2046875vw;
+  width:  7.2046875vw;
+  margin: 10px;
+  
 
 }
 
 .figurine_jean{
   position:relative;
-  width:  12.119270833333333vw;
-
+  width: 10.119270833333333vw;
+  margin: 10px;
+  top: 1vh;
 }
 
 .main-form  {
