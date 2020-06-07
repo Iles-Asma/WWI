@@ -586,8 +586,14 @@ a h1 {
   top: 0.5vh;
   right: 1vw;
   cursor: pointer;
+}
 
-
+.a-propos .sol1 {
+  border-top: 10px #ACE2DD solid;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
 
 /* === PARTIE 1 */
@@ -813,17 +819,18 @@ input[type=submit]{
   flex-direction: column;
 }
 .profiletext {
-
   position: relative;
   top: 90px;
-  right: 50vw;
+  right: 49vw;
   background-color: #ACE2DD;
   width: 48.02vw;
   border-radius: 50px;
-  font-size: 2rem;
+  font-size: 1.2rem;
+  font-weight: normal;
   display: none;
   flex-direction: column;
 }
+
 .profiletext p {
   color: #515151;
   margin-top: 29px;
@@ -855,7 +862,7 @@ input[type=submit]{
   height: 15.328708644610458vh;
 
   position: relative;
-  top: 13.5vh;
+  top: 16vh;
   right: 48vw;
 
   display: flex;
@@ -865,7 +872,7 @@ input[type=submit]{
 
 
 .text-apropos2 p{
-  padding-left: 15px;
+  width: 85%;
 }
 
 
