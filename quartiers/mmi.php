@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <title>MMI</title>
     <link href="style.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="../images/favicon.png" />
     <script src="../main.js"></script>
 </head>
 
