@@ -68,6 +68,9 @@
                 </div>
             </div>
         </div>
+
+
+
     <section>
         
         <div class="page">
@@ -108,6 +111,7 @@
                     </g>
                 </g>
             </svg>
+            
             <!-- image svg du batiment mmi -->
             <div class="batiments">
                 <div class="mmi-batiment building">
