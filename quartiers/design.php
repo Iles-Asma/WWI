@@ -157,6 +157,7 @@
             <!-- BATIMENTS SVG + NOMS -->
             <div class="batiments">
 
+                <!-- GRAPHISTE -->
                 <div class="graphiste building">
                     <h3>Graphiste</h3>
 
@@ -334,6 +335,7 @@
                     </svg>
                 </div>
 
+                <!-- INFOGRAPHISTE -->
                 <div class="infographiste building">
                     <h3>Infographiste</h3>
 
@@ -450,6 +452,8 @@
                     </svg>
 
                 </div>
+
+                <!-- UX/UI DESIGNER -->
                 <div class="uxui building">
                     <h3>UX/UI Designer</h3>
                     <svg class="open" id="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 257.93 586.35">
@@ -542,6 +546,7 @@
                     </svg>
                 </div>
 
+                <!-- DIRECTEUR ARTISTIQUE -->
                 <div class="da building">
                     <h3>Directeur artistique</h3>
                     <svg class="open" id="13" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 393.72 724.19">
