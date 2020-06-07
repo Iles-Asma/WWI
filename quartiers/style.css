@@ -34,6 +34,9 @@ body {
   height: 100vh;
   position: relative;
 }
+.a-propos{
+  overflow: hidden;
+}
 
 .mmi section, .dev section, .com section, .design section, .audio section {
   position: absolute;
@@ -41,14 +44,23 @@ body {
   width: 100%;
 }
 
-a {
+a{
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+  z-index: 30;
+  margin: 0;
+}
+
+
+.retour {
   position: fixed;
   top: 15px;
   left: 25px;
   width: 10vw;
   margin: 0;
-  text-decoration: none;
-  cursor: pointer;
+  
+  
   z-index: 3000;
 }
 
@@ -561,6 +573,22 @@ a h1 {
   left:53.59375vw;
   top: 4px;
 }
+.exit{
+  font-family: "DIN-Medium";
+  font-weight: 200;
+  width: 3vw;
+  font-size: 2rem;
+  color: #515151;
+  border: none;
+  outline: none;
+  background: none;
+  position: absolute;
+  top: 0.5vh;
+  right: 1vw;
+  cursor: pointer;
+
+
+}
 
 /* === PARTIE 1 */
 .partie1 .floor{
@@ -612,6 +640,13 @@ text-align: left;
   left: 13vw;
   margin: 0px;
   padding: 0px;
+}
+
+.profils{
+  color: #515151;
+  position: relative;
+  left: 8vw;
+  margin: 0 auto;
 }
 
 .p-contact{
@@ -744,18 +779,23 @@ input[type=submit]{
 }
 
 /* === PARTIE 3 */
+.partie3 .statue3{
+  width:26vw;
+  position: relative;
+  left: 12vw;
+}
 .partie3 .floor{
   position: absolute;
   bottom:-200vh;
   left: 0;
   width: 100%;
+  margin: auto;
 }
-
-.profils{
-  color: #515151;
-  position: relative;
-  left: 8vw;
-  margin: 0 auto;
+.partie3 .elements{
+  display: flex;
+  align-items: flex-end;
+  width: 80%;
+  justify-content: center;
 }
 
 .border-div3 svg{
@@ -789,6 +829,10 @@ input[type=submit]{
   padding-left: 15px;
 }
 
+.profiletext{
+  display: none;
+}
+
  /*====figurine*/
 
 
@@ -799,9 +843,21 @@ input[type=submit]{
   width: 30vw;
 }
 
-.figurines img{
-  width: 10vw;
+.figurines .iles{
+  width: 8.5vw;
 }
+
+.figurines .thanh{
+  width: 6.5vw;
+}
+.figurines .pierre{
+  width: 8vw;
+}
+
+.figurines .jean{
+  width: 12vw;
+}
+
 /*==========================================================*/
 
 
