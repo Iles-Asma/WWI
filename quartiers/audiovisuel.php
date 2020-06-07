@@ -13,7 +13,7 @@
 <body class="audio">
 
     <!-- BOUTON RETOUR -->
-    <a href="../index.html"><h1> &xlarr; Retour </h1></a>
+    <a class="retour" href="../index.html"><h1> &xlarr; Retour </h1></a>
      <!-- POP UP -->
 
     <?php 
