@@ -17,6 +17,8 @@
         <h1> &xlarr; Retour </h1>
     </a>
 
+
+        <!-- ENTREE -->
     <div class="page partie1" id="entree">
         <div class="contenu">
 
@@ -205,7 +207,8 @@
 
 
     <!-- =============================================================================================================================================== -->
-
+        
+        <!-- FORMULAIRE -->
 
     <div class="page partie2" id="contacts">
 
@@ -230,7 +233,7 @@
             </svg>
         </div>
 
-
+        
         <div class="main-form">
             <a href="#entree" class="exit">&times;</a>
             <h1 class="h1-msg">MESSAGERIE</h1>
@@ -397,6 +400,7 @@
     </div>
 
 
+    <!-- PROFILS -->
     <div class="page partie3" id="profils">
         <div class="contenu">
 
@@ -469,6 +473,7 @@
 
 
                 </div>
+                
                 <svg class="statue3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 594.08 823.45">
                     <defs>
                         <style>
