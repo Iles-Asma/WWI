@@ -34,17 +34,22 @@ body {
   height: 100vh;
   position: relative;
 }
-.a-propos{
+
+.a-propos {
   overflow: hidden;
 }
 
-.mmi section, .dev section, .com section, .design section, .audio section {
+.mmi section,
+.dev section,
+.com section,
+.design section,
+.audio section {
   position: absolute;
   bottom: 0;
   width: 100%;
 }
 
-a{
+a {
   text-decoration: none;
   cursor: pointer;
   position: relative;
@@ -59,8 +64,8 @@ a{
   left: 25px;
   width: 10vw;
   margin: 0;
-  
-  
+
+
   z-index: 3000;
 }
 
@@ -99,7 +104,11 @@ a h1 {
 
 }
 
-.mmi .sol, .dev .sol, .com .sol, .design .sol, .audio .sol {
+.mmi .sol,
+.dev .sol,
+.com .sol,
+.design .sol,
+.audio .sol {
   width: 100%;
   position: relative;
   z-index: 10;
@@ -268,7 +277,8 @@ a h1 {
   margin: auto;
 }
 
-.graphiste, .da {
+.graphiste,
+.da {
   width: 17vw;
 }
 
@@ -562,18 +572,19 @@ a h1 {
 
 /*A PROPOS*/
 
-.a-propos .page{
+.a-propos .page {
   width: 100%;
   height: 100vh;
 }
 
-.statue{
-  position:relative;
-  width:26vw;
-  left:53.59375vw;
+.statue {
+  position: relative;
+  width: 26vw;
+  left: 53.59375vw;
   top: 4px;
 }
-.exit{
+
+.exit {
   font-family: "DIN-Medium";
   font-weight: 200;
   width: 3vw;
@@ -597,14 +608,14 @@ a h1 {
 }
 
 /* === PARTIE 1 */
-.partie1 .floor{
+.partie1 .floor {
   position: absolute;
-  bottom:0;
+  bottom: 0;
   left: 0;
   width: 100%;
 }
 
-.a-propos .partie1 .contenu{
+.a-propos .partie1 .contenu {
   position: relative;
   right: 20vw;
   top: 5vh;
@@ -612,35 +623,37 @@ a h1 {
   justify-content: center;
   align-items: center;
 }
-.border-div1{
-width: 39.927083333333332vw;
-height: 25.27107790821771vh;
+
+.border-div1 {
+  width: 39.927083333333332vw;
+  height: 25.27107790821771vh;
 }
 
-.text-apropos1{
-font-family: "DIN-Medium";
-color: #515151;
-font-size: 2.6vh;
-width: 36.34375vw;
-height:  44.942369263607254vh;
-margin: 0;
-background-color: #ACE2DD;
-border-radius: 60px;
-position: relative;
-bottom: 51vh;
-left: 2vw;
-
-}
-.p-apropos1{
-padding: 20px 33px 0px 33px;
-margin: 0px;
-
-line-height: 5vh;
-text-align: left;
+.text-apropos1 {
+  font-family: "DIN-Medium";
+  color: #515151;
+  font-size: 2.6vh;
+  width: 36.34375vw;
+  height: 44.942369263607254vh;
+  margin: 0;
+  background-color: #ACE2DD;
+  border-radius: 60px;
+  position: relative;
+  bottom: 51vh;
+  left: 2vw;
 
 }
 
-.contacts{
+.p-apropos1 {
+  padding: 20px 33px 0px 33px;
+  margin: 0px;
+
+  line-height: 5vh;
+  text-align: left;
+
+}
+
+.contacts {
   color: #515151;
   position: relative;
   left: 13vw;
@@ -648,58 +661,58 @@ text-align: left;
   padding: 0px;
 }
 
-.profils{
+.profils {
   color: #515151;
   position: relative;
   left: 8vw;
   margin: 0 auto;
 }
 
-.p-contact{
+.p-contact {
   position: relative;
-  top :6vh;
-  margin: 0px; 
+  top: 6vh;
+  margin: 0px;
 }
 
 /* === PARTIE 2 */
-.partie2 .floor{
+.partie2 .floor {
   position: absolute;
-  bottom:-100vh;
+  bottom: -100vh;
   left: 0;
   width: 100%;
 }
 
 
-.border-div2{
+.border-div2 {
   width: 27.2125vw;
   height: 16vh;
   position: relative;
-  left:15vw;
+  left: 15vw;
   top: 5vh;
 }
 
 /*FORMULAIRE*/
 
 
-.main-form  {
+.main-form {
   padding: 30px;
   height: 60vh;
   width: 20vw;
   border-radius: 50px;
-  background-color:  #ACE2DD;
+  background-color: #ACE2DD;
 
   position: relative;
   z-index: 5000;
-  left:16vw;
+  left: 16vw;
   top: -8.5vh;
 }
 
-.h1-msg{
-  text-align:center;
+.h1-msg {
+  text-align: center;
 
 }
 
-.a-propos div h1{
+.a-propos div h1 {
   font-family: 'DIN-Medium';
   font-size: 26px;
   margin-top: 0px;
@@ -709,8 +722,8 @@ text-align: left;
 
 }
 
-form .form1{
-  
+form .form1 {
+
   display: flex;
   flex-direction: column;
   width: 20vw;
@@ -724,13 +737,13 @@ input {
 
   font-size: 2vh;
   font-family: "DIN-Medium";
- 
+
   padding: 0px;
 
 
 }
 
-input[type=text]{
+input[type=text] {
   margin: 10px;
   padding-left: 15px;
   padding-right: 15px;
@@ -740,7 +753,8 @@ input[type=text]{
   outline-style: unset;
 
 }
-input[type=email]{
+
+input[type=email] {
   margin: 10px;
   padding-left: 15px;
   padding-right: 10px;
@@ -752,72 +766,80 @@ input[type=email]{
 
 }
 
-textarea{
+textarea {
   margin: 10px;
   margin: 15px;
   padding: 20px;
   font-size: 2vh;
   font-family: "DIN-Medium";
-  height:25vh;
+  height: 25vh;
   resize: none;
   outline-style: unset;
   border-radius: 25px;
   border: none;
- 
+
 }
 
-::placeholder{
+::placeholder {
   color: rgba(107, 107, 107, 0.664);
 
 }
 
-input[type=submit]{
+input[type=submit] {
   margin: 10px;
   margin-bottom: 0px;
   outline-style: unset;
   height: 8vh;
   background-color: transparent;
   border-radius: 30px;
-  border-style:unset;
+  border-style: unset;
   border: #707070 solid 3px;
   cursor: pointer;
   color: #707070;
-  
+
 }
 
 /* === PARTIE 3 */
-.partie3 .statue3{
-  width:26vw;
+.partie3 .statue3 {
+  width: 26vw;
   position: relative;
   left: 12vw;
 }
-.partie3 .floor{
+
+.partie3 .floor {
   position: absolute;
-  bottom:-200vh;
+  bottom: -200vh;
   left: 0;
   width: 100%;
   margin: auto;
 }
-.partie3 .elements{
+
+.partie3 .elements {
   display: flex;
   align-items: flex-end;
   width: 80%;
   justify-content: center;
 }
 
-.border-div3 svg{
+.border-div3 svg {
   width: 45vw;
   position: relative;
   top: 10vh;
-  
+
 }
-.pierre,.thanh,.iles,.jean {
+
+.pierre,
+.thanh,
+.iles,
+.jean {
   cursor: pointer;
 }
+
 .profiletext-container {
   display: flex;
   flex-direction: column;
 }
+
 .profiletext {
   position: relative;
   top: 90px;
@@ -837,9 +859,11 @@ input[type=submit]{
   margin-left: 43.5px;
   margin-right: 31.5px;
 }
-.link{
+
+.link {
   margin: auto;
 }
+
 .link a {
   text-decoration: none;
   color: #515151;
@@ -847,18 +871,20 @@ input[type=submit]{
   margin-left: 100px;
   margin-bottom: 22px;
 }
+
 .link a:first-child {
   margin-left: 0;
 }
+
 .text-apropos2 {
 
   font-family: "DIN-Medium";
   color: #515151;
   font-size: 2.5613660618996796vh;
   background-color: #ACE2DD;
-  
+
   border-radius: 50px;
-  width:  43.020833333333336vw;
+  width: 43.020833333333336vw;
   height: 15.328708644610458vh;
 
   position: relative;
@@ -871,34 +897,35 @@ input[type=submit]{
 }
 
 
-.text-apropos2 p{
+.text-apropos2 p {
   width: 85%;
 }
 
 
 
- /*====figurine*/
+/*====figurine*/
 
 
-.figurines{
+.figurines {
   display: flex;
   justify-content: center;
   align-items: flex-end;
   width: 30vw;
 }
 
-.figurines .iles{
+.figurines .iles {
   width: 8.5vw;
 }
 
-.figurines .thanh{
+.figurines .thanh {
   width: 6.5vw;
 }
-.figurines .pierre{
+
+.figurines .pierre {
   width: 8vw;
 }
 
-.figurines .jean{
+.figurines .jean {
   width: 12vw;
 }
 
@@ -949,89 +976,102 @@ input[type=submit]{
   z-index: 2000;
 }
 
-    /* COULEURS POPUP */
-.dev .info{
+/* COULEURS POPUP */
+.dev .info {
   background-color: #96CFE2;
 }
-.design .info{
+
+.design .info {
   background-color: #9AD5BF;
 }
 
-.audio .info{
+.audio .info {
   background-color: #EFC68F;
 }
-.com .info{
+
+.com .info {
   background-color: #FCBDB6;
 }
 
-.mmi .info{
+.mmi .info {
   background-color: #D0C3E5;
 }
 
 .info h3 {
   text-align: center;
   margin: 20px;
-  font-size:  2vw;
+  font-size: 2vw;
   text-transform: uppercase;
   color: #515151;
 }
 
-.info .text{
+.info .text {
   width: 90%;
   margin: 10px auto;
   overflow: auto;
 }
+
 .info p {
-  margin:10px 10px;
-  font-size:  1.2vw;
+  margin: 10px 10px;
+  font-size: 1.2vw;
   font-weight: normal;
 }
+
 th {
   width: 45%;
 }
+
 .null {
   display: block;
   width: 150px;
 }
-.info table{
+
+.info table {
   border: 1.5px white solid;
   width: 90%;
   margin: 15px auto;
   border-spacing: 0;
 }
-th{
+
+th {
   border-bottom: 1.5px white solid;
 }
-th:first-child{
+
+th:first-child {
   border-right: 1.5px white solid;
 }
-td:first-child{
+
+td:first-child {
   border-right: 1.5px white solid;
 }
-li{
+
+li {
   list-style: none;
   position: relative;
   right: 30px;
 }
 
-.mmi .popup li::before{
+.mmi .popup li::before {
   content: '- ';
 }
-.mmi .popup h4{
+
+.mmi .popup h4 {
   margin-bottom: auto;
 }
 
-.formation{
+.formation {
   display: flex;
   flex-direction: column;
   width: 90%;
   margin: auto;
 }
-.contenu{
+
+.contenu {
   display: flex;
   justify-content: space-around;
 }
-.vertical{
+
+.vertical {
   align-self: center;
   border-top: 1.5px white solid;
   width: 70%;
@@ -1039,15 +1079,16 @@ li{
   top: -2vh;
 }
 
-.salaire{
-  align-self:flex-end;
+.salaire {
+  align-self: flex-end;
 }
-.circle{
+
+.circle {
   background-color: white;
   border-radius: 50%;
   width: 2vw;
- height: 2vw;
- opacity: 1;
+  height: 2vw;
+  opacity: 1;
 }
 
 
