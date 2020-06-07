@@ -241,7 +241,7 @@
                     <input type="text" id="prenom" placeholder="Prénom" maxlength="35" required name="prenom">
                     <input type="email" id="email" placeholder="Email" maxlength="35" required name="mail">
                     <textarea id="" rows="5" cols="50" placeholder="Message" maxlength="600" name="comment"></textarea>
-                    <input type="submit" value="Envoyé">
+                    <input type="submit" value="Envoyer">
                 </div>
             </form>
         </div>
