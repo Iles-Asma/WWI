@@ -9,7 +9,7 @@
 </head>
 
 <body class="mmi">
-<a href="../index.html">
+<a class="retour" href="../index.html">
             <h1> &xlarr; Retour </h1>
         </a>
      <!-- POP UP -->
