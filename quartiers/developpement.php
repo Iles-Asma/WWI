@@ -467,6 +467,7 @@
             <!-- BATIMENTS + NOMS -->
             <div class="batiments">
 
+                <!-- WEB MASTER -->
                 <div class="webmaster building">
                     <h3>Web master</h3>
 
@@ -541,8 +542,9 @@
                     </svg>
                 </div>
 
+                <!-- INTEGRATEUR WEB -->
                 <div class="integrateur building">
-                    <h3>Intégrateur</h3>
+                    <h3>Intégrateur web</h3>
                     <svg class="open" id="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 264 705">
                         <defs>
                             <style>
@@ -642,6 +644,8 @@
                     </svg>
 
                 </div>
+
+                <!-- DEVELOPPEUR WEB -->
                 <div class="devweb building">
                     <h3>Développeur web</h3>
                     <svg class="open" id="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 283 598.41">
