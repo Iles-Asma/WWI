@@ -683,6 +683,7 @@ text-align: left;
   background-color:  #ACE2DD;
 
   position: relative;
+  z-index: 5000;
   left:16vw;
   top: -8.5vh;
 }
@@ -804,8 +805,46 @@ input[type=submit]{
   top: 10vh;
   
 }
+.pierre,.thanh,.iles,.jean {
+  cursor: pointer;
+}
+.profiletext-container {
+  display: flex;
+  flex-direction: column;
+}
+.profiletext {
 
+  position: relative;
+  top: 90px;
+  right: 50vw;
+  background-color: #ACE2DD;
+  width: 48.02vw;
+  border-radius: 50px;
+  font-size: 2rem;
+  display: none;
+  flex-direction: column;
+}
+.profiletext p {
+  color: #515151;
+  margin-top: 29px;
+  margin-left: 43.5px;
+  margin-right: 31.5px;
+}
+.link{
+  margin: auto;
+}
+.link a {
+  text-decoration: none;
+  color: #515151;
+  display: inline-block;
+  margin-left: 100px;
+  margin-bottom: 22px;
+}
+.link a:first-child {
+  margin-left: 0;
+}
 .text-apropos2 {
+
   font-family: "DIN-Medium";
   color: #515151;
   font-size: 2.5613660618996796vh;
@@ -816,8 +855,8 @@ input[type=submit]{
   height: 15.328708644610458vh;
 
   position: relative;
-  top: 16.5vh;
-  right: 50vw;
+  top: 13.5vh;
+  right: 48vw;
 
   display: flex;
   justify-content: center;
@@ -829,9 +868,7 @@ input[type=submit]{
   padding-left: 15px;
 }
 
-.profiletext{
-  display: none;
-}
+
 
  /*====figurine*/
 
