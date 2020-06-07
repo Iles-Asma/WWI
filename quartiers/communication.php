@@ -204,6 +204,7 @@
             <!-- BATIMENTS + NOMS -->
             <div class="batiments">
 
+                <!-- RESPONSABLE MARKETING -->
                 <div class="marketing building">
 
                     <h3>Responsable <br> de marketing</h3>
@@ -440,6 +441,8 @@
                         </g>
                     </svg>
                 </div>
+
+                <!-- CHEF DE PROJET -->
                 <div class="projet building">
                     <h3>Chef de projet</h3>
                     <svg class="open" id="7" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 283.65 919.41">
@@ -511,6 +514,7 @@
                     </svg>
                 </div>
 
+                <!-- CHARGE DE COMMUNICATION -->
                 <div class="charge building">
                     <h3>Chargé de communication</h3>
                     <svg class="open" id="8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 255.88 663.26">
@@ -627,6 +631,8 @@
 
             </div>
         </div>
+
+        <!-- SOL -->
         <div class="sol1"></div>
         <svg class="sol" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 126">
             <defs>
